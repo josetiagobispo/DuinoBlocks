@@ -1,0 +1,80 @@
+from pyjamas import DOM
+from edu.uca.renderable.NumberArgument import NumberArgument
+from pyjamas.Window import alert
+from pyjamas.ui.ClickListener import ClickHandler
+from pyjamas.ui.MouseListener import MouseHandler
+from edu.uca.renderable.Element import Element
+from pyjamas.ui.RootPanel import RootPanel
+from gwt.ui.Event import ONMOUSEDOWN, MOUSEEVENTS
+
+class DropdownMenu(NumberArgument, MouseHandler):
+    
+    def __init__(self):
+        NumberArgument.__init__(self)
+        MouseHandler.__init__(self)
+        self.draw2() 
+        #RootPanel().addMouseListener(self)
+        DOM.sinkEvents(RootPanel().getElement(), MOUSEEVENTS)
+        DOM.setEventListener(RootPanel().getElement(), self)
+    
+    def drawValues(self):
+        self.values = ('A0', 'A1', 'A2', 'A3', 'A4', 'A5')
+        for value in self.values:
+            iten = MenuItenListener(self.ItenClick, StyleName='dropdownItem')
+            iten.setStyleAttribute('float', 'left')
+            DOM.setInnerText(iten.getElement(), value)
+            self.dropdown.append(iten)
+    
+    def draw2(self):        
+        self.dropdown = Element(Element=DOM.createDiv(), StyleName='dropdown')
+        self.drawValues()
+        self.btn = MenuButtonListener(self.ButtonDown, StyleName='dropdown_btn')
+        self.btn.append(self.dropdown)       
+        self.append(self.btn)
+        
+    def _event_targets_btn(self, event):
+        target = DOM.eventGetTarget(event)
+        return target and DOM.isOrHasChild(self.btn.getElement(), target)
+           
+    def onBrowserEvent(self, event):
+        etype = DOM.eventGetType(event)
+        if etype == "mousedown":
+            if self._event_targets_btn(event):
+                print 'return'
+                return
+            else:
+                print 'else'
+        MouseHandler.onBrowserEvent(self, event)
+            
+    def onMouseDown(self, sender, x, y):
+        self.dropdown.setStyleAttribute('display', 'none')
+        print 'onMouseDown'
+
+    def ButtonDown(self):
+        self.dropdown.setStyleAttribute('display', 'block')    
+        print 'ButtonDown'
+            
+    def ItenClick(self):
+        self.dropdown.setStyleAttribute('display', 'none')
+        print 'ItenClick'
+          
+class MenuItenListener(Element, ClickHandler):
+    def __init__(self, feedBack, **kw):
+        Element.__init__(self, Element=DOM.createDiv(), **kw)
+        ClickHandler.__init__(self)
+        self.addClickListener(self)
+        self.feedBack = feedBack
+       
+    def onClick(self, sender):
+        self.feedBack()
+        
+class MenuButtonListener(Element, MouseHandler):
+    def __init__(self, feedBack, **kw):
+        Element.__init__(self, Element=DOM.createDiv(), **kw)
+        MouseHandler.__init__(self)
+        self.addMouseListener(self)
+        self.feedBack = feedBack
+         
+    def onMouseDown(self, sender, x, y):
+        self.feedBack()
+    

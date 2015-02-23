@@ -1,0 +1,149 @@
+/*>>>block>>>*/
+.block {position:relative;}
+#blocks_pad>.block, #hardwares_pad>.block {position:absolute;}
+.block:active {cursor: url('../images/cursors/hand_closed.cur'), auto; cursor: -moz-grabbing;}
+.block:hover {cursor: url('../images/cursors/hand_open.cur'), move; cursor: -moz-grab;}
+.block.ondrag {z-index: 2000; cursor: url('../images/cursors/hand_closed.cur'), auto; cursor: -moz-grabbing;}
+/*<<<block<<<-------------------------------------------------------------------------------------------------------------*/
+
+/*>>>statement>>>*/
+/*.statement, .codeBlockEnd {background-color:#999; color:#fff; min-height:13px; padding:0px;}*//*blocos_antigos*/
+.statement, .codeBlockEnd {background-color:#999; color:#fff; min-height:14px; padding:0px;}/*blocos_novos*/
+.statement, .variable     {font-family:monospace; font-size:12px;}
+.statement                {margin:5px 7px 6px 7px; min-width:80px; white-space:nowrap;}
+/*<<<statement<<<-------------------------------------------------------------------------------------------------------------*/
+
+/*>>>codeBlockEnd>>*/
+/*.codeBlockEnd {min-width:80px; margin:5px 0 7px 0; bottom:-7px; left:7px;}*//*blocos_antigos*/
+.codeBlockEnd {min-width:80px; margin:5px 0 9px 0; bottom:-7px; left:7px;}/*blocos_novos*/
+/*<<<codeBlockEnd<<<-------------------------------------------------------------------------------------------------------------*/
+
+/*>>>holder>>>*/
+.holder {position:relative; cursor:default;}
+.bl>.holder {margin-top:9px;}
+/*<<<holder<<<-------------------------------------------------------------------------------------------------------------*/
+
+/*>>>codeBlockContents>>>*/
+/*.codeBlockContents {margin:5px 0 20px 19px; min-height:20px; width:0px;}*//*blocos_antigos*/
+.codeBlockContents {margin:5px 0 20px 20px; min-height:21px; width:0px;}/*blocos_novos*/
+/*<<<codeBlocksContents<<<-------------------------------------------------------------------------------------------------------------*/
+
+/*>>>highlight>>>*/
+.highlight {width:100px; height:24px; z-index:1000; position:absolute; display:none;}
+.highlight.highlight_hover{visibility:visible; background:transparent url('../images/editor/statement_block_highlight.png') no-repeat; position:absolute;}
+.codeBlockContents>.holder>.highlight{left:0;top:0;}
+.tl>.holder>.highlight{left:0;top:-19px;}
+/*<<<highlight<<<-------------------------------------------------------------------------------------------------------------*/
+
+/*>>>line_table>>>*/
+.line_table {height:5px;}
+.variable>.line_table {height:22px;}
+/*<<<line_table<<<-------------------------------------------------------------------------------------------------------------*/
+
+/*>>>loop>>>*/
+.loop {background: transparent url('../images/stage/blocks/loop.png') no-repeat 0px 0px;  margin: 0px; position: absolute; left: 0px; top: 2px; width: 14px; height: 8px;}
+/*<<<loop<<<-------------------------------------------------------------------------------------------------------------*/
+
+/*>>>code>>>*/
+code {white-space:nowrap; font-weight:normal; font-family:'lucida grande',tahoma,verdana,arial,sans-serif; font-size:15px; color:#fff; font-weight: bold;
+margin:0 2px 0 2px; position:relative; float: none;}
+/*<<<code<<<-------------------------------------------------------------------------------------------------------------*/
+
+/*>>>code_row>td>>>*/
+.code_row>td{height:20px;}
+/*<<<<code_row>td<<<-------------------------------------------------------------------------------------------------------------*/
+
+/*>>>color>>>*/
+.block.orange, .orange.codeBlockEnd {background-color:#f90;}
+.orange.tl, .orange.t, .orange.tr, .orange.l, .orange.r, .orange.bl, .orange.b, .orange.br, .orange.bn, 
+.orange.c, .orange.ti, .orange.bi {background-image:url('../images/stage/blocks/orange.png');}
+
+.block.green, .green.codeBlockEnd {background-color:#693;}
+.green.tl, .green.t, .green.tr, .green.l, .green.r, .green.bl, .green.b, .green.br, .green.bn,
+.green.c, .green.ti, .green.bi {background-image:url('../images/stage/blocks/green.png');}
+
+.block.purple, .purple.codeBlockEnd {background-color:#96c;}
+.purple.tl, .purple.t, .purple.tr, .purple.l, .purple.r, .purple.bl, .purple.b, .purple.br, .purple.bn,
+.purple.c, .purple.ti, .purple.bi  {background-image:url('../images/stage/blocks/purple.png');}
+
+.block.blue, .blue.codeBlockEnd {background-color:#069;}
+.blue.tl, .blue.t, .blue.tr, .blue.l, .blue.r, .blue.bl, .blue.b, .blue.br, .blue.bn, 
+.blue.c, .blue.ti, .blue.bi {background-image:url('../images/stage/blocks/blue.png');}
+
+.block.darkblue, .darkblue.codeBlockEnd {background-color:#036;}
+.darkblue.tl, .darkblue.t, .darkblue.tr, .darkblue.l, .darkblue.r, .darkblue.bl, .darkblue.b, .darkblue.br, .darkblue.bn,
+.darkblue.c, .darkblue.ti, .darkblue.bi {background-image:url('../images/stage/blocks/darkblue.png');}
+
+.block.red, .red.codeBlockEnd {background-color:#C00;}
+.red.tl, .red.t, .red.tr, .red.l, .red.r, .red.bl, .red.b, .red.br, .red.bn,
+.red.c, .red.ti, .red.bi  {background-image:url('../images/stage/blocks/red.png');}
+
+.block.gray, .gray.codeBlockEnd {background-color:#999;}
+.gray.tl, .gray.t, .gray.tr, .gray.l, .gray.r, .gray.bl, .gray.b, .gray.br, .gray.bn,
+.gray.c, .gray.ti, .gray.bi {background-image:url('../images/stage/blocks/gray.png');}
+/*<<<color<<<-------------------------------------------------------------------------------------------------------------*/
+
+/*>>>dimension>>>*/
+.tl, .l, .bl, .tr, .r, .br	{width:8px;}
+.tl, .t, .tr	{height: 8px;} 
+.bl, .b, .br	{height: 10px;} 
+.l, .r		{height:100%;} 
+.t, .b		{width: 100%;} 
+.bn			{height:12px; width:30px;}
+
+.c    {width:21px;}
+.ti  {height:16px; width: 8px;}
+.bi  {height:15px; width: 8px;}
+.codeBlockEnd>.tl {width:22px;}
+/*<<<dimension<<<-------------------------------------------------------------------------------------------------------------*/
+
+/*>>>position>>>*/
+.t, .r, .b, .l, .tl, .tr, .br, .bl, .bn, .c, .ti, .bi, .codeBlockEnd {position:absolute;}
+.tl, .t, .tr {top:   -6px;}
+.bl, .b, .br {bottom:-7px;}
+.tl, .l, .bl {left:  -7px;}
+.tr, .r, .br {right: -7px;}
+.l, .r           {top:    0px;}
+.bn		        {left:   14px; bottom:-12px;}
+
+.bn.i {left:   34px;}
+.c    {top:    4px;}
+.ti   {top: -6px; left:17px;} 
+/*.bi {top:-11px; left:10px;}*//*blocos_velhos*/
+.bi   {top:-10px; left:10px;}/*blocos_novos*/
+/*<<<position<<<-------------------------------------------------------------------------------------------------------------*/
+
+/*>>>background>>>*/ 
+.t, .r, .b, .l, .tl, .tr, .br, .bl, .bn, .c, .ti, .bi, .codeBlockEnd {background-color:transparent;}
+.t, .b, .tl, .tr, .br, .bl, .bn, .ti, .bi, .codeBlockEnd                      {background-repeat:no-repeat;}
+.l, .r, .c, .codeBlockEnd>.tl                                                                     {background-repeat:repeat-y;}
+.tl	   {background-position:    0px   0px;}
+.t	   {background-position:  -26px   0px;}
+.tr	   {background-position: -990px   0px;}
+.l	   {background-position:-1000px   0px;}
+.r	   {background-position:-1012px   0px;}
+.bl     {background-position:    0px -10px;}
+.b	   {background-position:  -11px -10px;}
+.br	   {background-position: -990px -10px;}
+.bn	   {background-position:  -15px -41px;}
+
+.bl.i, .c , .codeBlockEnd>.tl{background-position:-1000px  0px;}
+.ti    {background-position:   -1px -21px;}
+.bi    {background-position:   -1px -38px;}
+/*.codeBlockEnd>.t   {background-position:-7px 0px;}*//*blocos_antigos*/
+.codeBlockEnd>.t   {background-position:-6px 0px;}/*blocos_novos*/
+.HatBlock>.t       {background-position:-72px 0px;}
+/*<<<background<<<-------------------------------------------------------------------------------------------------------------*/
+    
+/*>>>disabled>>>*/
+#blocks_pad .disabled.block>.tl, #blocks_pad .disabled.block>.t, #blocks_pad .disabled.block>.tr, 
+#blocks_pad .disabled.block>.l, #blocks_pad .disabled.block>.r, #blocks_pad .disabled.block>.bn,
+#blocks_pad .disabled.block>.bl, #blocks_pad .disabled.block>.b, #blocks_pad .disabled.block>.br, 
+#blocks_pad .disabled.block .c, #blocks_pad .disabled.block .ti, #blocks_pad .disabled.block .bi,
+#blocks_pad .disabled .codeBlockEnd>.tl, #blocks_pad .disabled .codeBlockEnd>.t, #blocks_pad .disabled .codeBlockEnd>.tr, 
+#blocks_pad .disabled .codeBlockEnd>.l, #blocks_pad .disabled .codeBlockEnd>.r, #blocks_pad .disabled .codeBlockEnd>.bn,
+#blocks_pad .disabled .codeBlockEnd>.bl, #blocks_pad .disabled .codeBlockEnd>.b, #blocks_pad .disabled .codeBlockEnd>.br,  
+#blocks_pad .disabled .codeBlockEnd .c, #blocks_pad .disabled .codeBlockEnd .ti, #blocks_pad .disabled .codeBlockEnd .bi
+{background-image: url('../images/stage/blocks/gray.png') !important;}
+#blocks_pad .disabled.block, #blocks_pad .disabled .codeBlockEnd{background-color:#999 !important;}   
+/*<<<disabled<<<-------------------------------------------------------------------------------------------------------------*/

@@ -1,0 +1,98 @@
+.btn, .dropdown_btn{cursor:pointer; position:relative; float:left; margin-right:6px; max-width:238px;}
+.btn .title, .dropdown_btn .title{color:#666; display:block; font-size:12px; line-height:24px; overflow:hidden;
+text-shadow:0px 1px 1px #fff; white-space:nowrap; padding:0 10px; resize: none;}
+.btn:active .title{color:black;}
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.btn, .btn .r, .dropdown_btn, .dropdown_btn .r, .dropdown_btn .coverup{
+  background:transparent url('../images/editor/dd.png') no-repeat; height:24px;}
+.btn .r, .dropdown_btn .r, .dropdown_btn .coverup{position:absolute; top:0; right:-2px; width:2px;}
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.btn{background-position:0 0;} .btn .r{background-position:right 0}
+.btn:hover{background-position:0 -24px;} .btn:hover .r{background-position:right -24px;}
+.btn:active{background-position:0 -48px;} .btn:active .r{background-position:right -48px;}
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.dropdown_btn{background-position:0 0;}
+.dropdown_btn .r, .dropdown_btn .coverup{right:-21px; width:21px;}
+.dropdown_btn .r{background-position:100% 0;}
+.dropdown_btn .coverup{background-position:right -72px;}
+.dropdown_btn:hover{background-position: 0 -24px;} .dropdown_btn:hover .coverup{background-position:right -24px;}
+.dropdown_btn:active{background-position: 0 -48px;} .dropdown_btn:active .coverup{background-position:right -48px;}
+.dropdown_btn:active .title{color:black;}
+.dropdown_btn .dropdown_arrow{position:absolute; background-color:white; top:21px; left:0px; margin-left:1px; z-index:10000; padding:0 17px 0 0; min-width: 100%; border:1px solid #999;}
+.dropdown_btn .dropdown_arrow li{width:100%; clear:both; float:left; padding:4px 9px 4px 8px; white-space: nowrap;}
+.dropdown_btn .dropdown_arrow li:first-child{border-top:none;}
+
+.btn.disabled{background-position:0 0; cursor:default; opacity:0.25;}
+
+.dropdownItem .title {padding-right:0px}
+
+.btn-group {margin: 7px 26px 7px 7px;}
+#header .btn-group .btn {margin: 0}
+#header .btn-group .dropdown_btn, .btn-group .dropdown_btn {margin: 0; margin-left: 1px;}
+.btn-group>.dropdown_btn>.title {display: none;}
+.btn-group .dropdown_btn .coverup {width: 21px;}
+
+.btn-group2 {margin: 7px;}
+.btn-group2 .btn {margin-right: 1px}
+
+.dropdown_btn .dropdown_arrow .dropdownItem:hover .title {color:white; text-shadow: 0px 1px 1px #666;}
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.dropdown_var.blue, .dropdown_var.blue .r, .dropdown_var.blue .coverup,
+.dropdown_var.purple, .dropdown_var.purple .r, .dropdown_var.purple .coverup,
+.dropdown_var.red, .dropdown_var.red .r, .dropdown_var.red .coverup{background: none;}
+
+.dropdown_var.red .r, .dropdown_var.blue .r, .dropdown_var.purple .r{border-width: 1px 1px 1px 0px; border-style: solid; height: 20;
+   background: transparent url('../images/inputs/dropdown.png') no-repeat 9px 8px;}
+   
+.dropdown_var.red:active .r, .dropdown_var.blue:active .r, .dropdown_var.purple:active .r{
+   background: transparent url('../images/inputs/dropdown-active.png') no-repeat 9px 8px;}
+
+.dropdown_var.red .title, .dropdown_var.red .r{border-color: #B5131A;}
+.dropdown_var.blue .title, .dropdown_var.blue .r{border-color: #286166;}
+.dropdown_var.purple .title, .dropdown_var.purple .r{border-color: #660D75;}
+.disabled .dropdown_var .title, .disabled .dropdown_var .r {border-color: #636363;}
+
+.dropdown_var.red:hover .title, .dropdown_var.red:hover .r{background-color: #D33D3D;}
+.dropdown_var.blue:hover .title, .dropdown_var.blue:hover .r{background-color: #49A6BD;}
+.dropdown_var.purple:hover .title, .dropdown_var.purple:hover .r{background-color: #C56EC5;}
+
+.dropdown_var {height: 22px; margin-right: 21px;}
+.dropdown_var .title{border-width: 1px 0px 1px 1px; border-style: solid; padding: 0 2px 0 5px; line-height: 20px; min-height: 20px; 
+   color: white; text-shadow: 0px 1px 1px black; font-family: 'lucida grande',tahoma,verdana,arial,sans-serif; font-size: 15px;}
+.dropdown_var .coverup{width: 0px;}
+.dropdown_var:active .title{color:white;}
+
+.block.num .dropdown_var .title, .block.num .dropdown_var .r, 
+.block.bool .dropdown_var .title, .block.bool .dropdown_var .r{height: 19px; min-height: 19px;}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+[class^="icon-"],
+[class*=" icon-"] {display: inline-block; width: 14px; height: 14px; margin-top: 4px; float: left; margin-left: 10px;
+  line-height: 14px; vertical-align: text-bottom; background-repeat: no-repeat; margin-right: -5px;}
+  
+.icon-ok {background-image: url("../images/buttons/ok.png");}
+.icon-cancel {background-image: url("../images/buttons/cancel.png");}
+.icon-repeat {background-image: url("../images/buttons/repeat.png");}
+.icon-undo {background-image: url("../images/buttons/undo.png");}
+.icon-redo {background-image: url("../images/buttons/redo.png");}
+.icon-open {width: 16px; background-image: url("../images/buttons/open.png");}
+.icon-monitor {width: 16px; background-image: url("../images/buttons/monitor.png");}
+.icon-buildBlock {width: 16px; background-image: url("../images/buttons/buildBlock.png");}
+.icon-send {background-image: url("../images/buttons/send.png");}
+.icon-download {background-image: url("../images/buttons/download.png");}
+.icon-upload {background-image: url("../images/buttons/upload.png");}
+.icon-pt_BR {width: 20px; background-image: url("../images/flags/icon-pt_BR.png");}
+.icon-en_US {width: 20px; background-image: url("../images/flags/icon-en_US.png");}
+.icon-es_ES {width: 20px; background-image: url("../images/flags/icon-es_ES.png");}
+.icon-it_IT {width: 20px; background-image: url("../images/flags/icon-it_IT.png");}
+.icon-selected{width: 20px; background-image: url("../images/buttons/fc.png"); background-position: 2px -19px;}
+.icon-deselected{width: 20px; background-image: url("../images/buttons/fc.png"); background-position: 2px -1px;}
+
+.dropdownItem [class^="icon-"],[class*=" icon-"] {margin-left: 0px;}
+.flag {width: 35px;}
+/*-----------------------------------------------------------------------------------------------------------------*/

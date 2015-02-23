@@ -1,0 +1,276 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.cut",1342067924071
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1342067936119
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1342067936651
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.cut",1342067942333
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1342067946389
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1342067947938
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1342067948628
+executed,command,org.eclipse.ui.externaltools,3.2.0.v20110506,"org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar",1342067950641
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342067959123
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342068826131
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1342068831582
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.refresh",1342068837339
+error,log,,,"Core exception while retrieving the content description",1342068838553
+error,log,,,"Core exception while retrieving the content description",1342068838579
+error,log,,,"Core exception while retrieving the content description",1342068838585
+opened,editor,org.eclipse.wst.html.ui,1.0.602.v201202091936,"org.eclipse.wst.html.core.htmlsource.source",1342068849987
+activated,editor,org.eclipse.wst.html.ui,1.0.602.v201202091936,"org.eclipse.wst.html.core.htmlsource.source",1342068851006
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1342068852404
+opened,editor,org.eclipse.wst.css.ui,1.0.601.v201201101544,"org.eclipse.wst.css.core.csssource.source",1342068863194
+activated,editor,org.eclipse.wst.css.ui,1.0.601.v201201101544,"org.eclipse.wst.css.core.csssource.source",1342068864104
+activated,editor,org.eclipse.wst.html.ui,1.0.602.v201202091936,"org.eclipse.wst.html.core.htmlsource.source",1342068874393
+closed,editor,org.eclipse.wst.css.ui,1.0.601.v201201101544,"org.eclipse.wst.css.core.csssource.source",1342068874393
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1342068881677
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1342068883632
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1342068893565
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1342068895686
+closed,editor,org.eclipse.wst.html.ui,1.0.602.v201202091936,"org.eclipse.wst.html.core.htmlsource.source",1342068896884
+executed,command,org.eclipse.ui.externaltools,3.2.0.v20110506,"org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar",1342068898184
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342068908868
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342068962345
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1342068976396
+opened,editor,org.eclipse.wst.html.ui,1.0.602.v201202091936,"org.eclipse.wst.html.core.htmlsource.source",1342068979987
+activated,editor,org.eclipse.wst.html.ui,1.0.602.v201202091936,"org.eclipse.wst.html.core.htmlsource.source",1342068980078
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1342069005153
+error,log,,,"Core exception while retrieving the content description",1342069005269
+error,log,,,"Core exception while retrieving the content description",1342069005288
+error,log,,,"Core exception while retrieving the content description",1342069005291
+error,log,,,"Core exception while retrieving the content description",1342069005293
+error,log,,,"Core exception while retrieving the content description",1342069005296
+error,log,,,"Core exception while retrieving the content description",1342069005299
+error,log,,,"Core exception while retrieving the content description",1342069005302
+error,log,,,"Core exception while retrieving the content description",1342069005305
+error,log,,,"Core exception while retrieving the content description",1342069005307
+error,log,,,"Core exception while retrieving the content description",1342069005310
+error,log,,,"Core exception while retrieving the content description",1342069005313
+error,log,,,"Core exception while retrieving the content description",1342069005317
+error,log,,,"Core exception while retrieving the content description",1342069005320
+error,log,,,"Core exception while retrieving the content description",1342069005323
+error,log,,,"Core exception while retrieving the content description",1342069005326
+error,log,,,"Core exception while retrieving the content description",1342069005330
+error,log,,,"Core exception while retrieving the content description",1342069005335
+error,log,,,"Core exception while retrieving the content description",1342069005340
+error,log,,,"Core exception while retrieving the content description",1342069005345
+error,log,,,"Core exception while retrieving the content description",1342069005350
+error,log,,,"Core exception while retrieving the content description",1342069005710
+error,log,,,"Core exception while retrieving the content description",1342069005726
+error,log,,,"Core exception while retrieving the content description",1342069005731
+error,log,,,"Core exception while retrieving the content description",1342069005738
+error,log,,,"Core exception while retrieving the content description",1342069005743
+error,log,,,"Core exception while retrieving the content description",1342069005811
+error,log,,,"Core exception while retrieving the content description",1342069005815
+error,log,,,"Core exception while retrieving the content description",1342069005819
+error,log,,,"Core exception while retrieving the content description",1342069005822
+error,log,,,"Core exception while retrieving the content description",1342069005825
+error,log,,,"Core exception while retrieving the content description",1342069005830
+error,log,,,"Core exception while retrieving the content description",1342069005835
+error,log,,,"Core exception while retrieving the content description",1342069005840
+error,log,,,"Core exception while retrieving the content description",1342069005844
+error,log,,,"Core exception while retrieving the content description",1342069005847
+error,log,,,"Core exception while retrieving the content description",1342069005850
+error,log,,,"Core exception while retrieving the content description",1342069005853
+error,log,,,"Core exception while retrieving the content description",1342069005856
+error,log,,,"Core exception while retrieving the content description",1342069005859
+error,log,,,"Core exception while retrieving the content description",1342069005861
+error,log,,,"Core exception while retrieving the content description",1342069005864
+error,log,,,"Core exception while retrieving the content description",1342069005867
+error,log,,,"Core exception while retrieving the content description",1342069005869
+error,log,,,"Core exception while retrieving the content description",1342069005872
+error,log,,,"Core exception while retrieving the content description",1342069005874
+error,log,,,"Core exception while retrieving the content description",1342069005877
+error,log,,,"Core exception while retrieving the content description",1342069005879
+error,log,,,"Core exception while retrieving the content description",1342069005882
+error,log,,,"Core exception while retrieving the content description",1342069005885
+error,log,,,"Core exception while retrieving the content description",1342069005887
+error,log,,,"Core exception while retrieving the content description",1342069005890
+error,log,,,"Core exception while retrieving the content description",1342069005892
+error,log,,,"Core exception while retrieving the content description",1342069005895
+error,log,,,"Core exception while retrieving the content description",1342069005898
+error,log,,,"Core exception while retrieving the content description",1342069006215
+error,log,,,"Core exception while retrieving the content description",1342069006218
+error,log,,,"Core exception while retrieving the content description",1342069006222
+error,log,,,"Core exception while retrieving the content description",1342069006226
+error,log,,,"Core exception while retrieving the content description",1342069006229
+error,log,,,"Core exception while retrieving the content description",1342069006233
+error,log,,,"Core exception while retrieving the content description",1342069006238
+error,log,,,"Core exception while retrieving the content description",1342069006241
+error,log,,,"Core exception while retrieving the content description",1342069006244
+error,log,,,"Core exception while retrieving the content description",1342069006246
+error,log,,,"Core exception while retrieving the content description",1342069006249
+error,log,,,"Core exception while retrieving the content description",1342069006252
+error,log,,,"Core exception while retrieving the content description",1342069006254
+error,log,,,"Core exception while retrieving the content description",1342069006257
+error,log,,,"Core exception while retrieving the content description",1342069006260
+error,log,,,"Core exception while retrieving the content description",1342069006262
+error,log,,,"Core exception while retrieving the content description",1342069006264
+error,log,,,"Core exception while retrieving the content description",1342069006267
+error,log,,,"Core exception while retrieving the content description",1342069006269
+error,log,,,"Core exception while retrieving the content description",1342069006271
+error,log,,,"Core exception while retrieving the content description",1342069006274
+error,log,,,"Core exception while retrieving the content description",1342069006277
+error,log,,,"Core exception while retrieving the content description",1342069006280
+error,log,,,"Core exception while retrieving the content description",1342069006282
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342069019577
+error,log,,,"Core exception while retrieving the content description",1342069020680
+error,log,,,"Core exception while retrieving the content description",1342069020702
+error,log,,,"Core exception while retrieving the content description",1342069020705
+error,log,,,"Core exception while retrieving the content description",1342069020707
+error,log,,,"Core exception while retrieving the content description",1342069020883
+error,log,,,"Core exception while retrieving the content description",1342069020887
+error,log,,,"Core exception while retrieving the content description",1342069020894
+error,log,,,"Core exception while retrieving the content description",1342069020897
+error,log,,,"Core exception while retrieving the content description",1342069020901
+error,log,,,"Core exception while retrieving the content description",1342069020904
+error,log,,,"Core exception while retrieving the content description",1342069020907
+error,log,,,"Core exception while retrieving the content description",1342069020910
+error,log,,,"Core exception while retrieving the content description",1342069020912
+error,log,,,"Core exception while retrieving the content description",1342069023244
+error,log,,,"Core exception while retrieving the content description",1342069023248
+error,log,,,"Core exception while retrieving the content description",1342069023252
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342069023882
+executed,command,org.eclipse.ltk.ui.refactoring,3.6.0.v20110505-0800,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1342069023893
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1342069023893
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1342069027326
+executed,command,org.eclipse.ui.externaltools,3.2.0.v20110506,"org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar",1342069028628
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342069035754
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342069100599
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342069114769
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342069118636
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342069122323
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342069148820
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342069153007
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342069213512
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342069216418
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342069463288
+activated,editor,org.eclipse.wst.html.ui,1.0.602.v201202091936,"org.eclipse.wst.html.core.htmlsource.source",1342069465269
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1342069468594
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1342069470567
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1342069479669
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1342069494516
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.refresh",1342069495672
+error,log,,,"Core exception while retrieving the content description",1342069495792
+error,log,,,"Core exception while retrieving the content description",1342069495795
+error,log,,,"Core exception while retrieving the content description",1342069495832
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1342069503221
+executed,command,org.eclipse.ui.externaltools,3.2.0.v20110506,"org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar",1342069504684
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342069525561
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342069912519
+opened,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1342069922728
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1342069923554
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342069923656
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342069924538
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342069925357
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342069927666
+error,log,,,"Too Many matches (87) were found for the requested token:add",1342069943386
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342069943425
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342069945895
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342069947755
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342069954537
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342069957865
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1342069968525
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342069969210
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.findReplace",1342069969248
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342069979050
+error,log,,,"Too Many matches (87) were found for the requested token:add",1342070016237
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342070016256
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342070017462
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342070031134
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342070120489
+activated,editor,org.eclipse.wst.html.ui,1.0.602.v201202091936,"org.eclipse.wst.html.core.htmlsource.source",1342070123063
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1342070124934
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342070129242
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342070183940
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.undo",1342070233579
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342070234815
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342070307200
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342070310156
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342070312211
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342070328363
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1342070332520
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342070348702
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1342070354131
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1342070358716
+closed,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1342070358716
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1342070363948
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1342070365116
+executed,command,org.eclipse.ui.externaltools,3.2.0.v20110506,"org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar",1342070367126
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342070374340
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342070434699
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1342070441326
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342070442757
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1342070450975
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.undo",1342070470976
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342070474259
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342070510825
+opened,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1342070529326
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1342070529475
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1342070562316
+closed,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1342070562316
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1342070579949
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1342070583909
+executed,command,org.eclipse.ui.externaltools,3.2.0.v20110506,"org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar",1342070585480
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342070592323
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342070607679
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342070611853
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1342070613764
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1342070614889
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1342070615238
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1342070615547
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1342070615977
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342070638709
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110505-0800,"org.eclipse.ui.edit.text.goto.lineStart",1342070660240
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342070665132
+opened,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1342070689220
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1342070689492
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1342070695647
+closed,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1342070695647
+opened,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1342070697493
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1342070697580
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1342070709212
+closed,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1342070709212
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342070728630
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1342070739721
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1342070742340
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1342070743008
+executed,command,org.eclipse.ui.externaltools,3.2.0.v20110506,"org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar",1342070750090
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342070760205
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342070767125
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.undo",1342070771652
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1342070776177
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.cut",1342070784642
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1342070798233
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1342070799008
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1342070805896
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1342070809682
+executed,command,org.eclipse.ui.externaltools,3.2.0.v20110506,"org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar",1342070812268
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342070822862
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342070846592
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342070863701
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342070971484
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342071007966
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342071009742
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342071010812
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342071022362
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342071023941
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342071025151
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342071027394
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342071053255
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1342071056094
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1342071104394
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342071126412
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342071151866
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342071158891
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342071164481
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342071178001
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342071183142
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1342071271887
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342071283130
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342071285709
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1342071290815
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1342071293067
+executed,command,org.eclipse.ui.externaltools,3.2.0.v20110506,"org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar",1342071295518
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342071305670
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342071320018
+opened,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1342071325783
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1342071325864

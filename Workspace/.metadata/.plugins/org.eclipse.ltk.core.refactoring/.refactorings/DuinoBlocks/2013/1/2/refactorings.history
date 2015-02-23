@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;exception&apos; to &apos;translator&apos;" description="Move &apos;exception&apos; to &apos;translator&apos;" destination="src/edu/uca/translator" element1="src/edu/uca/translator/block/exception" element2="src/edu/uca/translator/block/__init__.py" element3="src/edu/uca/translator/block/TranslatorBlock.py" element4="src/edu/uca/translator/block/TranslatorBlockFactory.py" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="4" stamp="1357854323370" updateReferences="true"/>
+</session>

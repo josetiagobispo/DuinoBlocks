@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Move &apos;Main.js&apos; to &apos;com&apos;" description="Move &apos;Main.js&apos; to &apos;com&apos;" destination="com" element1="com/ardublock/Main.js" element2="com/ardublock/Main.py" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="2" stamp="1341374250169" updateReferences="true"/>&#x0A;<refactoring comment="Move &apos;Main.js&apos; to &apos;src&apos;" description="Move &apos;Main.js&apos; to &apos;src&apos;" destination="src" element1="src/com/Main.js" element2="src/com/Main.py" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="2" stamp="1341374502660" updateReferences="true"/>
+</session>

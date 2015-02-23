@@ -1,0 +1,15 @@
+from pyjamas.ui.Panel import Panel
+
+class Element(Panel):
+    
+    def __init__(self, **kw):
+        Panel.__init__(self,  **kw)     
+        self.addStyleName('element')
+    
+    def add(self, widget, container=None):
+        self.adopt(widget, self.getElement())
+        self.children.append(widget)
+
+    def remove(self, widget):
+        self.disown(widget)
+        self.children.remove(widget)

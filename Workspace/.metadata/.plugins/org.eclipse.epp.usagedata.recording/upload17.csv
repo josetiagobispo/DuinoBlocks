@@ -1,0 +1,276 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.wst.common.modulecore,1.2.103.v201201190400,"org.eclipse.wst.common.modulecore",1339605486134
+started,bundle,org.eclipse.jst.j2ee.core,1.2.102.v201202090300,"org.eclipse.jst.j2ee.core",1339605486188
+started,bundle,org.eclipse.jem,2.0.501.v201111030500,"org.eclipse.jem",1339605486331
+started,bundle,org.eclipse.wst.common.frameworks.ui,1.2.100.v201105122000,"org.eclipse.wst.common.frameworks.ui",1339605486647
+started,bundle,org.eclipse.jst.j2ee,1.1.503.v201202090300,"org.eclipse.jst.j2ee",1339605486774
+opened,editor,org.eclipse.wst.css.ui,1.0.601.v201201101544,"org.eclipse.wst.css.core.csssource.source",1339605486825
+activated,editor,org.eclipse.wst.css.ui,1.0.601.v201201101544,"org.eclipse.wst.css.core.csssource.source",1339605487207
+closed,editor,org.eclipse.wst.html.ui,1.0.602.v201202091936,"org.eclipse.wst.html.core.htmlsource.source",1339605487208
+started,bundle,org.eclipse.jem.workbench,2.0.400.v201104251400,"org.eclipse.jem.workbench",1339605487395
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1339605487921
+closed,editor,org.eclipse.wst.css.ui,1.0.601.v201201101544,"org.eclipse.wst.css.core.csssource.source",1339605487921
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.300.v201108240515,"org.eclipse.wst.ws.service.policy.ui",1339605499408
+started,bundle,org.eclipse.wst.ws.service.policy,1.0.303.v201009221810,"org.eclipse.wst.ws.service.policy",1339605499422
+started,bundle,org.eclipse.wst.command.env,1.0.409.v201004211805,"org.eclipse.wst.command.env",1339605499496
+started,bundle,org.eclipse.wst.ws,1.1.203.v201004211805,"org.eclipse.wst.ws",1339605499497
+error,log,,,"Plug-in com.google.gdt.eclipse.designer was unable to load class com.google.gdt.eclipse.designer.common.GwtPropertyTester.",1339605500205
+error,log,,,"No property tester contributes a property com.google.gdt.eclipse.designer.isGwtModuleElement to type class org.eclipse.core.internal.resources.Project",1339605500208
+error,log,,,"No property tester contributes a property com.google.gdt.eclipse.designer.isGwtModuleElement to type class org.eclipse.core.internal.resources.Project",1339605500210
+error,log,,,"No property tester contributes a property com.google.gdt.eclipse.designer.isGwtProjectElement to type class org.eclipse.core.internal.resources.Project",1339605500212
+error,log,,,"No property tester contributes a property com.google.gdt.eclipse.designer.isGwtModuleElement to type class org.eclipse.core.internal.resources.Project",1339605500216
+error,log,,,"No property tester contributes a property com.google.gdt.eclipse.designer.isResource to type class org.eclipse.jdt.internal.core.JavaProject",1339605501388
+error,log,,,"No property tester contributes a property com.google.gdt.eclipse.designer.isResource to type class org.eclipse.jdt.internal.core.JavaProject",1339605501391
+error,log,,,"No property tester contributes a property com.google.gdt.eclipse.designer.isResource to type class org.eclipse.jdt.internal.core.JavaProject",1339605501393
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605503551
+started,bundle,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.ui",1339605505962
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1339605506717
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1339605506719
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1339605506721
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1339605506724
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1339605506726
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1339605506728
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605506966
+executed,command,org.eclipse.ltk.ui.refactoring,3.6.0.v20110505-0800,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1339605506978
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1339605506979
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605508146
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605525817
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605556488
+started,bundle,org.eclipse.ui.externaltools,3.2.0.v20110506,"org.eclipse.ui.externaltools",1339605559069
+started,bundle,org.eclipse.core.externaltools,1.0.100.v20110506,"org.eclipse.core.externaltools",1339605559270
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605588260
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.properties",1339605588300
+activated,view,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.views.ProblemView",1339605605015
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605610820
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605619437
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605642196
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605651596
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605658751
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605658823
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605658950
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605684667
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605685011
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605691488
+error,log,,,"Error while tracking project-level changes from a change in R/",1339605694601
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605694748
+executed,command,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals",1339605694765
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1339605694815
+error,log,,,"Exception occurred while creating compilation participant",1339605694817
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1339605694947
+activated,view,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.views.ProblemView",1339605697893
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605700650
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605706403
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605722163
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605737270
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1339605739139
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.refresh",1339605760304
+activated,view,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.views.ProblemView",1339605762586
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605764751
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605764797
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605764871
+started,bundle,com.google.gdt.eclipse.platform.e37,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.platform.e37",1339605769606
+error,log,,,"Cannot get version of GWT SDK ""GWT"", ensure it is configured properly",1339605769654
+error,log,,,"Cannot get version of GWT SDK ""GWT"", ensure it is configured properly",1339605769661
+error,log,,,"Cannot get version of GWT SDK ""GWT"", ensure it is configured properly",1339605769857
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605782225
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605782251
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605782300
+executed,command,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals",1339605782328
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605807412
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605810614
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.properties",1339605810641
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605814757
+started,bundle,org.eclipse.jdt.debug,3.7.1.v20110802_r371,"org.eclipse.jdt.debug",1339605814893
+started,bundle,org.eclipse.jdt.debug.ui,3.6.1.v20110803_r371,"org.eclipse.jdt.debug.ui",1339605815109
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605815145
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605815277
+error,log,,,"Cannot get version of GWT SDK ""GWT"", ensure it is configured properly",1339605834648
+error,log,,,"Cannot get version of GWT SDK ""GWT"", ensure it is configured properly",1339605834669
+error,log,,,"Cannot get version of GWT SDK ""GWT"", ensure it is configured properly",1339605834683
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605840257
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605840375
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605840421
+executed,command,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals",1339605840448
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605848443
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605848489
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605848563
+error,log,,,"Cannot get version of GWT SDK ""GWT"", ensure it is configured properly",1339605852002
+error,log,,,"Cannot get version of GWT SDK ""GWT"", ensure it is configured properly",1339605852007
+error,log,,,"Cannot get version of GWT SDK ""GWT"", ensure it is configured properly",1339605852022
+error,log,,,"Build path contains duplicate entry: 'com.google.gwt.eclipse.core.GWT_CONTAINER' for project 'DragDrop'",1339605858916
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1339605858931
+error,log,,,"Exception occurred while creating compilation participant",1339605858933
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605858950
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605858984
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605859035
+executed,command,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals",1339605859059
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1339605864918
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605879091
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605910792
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605926006
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605930069
+executed,command,,,"com.google.gdt.eclipse.suite.launch.ui.webappLaunchShortcut.run",1339605930096
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605930520
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605934137
+started,bundle,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser",1339605934507
+started,bundle,com.google.gwt.eclipse.oophm,2.6.1.v201205091048-rel-r37,"com.google.gwt.eclipse.oophm",1339605934538
+started,bundle,org.eclipse.m2e.launching,1.0.100.20110804-1717,"org.eclipse.m2e.launching",1339605935519
+opened,view,com.google.gwt.eclipse.oophm,2.6.1.v201205091048-rel-r37,"com.google.gwt.eclipse.DevModeView",1339605935962
+activated,view,com.google.gwt.eclipse.oophm,2.6.1.v201205091048-rel-r37,"com.google.gwt.eclipse.DevModeView",1339605936013
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1339605936270
+activated,view,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.views.ProblemView",1339605945915
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605949376
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605951312
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.properties",1339605951330
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605954690
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605954734
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605954816
+error,log,,,"Cannot get version of GWT SDK ""GWT"", ensure it is configured properly",1339605968977
+error,log,,,"Cannot get version of GWT SDK ""GWT"", ensure it is configured properly",1339605968981
+error,log,,,"Cannot get version of GWT SDK ""GWT"", ensure it is configured properly",1339605968997
+error,log,,,"Cannot get version of GWT SDK ""GWT"", ensure it is configured properly",1339605973455
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605984122
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605984152
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605984198
+executed,command,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals",1339605984223
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1339605984784
+error,log,,,"Exception occurred while creating compilation participant",1339605984786
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605984944
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339605985079
+error,log,,,"Error while tracking project-level changes from a change in R/",1339605986896
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1339605987073
+error,log,,,"Exception occurred while creating compilation participant",1339605987075
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1339605997166
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606002699
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606006494
+executed,command,,,"com.google.gdt.eclipse.suite.launch.ui.webappLaunchShortcut.run",1339606006509
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606006951
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606009016
+activated,view,com.google.gwt.eclipse.oophm,2.6.1.v201205091048-rel-r37,"com.google.gwt.eclipse.DevModeView",1339606009568
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1339606014554
+activated,view,com.google.gwt.eclipse.oophm,2.6.1.v201205091048-rel-r37,"com.google.gwt.eclipse.DevModeView",1339606022757
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1339606030642
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606031676
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606039076
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606056246
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606061542
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606062476
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606066397
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606068567
+activated,view,com.google.gwt.eclipse.oophm,2.6.1.v201205091048-rel-r37,"com.google.gwt.eclipse.DevModeView",1339606068593
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606068665
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1339606068936
+activated,view,com.google.gwt.eclipse.oophm,2.6.1.v201205091048-rel-r37,"com.google.gwt.eclipse.DevModeView",1339606079437
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1339606093844
+activated,view,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.views.ProblemView",1339606096289
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606101168
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606101208
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606101309
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606119840
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606119867
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606119914
+executed,command,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals",1339606119937
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606120233
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606120273
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1339606126580
+error,log,,,"Exception occurred while creating compilation participant",1339606126584
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1339606132021
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.refresh",1339606132971
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.refresh",1339606133948
+activated,view,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.views.ProblemView",1339606136981
+started,bundle,org.eclipse.jdt.junit,3.7.0.v20110505-0800,"org.eclipse.jdt.junit",1339606137020
+opened,editor,com.google.gwt.eclipse.core,2.6.1.v201205091048-rel-r37,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1339606142664
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1339606143194
+error,log,,,"Exception occurred while creating compilation participant",1339606143197
+activated,editor,com.google.gwt.eclipse.core,2.6.1.v201205091048-rel-r37,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1339606143505
+activated,view,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.views.ProblemView",1339606151969
+activated,editor,com.google.gwt.eclipse.core,2.6.1.v201205091048-rel-r37,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1339606154449
+activated,view,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.views.ProblemView",1339606154530
+closed,editor,com.google.gwt.eclipse.core,2.6.1.v201205091048-rel-r37,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1339606154530
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1339606155621
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606163051
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606183597
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606183771
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606207721
+executed,command,org.eclipse.jdt.debug.ui,3.6.1.v20110803_r371,"org.eclipse.jdt.debug.ui.localJavaShortcut.run",1339606207737
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606216681
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606220896
+executed,command,,,"com.google.gdt.eclipse.suite.launch.ui.webappLaunchShortcut.run",1339606221022
+activated,view,com.google.gwt.eclipse.oophm,2.6.1.v201205091048-rel-r37,"com.google.gwt.eclipse.DevModeView",1339606243149
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606245144
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606245591
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1339606245600
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606257790
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606259010
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1339606264836
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606276495
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606278936
+executed,command,,,"com.google.gdt.eclipse.suite.launch.ui.webappLaunchShortcut.run",1339606278948
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606283650
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606307670
+activated,view,com.google.gwt.eclipse.oophm,2.6.1.v201205091048-rel-r37,"com.google.gwt.eclipse.DevModeView",1339606310485
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606327387
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606340574
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1339606340582
+activated,view,com.google.gwt.eclipse.oophm,2.6.1.v201205091048-rel-r37,"com.google.gwt.eclipse.DevModeView",1339606454123
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1339606456254
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606457115
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606463052
+activated,view,com.google.gwt.eclipse.oophm,2.6.1.v201205091048-rel-r37,"com.google.gwt.eclipse.DevModeView",1339606465262
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606471752
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606472604
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1339606472615
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606649066
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606650107
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1339606656228
+executed,command,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.project.closeProject",1339606663200
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606663494
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606663684
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339606677401
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339607277782
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339607280555
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339607283913
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339607285374
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339607386115
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339607410867
+opened,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1339607420371
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1339607420990
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1339607421219
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1339607427541
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339607432758
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339610803205
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339610805332
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339610835769
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339610837241
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339674901081
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339677766286
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339677777309
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1339677946918
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1339677996420
+no handler,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1339678007741
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339678059759
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.import",1339678059884
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339678060550
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339678263650
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339678265792
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339685391724
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339685418798
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339685685793
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339685701650
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.import",1339685743784
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339685744053
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1339685747654
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339685748658
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339685765953
+error,log,,,"Could not update launch configuration MyApplication2 .",1339685766971
+error,log,,,"Could not update launch configuration MyApplication1 .",1339685767406
+error,log,,,"Could not update launch configuration DragDropTest .",1339685767693
+error,log,,,"Could not update launch configuration DragDropDemo .",1339685767835
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1339685769358
+error,log,,,"Exception occurred while creating compilation participant",1339685769361
+error,log,,,"Info: Rebuilding internal caches: C:\\Users\\GINAPE\\Desktop\\Python\\Workspace\\.metadata\\.plugins\\org.eclipse.core.resources\\.projects\\Exemplo\\com.python.pydev.analysis\\AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)",1339685775651
+opened,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1339685778186
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1339685778802
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1339685783135
+closed,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1339685783136
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1339685784758

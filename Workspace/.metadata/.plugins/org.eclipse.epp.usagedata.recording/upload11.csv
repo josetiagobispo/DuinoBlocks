@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.wst.jsdt.web.ui,1.0.401.v201108152113,"org.eclipse.wst.jsdt.web.ui",1339531712930
+started,bundle,org.eclipse.wst.jsdt.web.core,1.0.401.v201108152113,"org.eclipse.wst.jsdt.web.core",1339531713070
+started,bundle,org.eclipse.wst.css.ui,1.0.601.v201201101544,"org.eclipse.wst.css.ui",1339531714295
+started,bundle,org.eclipse.wst.validation,1.2.303.v201202090300,"org.eclipse.wst.validation",1339531714545
+started,bundle,org.eclipse.wst.dtd.ui,1.0.600.v201103171359,"org.eclipse.wst.dtd.ui",1339531714975
+opened,editor,org.eclipse.wst.html.ui,1.0.602.v201202091936,"org.eclipse.wst.html.core.htmlsource.source",1339531715160
+activated,editor,org.eclipse.wst.html.ui,1.0.602.v201202091936,"org.eclipse.wst.html.core.htmlsource.source",1339531715545
+started,bundle,org.eclipse.jst.j2ee.core,1.2.102.v201202090300,"org.eclipse.jst.j2ee.core",1339531716519
+started,bundle,org.eclipse.jem,2.0.501.v201111030500,"org.eclipse.jem",1339531716599
+started,bundle,org.eclipse.jst.j2ee,1.1.503.v201202090300,"org.eclipse.jst.j2ee",1339531716784
+started,bundle,org.eclipse.jem.workbench,2.0.400.v201104251400,"org.eclipse.jem.workbench",1339531716929
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1339531728831
+executed,command,org.eclipse.ui.externaltools,3.2.0.v20110506,"org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar",1339531731366
+activated,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1339531739854
+activated,editor,org.eclipse.wst.html.ui,1.0.602.v201202091936,"org.eclipse.wst.html.core.htmlsource.source",1339531747019
+activated,view,org.python.pydev,2.5.0.2012040618,"org.python.pydev.navigator.view",1339531751431
+opened,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1339531758561
+activated,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1339531758626
+activated,editor,org.eclipse.wst.html.ui,1.0.602.v201202091936,"org.eclipse.wst.html.core.htmlsource.source",1339531763465
+closed,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1339531763465
+activated,view,org.python.pydev,2.5.0.2012040618,"org.python.pydev.navigator.view",1339531766464
+opened,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1339531770199
+activated,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1339531770249
+activated,editor,org.eclipse.wst.html.ui,1.0.602.v201202091936,"org.eclipse.wst.html.core.htmlsource.source",1339531784497
+closed,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1339531784497
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1339531785967
+activated,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1339531788112
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339531796577
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339554074555
+activated,editor,org.eclipse.wst.html.ui,1.0.602.v201202091936,"org.eclipse.wst.html.core.htmlsource.source",1339554079085
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1339554081910
+activated,view,org.python.pydev,2.5.0.2012040618,"org.python.pydev.navigator.view",1339554087695
+opened,editor,org.eclipse.wst.css.ui,1.0.601.v201201101544,"org.eclipse.wst.css.core.csssource.source",1339554088445
+activated,editor,org.eclipse.wst.css.ui,1.0.601.v201201101544,"org.eclipse.wst.css.core.csssource.source",1339554088685
+activated,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1339554119601
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1339554121146
+activated,view,org.eclipse.ui.views,3.6.0.I20110412-0800,"org.eclipse.ui.views.ContentOutline",1339554201515
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1339554218760
+started,bundle,org.eclipse.mylyn.java.tasks,3.6.0.v20110608-1400,"org.eclipse.mylyn.java.tasks",1339554265970
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339554729675
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339554782091
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.newWizard",1339554782111
+activated,view,org.python.pydev,2.5.0.2012040618,"org.python.pydev.navigator.view",1339555019666
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339555022036
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339555473324
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1339555476151
+activated,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1339555494123
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1339555496003
+activated,editor,org.eclipse.ui.browser,3.3.100.v20110426,"org.eclipse.ui.browser.editor",1339555510340
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1339555514597
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339555570716
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339555699152
+error,log,,,"Could not create content describer for org.eclipse.wb.core.javaSourceGUI. Content type has been disabled.",1339555700706
+started,bundle,org.eclipse.jdt.launching,3.6.1.v20110803_r371,"org.eclipse.jdt.launching",1339555702031
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1339555706108
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1339555707343
+started,bundle,com.google.gdt.eclipse.appengine.rpc,2.5.2.v201203300216-rel-r37,"com.google.gdt.eclipse.appengine.rpc",1339555710548
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1339555710589
+error,log,,,"Exception occurred while creating compilation participant",1339555710594
+started,bundle,org.eclipse.jdt.apt.core,3.3.500.v20110420-1015,"org.eclipse.jdt.apt.core",1339555710638
+started,bundle,org.eclipse.jdt.apt.pluggable.core,1.0.400.v20110305-1450,"org.eclipse.jdt.apt.pluggable.core",1339555710651
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1339555717547
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1339555717547
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339555718915
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339555725229
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339555726882
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339555789956
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339555792111
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339555867247
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1339555868174
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1339555868331
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1339555868896
+error,log,,,"Exception occurred while creating compilation participant",1339555868896
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1339555882701
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1339555882701
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339555884843
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339597099696
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339597103469
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339597114115
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1339597115398
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1339597115517
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1339597115641
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1339597115756
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1339597115992
+error,log,,,"Exception occurred while creating compilation participant",1339597115995
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1339597116342
+error,log,,,"Exception occurred while creating compilation participant",1339597116345
+activated,view,org.eclipse.ui.views,3.6.0.I20110412-0800,"org.eclipse.ui.views.ContentOutline",1339597128221
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1339597129125
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1339597130388
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1339597144973
+activated,view,org.python.pydev,2.5.0.2012040618,"org.python.pydev.navigator.view",1339597150750
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339597162978
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339597265426
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1339597267721
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1339597274836
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339597298761
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339597408819
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339597409177
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339597742299
+started,bundle,org.eclipse.equinox.p2.ui.sdk,1.0.200.v20110502-1955,"org.eclipse.equinox.p2.ui.sdk",1339597749349
+started,bundle,org.eclipse.equinox.p2.ui,2.1.0.v20110601,"org.eclipse.equinox.p2.ui",1339597749399
+started,bundle,org.eclipse.equinox.p2.transport.ecf,1.0.0.v20110510,"org.eclipse.equinox.p2.transport.ecf",1339597749659
+started,bundle,org.eclipse.ecf.filetransfer,5.0.0.v20110531-2218,"org.eclipse.ecf.filetransfer",1339597749729
+started,bundle,org.eclipse.ecf.identity,3.1.100.v20110531-2218,"org.eclipse.ecf.identity",1339597749854
+started,bundle,org.eclipse.ecf,3.1.300.v20110531-2218,"org.eclipse.ecf",1339597749929
+started,bundle,org.eclipse.ecf.provider.filetransfer.httpclient,4.0.0.v20110531-2218,"org.eclipse.ecf.provider.filetransfer.httpclient",1339597750034
+started,bundle,org.eclipse.ecf.provider.filetransfer,3.2.0.v20110531-2218,"org.eclipse.ecf.provider.filetransfer",1339597750039
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339597750596
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1339597752200
+started,bundle,org.eclipse.equinox.p2.updatesite,1.0.300.v20110510,"org.eclipse.equinox.p2.updatesite",1339597757566
+started,bundle,org.eclipse.equinox.p2.publisher.eclipse,1.0.0.v20110511,"org.eclipse.equinox.p2.publisher.eclipse",1339597758416
+error,log,,,"Provisioning exception",1339597791245
+started,bundle,org.eclipse.equinox.p2.garbagecollector,1.0.200.v20110510,"org.eclipse.equinox.p2.garbagecollector",1339597799874
+error,log,,,"Provisioning exception",1339597912588
+error,log,,,"Some sites could not be found.  See the error log for more detail.",1339597918177
+started,bundle,org.eclipse.equinox.frameworkadmin,2.0.0.v20110502-1955,"org.eclipse.equinox.frameworkadmin",1339597933326
+started,bundle,org.eclipse.equinox.simpleconfigurator.manipulator,2.0.0.v20110502-1955,"org.eclipse.equinox.simpleconfigurator.manipulator",1339597933485
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339598148725
+executed,command,org.eclipse.equinox.p2.ui.sdk,1.0.200.v20110502-1955,"org.eclipse.equinox.p2.ui.sdk.install",1339598148754
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339598149403
+error,log,,,"Error processing mirrors URL: http://www.eclipse.org/downloads/download.php?file=/mylyn/drops/3.7.1/v20120425-0100/&protocol=http&format=xml&countryCode=br&timeZone=-3&format=xml",1339598206389
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339598572225
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339598573610
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339598687240
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339598688744
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339598786037
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339598790514
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339599266496
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339599268136
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339599275216
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339599276931
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339599277031
+activated,view,org.python.pydev,2.5.0.2012040618,"org.python.pydev.navigator.view",1339599279061
+started,bundle,com.google.gdt.eclipse.platform,2.5.2.v201203300216-rel-r37,"com.google.gdt.eclipse.platform",1339599294378
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339599298348
+started,bundle,com.google.gdt.eclipse.maven,2.5.2.v201203300216-rel-r37,"com.google.gdt.eclipse.maven",1339599602150
+started,bundle,org.eclipse.jdt.junit.core,3.7.0.v20110518-0800,"org.eclipse.jdt.junit.core",1339599607810
+started,bundle,org.eclipse.m2e.core,1.0.100.20110804-1717,"org.eclipse.m2e.core",1339599621073
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339599623899
+executed,command,com.google.gdt.eclipse.suite,2.5.2.v201203300216-rel-r37,"com.google.gdt.eclipse.suite.newWebAppProject",1339599623935
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1339599625264
+error,log,,,"Exception occurred while creating compilation participant",1339599625264
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1339599627404
+error,log,,,"Exception occurred while creating compilation participant",1339599627409
+error,log,,,"The site.xml file downloaded from the update site does not contain any <feature> elements with an id of 'com.google.appengine.eclipse.sdkbundle.e37.feature'. Unable to determine if there are updates available.",1339599630960
+executed,command,,,"com.google.gdt.eclipse.suite.launch.ui.webappLaunchShortcut.run",1339599640742
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1339599640763
+error,log,,,"Exception occurred while creating compilation participant",1339599640765
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339599643954
+started,bundle,org.eclipse.jst.jee,1.0.402.v201202021530,"org.eclipse.jst.jee",1339599655604
+started,bundle,org.eclipse.jdt.debug,3.7.1.v20110802_r371,"org.eclipse.jdt.debug",1339599655741
+started,bundle,com.google.gwt.eclipse.oophm,2.5.2.v201203300216-rel-r37,"com.google.gwt.eclipse.oophm",1339599656401
+started,bundle,org.eclipse.m2e.launching,1.0.100.20110804-1717,"org.eclipse.m2e.launching",1339599656986
+opened,view,com.google.gwt.eclipse.oophm,2.5.2.v201203300216-rel-r37,"com.google.gwt.eclipse.DevModeView",1339599657805
+activated,view,com.google.gwt.eclipse.oophm,2.5.2.v201203300216-rel-r37,"com.google.gwt.eclipse.DevModeView",1339599657882
+started,bundle,org.eclipse.jdt.debug.ui,3.6.1.v20110803_r371,"org.eclipse.jdt.debug.ui",1339599658229
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339599658774
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1339599666678
+activated,view,com.google.gwt.eclipse.oophm,2.5.2.v201203300216-rel-r37,"com.google.gwt.eclipse.DevModeView",1339599678602
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339599685620
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339599692593
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339599699763
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339599765876
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339599788524
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339599819539
+activated,view,org.python.pydev,2.5.0.2012040618,"org.python.pydev.navigator.view",1339599830305
+opened,editor,com.google.gwt.eclipse.core,2.5.2.v201203300216-rel-r37,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1339599847478
+activated,editor,com.google.gwt.eclipse.core,2.5.2.v201203300216-rel-r37,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1339599848083
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1339599848338
+error,log,,,"Exception occurred while creating compilation participant",1339599848341
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1339599860752
+closed,editor,com.google.gwt.eclipse.core,2.5.2.v201203300216-rel-r37,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1339599860757
+activated,view,org.python.pydev,2.5.0.2012040618,"org.python.pydev.navigator.view",1339599863346
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339599871775
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339599888240
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339599898594
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339599903344
+executed,command,com.google.gwt.eclipse.core,2.5.2.v201203300216-rel-r37,"com.google.gwt.eclipse.core.gwtCompileProject",1339599903364
+started,bundle,org.eclipse.wst.xsl.debug.ui,1.0.200.v201101281837,"org.eclipse.wst.xsl.debug.ui",1339599903932
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339599916093
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339600008112
+executed,command,com.google.gdt.eclipse.managedapis,2.5.2.v201203300216-rel-r37,"com.google.gdt.eclipse.managedapis.actions.apiImportProject",1339600008129
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1339600013508
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339600041134
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339600043482
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339600057754
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339600185121
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339600186160
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1339600187294
+error,log,,,"Exception occurred while creating compilation participant",1339600187299
+no handler,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1339600193547
+no handler,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1339600193547
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339600196101
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339600196268
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339600199713
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1339600199728
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1339600199728
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339600201502
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1339600202517
+error,log,,,"Exception occurred while creating compilation participant",1339600202524
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1339600202544
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1339600202544
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339600205791
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339600205821
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1339600326823
+error,log,,,"Exception occurred while creating compilation participant",1339600326828
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339600333610
+started,bundle,org.eclipse.pde.launching,3.6.0.v20110506,"org.eclipse.pde.launching",1339600334160
+started,bundle,org.eclipse.ui.views.log,1.0.200.v20110404,"org.eclipse.ui.views.log",1339600334205
+started,bundle,org.eclipse.pde.ui,3.6.100.v20110603,"org.eclipse.pde.ui",1339600334215
+opened,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1339600334530
+opened,view,org.eclipse.mylyn.tasks.ui,3.6.2.v20110826-0100,"org.eclipse.mylyn.tasks.ui.views.tasks",1339600337065
+activated,perspective,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.JavaPerspective",1339600337120
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339600339092
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339600350921
+started,bundle,org.eclipse.equinox.frameworkadmin.equinox,1.0.300.v20110506,"org.eclipse.equinox.frameworkadmin.equinox",1339600351486
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1339600355093
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339600357608
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339600378806
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.refresh",1339600384866
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1339600385013
+error,log,,,"Exception occurred while creating compilation participant",1339600385018
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1339600389554
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1339600389784
+started,bundle,org.eclipse.jdt.junit,3.7.0.v20110505-0800,"org.eclipse.jdt.junit",1339600390065
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1339600390169
+error,log,,,"Exception occurred while creating compilation participant",1339600390174
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339600390229
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1339600396814
+started,bundle,org.eclipse.mylyn.ide.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.ide.ui",1339600402910
+started,bundle,org.eclipse.jpt.jaxb.ui,1.1.1.v201108080010,"org.eclipse.jpt.jaxb.ui",1339600402955
+started,bundle,org.eclipse.jpt.jpa.ui,3.0.1.v201108080010,"org.eclipse.jpt.jpa.ui",1339600403020
+started,bundle,org.eclipse.jst.ws.jaxws.ui,1.0.100.v201104032053,"org.eclipse.jst.ws.jaxws.ui",1339600403130
+started,bundle,org.eclipse.mylyn.java.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.java.ui",1339600403155
+started,bundle,org.eclipse.pde.api.tools,1.0.301.v20110728_r371,"org.eclipse.pde.api.tools",1339600404848
+started,bundle,org.eclipse.pde.api.tools.ui,1.0.301.v20110803_r371,"org.eclipse.pde.api.tools.ui",1339600404863
+started,bundle,org.eclipse.jpt.jaxb.core,1.0.1.v201108080010,"org.eclipse.jpt.jaxb.core",1339600405555
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1339600405750
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1339600405775
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1339600412706
+error,log,,,"Exception occurred while creating compilation participant",1339600412708
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1339600414394
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1339600415323
+error,log,,,"Exception occurred while creating compilation participant",1339600415325
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1339600416503
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1339600416653
+error,log,,,"Exception occurred while creating compilation participant",1339600416653
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1339600417379
+error,log,,,"Exception occurred while creating compilation participant",1339600417381

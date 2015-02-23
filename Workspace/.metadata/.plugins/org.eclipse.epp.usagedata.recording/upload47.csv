@@ -1,0 +1,226 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1340774242001
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1340774244089
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1340774244545
+executed,command,org.eclipse.ui.externaltools,3.2.0.v20110506,"org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar",1340774246636
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1340774251764
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1340774350510
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1340774371487
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1340774374700
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1340774377098
+executed,command,org.eclipse.ui.externaltools,3.2.0.v20110506,"org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar",1340774378968
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1340774384887
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1340774429815
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1340774440913
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1340774449349
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1340774451343
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1340774454483
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1340774461175
+executed,command,org.eclipse.ui.externaltools,3.2.0.v20110506,"org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar",1340774463761
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1340774468718
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1340815761248
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1340815788408
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1340815967890
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.import",1340815968434
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1340815976886
+started,bundle,org.eclipse.pde.core,3.7.1.v20110822-2108,"org.eclipse.pde.core",1340815986897
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.300.v201108240515,"org.eclipse.wst.ws.service.policy.ui",1340816012050
+started,bundle,org.eclipse.wst.ws.service.policy,1.0.303.v201009221810,"org.eclipse.wst.ws.service.policy",1340816012280
+started,bundle,org.eclipse.wst.command.env,1.0.409.v201004211805,"org.eclipse.wst.command.env",1340816015370
+started,bundle,org.eclipse.wst.ws,1.1.203.v201004211805,"org.eclipse.wst.ws",1340816015390
+started,bundle,org.eclipse.wst.jsdt.core,1.1.102.v201111090634,"org.eclipse.wst.jsdt.core",1340816070154
+started,bundle,org.eclipse.wst.common.frameworks.ui,1.2.100.v201105122000,"org.eclipse.wst.common.frameworks.ui",1340816075437
+started,bundle,org.eclipse.equinox.p2.garbagecollector,1.0.200.v20110510,"org.eclipse.equinox.p2.garbagecollector",1340816076902
+started,bundle,org.eclipse.jpt.common.core,1.0.2.v201111103010,"org.eclipse.jpt.common.core",1340816082084
+started,bundle,org.eclipse.jpt.jpa.core,3.0.2.v201201243020,"org.eclipse.jpt.jpa.core",1340816082312
+error,log,,,"No property tester contributes a property com.google.gdt.eclipse.designer.isResource to type class org.eclipse.jdt.internal.core.JavaProject",1340816082697
+error,log,,,"No property tester contributes a property com.google.gdt.eclipse.designer.isResource to type class org.eclipse.jdt.internal.core.JavaProject",1340816084291
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1340816088538
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1340816114415
+started,bundle,org.eclipse.m2e.core,1.0.100.20110804-1717,"org.eclipse.m2e.core",1340816157360
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1340816158753
+error,log,,,"Exception occurred while creating compilation participant",1340816158756
+started,bundle,org.eclipse.jdt.debug,3.7.1.v20110802_r371,"org.eclipse.jdt.debug",1340816163260
+started,bundle,org.eclipse.jdt.debug.ui,3.6.1.v20110803_r371,"org.eclipse.jdt.debug.ui",1340816164780
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1340816166365
+error,log,,,"Could not create content describer for org.eclipse.wb.core.javaSourceGUI. Content type has been disabled.",1340816196812
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1340817254572
+started,bundle,com.google.gdt.eclipse.maven,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.maven",1340817255938
+executed,command,org.eclipse.jdt.debug.ui,3.6.1.v20110803_r371,"org.eclipse.jdt.debug.ui.localJavaShortcut.run",1340817255948
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1340817256101
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1340817260934
+error,log,,,"The project: core which is referenced by the classpath, does not exist.",1340817261480
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1340817261862
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1340817267056
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1340817274720
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1340817276188
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.properties",1340817276203
+activated,view,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.views.ProblemView",1340817277228
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1340817295526
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1340817298176
+started,bundle,org.eclipse.jst.j2ee.core,1.2.102.v201202090300,"org.eclipse.jst.j2ee.core",1340817305949
+started,bundle,org.eclipse.jem,2.0.501.v201111030500,"org.eclipse.jem",1340817306202
+started,bundle,org.eclipse.jst.j2ee,1.1.503.v201202090300,"org.eclipse.jst.j2ee",1340817306699
+started,bundle,org.eclipse.wst.jsdt.manipulation,1.0.300.v201104272153,"org.eclipse.wst.jsdt.manipulation",1340817308302
+started,bundle,org.eclipse.wst.jsdt.ui,1.1.102.v201201131900,"org.eclipse.wst.jsdt.ui",1340817308572
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309892
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309897
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309902
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309902
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309907
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309912
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309912
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309917
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309917
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309922
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309922
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309927
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309927
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309927
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309932
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309932
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309932
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309932
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309937
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309942
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309942
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309942
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309947
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309947
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309947
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309947
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817309967
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310062
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310067
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310067
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310072
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310072
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310077
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310077
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310082
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310082
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310087
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310092
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310092
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310097
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310097
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310102
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310102
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310107
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310107
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310107
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310112
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310112
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310117
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310117
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310117
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310122
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310122
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310122
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310127
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310127
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310127
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310127
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310132
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310132
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310132
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310137
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310137
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310137
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310142
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310142
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310142
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310147
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310147
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310147
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310152
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310152
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310187
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310192
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310192
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310192
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310197
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310197
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310197
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310202
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310202
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310202
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310207
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310207
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310207
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310212
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310212
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310212
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310217
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310217
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310217
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310217
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310222
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310222
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310222
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310227
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310227
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310227
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310232
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310232
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310232
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310237
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310237
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310242
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310242
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310242
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310247
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310247
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310247
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310252
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310252
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310252
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310257
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310257
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310257
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310262
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310262
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310262
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310267
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310267
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310267
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310272
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310272
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310272
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310277
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310277
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310282
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310282
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310282
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310282
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310287
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310287
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310287
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310292
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310292
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310292
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310322
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310322
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310327
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310327
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310327
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310327
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310332
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310332
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310332
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310337
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310337
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310337
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310342
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310342
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310342
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310347
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310347
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310347
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310352
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310352
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310352
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310357
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310357
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310357
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.equinox.preferences"".",1340817310362

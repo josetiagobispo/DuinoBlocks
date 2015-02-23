@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<meta name="pygwt:module" content="DuinoBlocks">
+		<link rel="stylesheet" type="text/css" href="development.css">
+		<title>DuinoBlocks &#x263A</title>
+		<link id="favicon" rel="icon" type="image/png" href="../images/led.png">
+		<script type="text/javascript">
+    		window.onbeforeunload = function() {
+    			return "Warning! Are you sure you want to leave this page?"
+    		}
+		</script>
+		<cript type="text/javascript" src="jquery.min.js"></script>
+		<script type="text/javascript" src="lawnchair-0.6.1.min.js"></script>
+		<script type="text/javascript" src="BrowserDetect.js"></script>
+		<!--script type="text/javascript" src="compilerflasher.js"></script-->	
+	</head>
+	<body bgcolor="white" >
+		<!--script language="javascript" src="bootstrap_progress.js"></script-->
+		<script src="bootstrap.js"></script>
+		<iframe id='__pygwt_historyFrame' style='width:0;height:0;border:0'></iframe>		
+	</body>
+</html>

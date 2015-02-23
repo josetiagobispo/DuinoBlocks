@@ -1,0 +1,57 @@
+from edu.uca.renderable.Block import Block
+from pyjamas.ui.Widget import Widget
+from pyjamas import DOM
+import math
+from pyjamas.Window import alert
+from edu.uca.renderable.GroupElement import GroupElement
+
+class BooleanBlock(Block):
+    
+    def __init__(self):
+        Block.__init__(self)
+        self.color = 'green'   
+        self.addStyleName('BooleanBlock variable bool '+ self.color)
+        self.tl = Widget(Element=DOM.createDiv(), StyleName='tl '+self.color)
+        self.t  = Widget(Element=DOM.createDiv(), StyleName='t '+self.color)
+        self.tr = Widget(Element=DOM.createDiv(), StyleName='tr '+self.color)
+        self.b  = Widget(Element=DOM.createDiv(), StyleName='b '+self.color)
+        self.br = Widget(Element=DOM.createDiv(), StyleName='br '+self.color)
+        self.bl = Widget(Element=DOM.createDiv(), StyleName='bl '+self.color)
+        self.draw()
+        self.resize()
+        
+    def draw(self):
+        self.append(self.tl)
+        self.append(self.t)        
+        self.append(self.tr)        
+        self.append(self.b)        
+        self.append(self.br)
+        self.append(self.bl)
+        
+    def resize(self):
+        #this.width = this.$markup.outerWidth(true);
+        #this.height = this.$markup.outerHeight(true);
+        #b = math.ceil(DOM.getIntStyleAttribute(self.getElement(), 'height') / 2 + 3);#var b = Math.ceil(this.$markup.innerHeight() / 2 + 3);
+        self.height = 22;       
+        b = math.ceil(self.height / 2 + 3)
+        self.tl.setHeight(b)
+        self.tl.setWidth(b+3)
+        self.tr.setHeight(b)
+        self.tr.setWidth(b+3)
+        self.bl.setHeight(b)
+        self.bl.setWidth(b+3)
+        self.br.setHeight(b)
+        self.br.setWidth(b+3)
+        self.tr.setStyleAttribute('right', -b - 2)
+        self.br.setStyleAttribute('right', -b - 2)
+        self.tl.setStyleAttribute('left', -b - 2)
+        self.bl.setStyleAttribute('left', -b - 2)
+        self.setStyleAttribute('marginLeft', b + 2)
+        self.setStyleAttribute('marginRight', b + 2)      
+        #this.$markup.children("code, div.variable").each(function() {
+        #    this.$markup.css("margin-top", Math.floor(($(this).parent().innerHeight() - 
+        #    this.$markup.outerHeight() - 3) / 2))
+        #});
+        #Boolean(this.container) && this.container.resize()
+        
+        

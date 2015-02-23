@@ -1,0 +1,52 @@
+from edu.uca.renderable.Block import Block
+from pyjamas.ui.Widget import Widget
+from pyjamas import DOM
+from pyjamas.Window import alert
+from edu.uca.renderable.NumberArgument import NumberArgument
+from edu.uca.renderable.GroupElement import GroupElement
+
+class NumberBlock(Block):
+    
+    def __init__(self, color='green'):
+        Block.__init__(self)
+        self.color = color   
+        self.addStyleName('NumberBlock variable num '+ self.color)
+        self.tl = Widget(Element=DOM.createDiv(), StyleName='tl '+self.color)
+        self.t = Widget(Element=DOM.createDiv(), StyleName='t '+self.color)
+        self.tr = Widget(Element=DOM.createDiv(), StyleName='tr '+self.color)
+        self.l = Widget(Element=DOM.createDiv(), StyleName='l '+self.color)
+        self.l.setHeight(8)#ADD
+        self.r = Widget(Element=DOM.createDiv(), StyleName='r '+self.color)
+        self.r.setHeight(8)#ADD
+        self.b = Widget(Element=DOM.createDiv(), StyleName='b '+self.color)
+        self.br = Widget(Element=DOM.createDiv(), StyleName='br '+self.color)        
+        self.bl = Widget(Element=DOM.createDiv(), StyleName='bl '+self.color)
+        self.draw()
+        #self.resize()
+        
+    def draw(self):  
+        self.append(self.tl)        
+        self.append(self.t)
+        self.append(self.tr)
+        self.append(self.l)
+        self.append(self.r)
+        self.append(self.b)
+        self.append(self.br)
+        self.append(self.bl)
+        
+    def resize(self):
+        #this.width = this.$markup.outerWidth(true);
+        #this.height = this.$markup.outerHeight(true);
+        self.autoHeight(self.l, -(self.l.getAbsoluteTop() + self.l.getAbsoluteTop()))
+        self.autoHeight(self.r, -(self.l.getAbsoluteTop() + self.l.getAbsoluteTop()))
+        #this.$markup.children("code, div.variable").each(function() {
+        #    this.$markup.css("margin-top", Math.floor(($(this).parent().innerHeight() - this.$markup.outerHeight() - 3) / 2))
+        #});
+        #Boolean(this.container) && this.container.resize()
+            
+    def autoHeight(self, b, c):
+        b.setHeight(DOM.getIntStyleAttribute(self.element, 'height') + c)
+        
+        
+        
+        

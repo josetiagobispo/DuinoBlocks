@@ -1,0 +1,58 @@
+/*>>>variable>>>*/
+.variable {min-height:21px; min-width: 17px; background:#ccc; color:#fff; padding:0px; margin:3px 7px 3px 7px; white-space:nowrap;}
+/*<<<variable<<<-------------------------------------------------------------------------------------------------------------*/
+
+/*>>>dimension>>>*/
+.variable>.t 			     {height:4px;}
+.variable>.b 			     {height:5px;}
+.variable>.t, .variable>.b {width:100%;}
+.variable>.tl, .variable>.tr, .variable>.bl, .variable>.br {height:11px;}
+.variable>.tl, .variable>.tr, .variable>.l, .variable>.r, .variable>.bl, .variable>.br {width:6px;}
+.variable>.l, .variable>.r {height:8px;}
+
+/*bool*/
+.variable.bool>.tl, .variable.bool>.tr, .variable.bool>.bl, .variable.bool>.br {width:17px; height:15px;}
+/*<<<dimension<<<-------------------------------------------------------------------------------------------------------------*/
+
+/*>>>position>>>*/
+.variable>.l, .variable>.r {top:7px;}
+.variable>.b, .variable>.bl, .variable>.br {bottom:-3px;}
+.variable>.t, .variable>.tl, .variable>.tr {top:-3px;}
+.variable>.l, .variable>.tl, .variable>.bl {left:-5px;}
+.variable>.r, .variable>.tr, .variable>.br {right:-5px;}
+
+/*bool*/
+.variable.bool>.tl, .variable.bool>.bl {left:-17px;}
+.variable.bool>.tr, .variable.bool>.br {right:-17px;}
+/*<<<position<<<-------------------------------------------------------------------------------------------------------------*/
+
+/*>>>background>>>*/ 
+.variable>.t, .variable>.b {background-repeat:repeat-x;} 
+.variable>.t   {background-position:   -5px -55px;}
+.variable>.b   {background-position:   -5px -70px;}
+.variable>.tl {background-position:    0px -55px;}
+.variable>.tr {background-position: -992px -55px;}
+.variable>.bl {background-position:    0px -64px;}
+.variable>.br {background-position: -992px -64px;}
+.variable>.l   {background-position:-1000px   0px;}
+.variable>.r   {background-position:-1014px   0px;}
+
+/*num*/
+.variable.num>.tl {background-position:  0px -77px;}
+.variable.num>.tr {background-position:-10px -77px;}
+.variable.num>.bl {background-position:  0px -86px;}
+.variable.num>.br {background-position:-10px -86px;}
+
+/*bool*/
+.variable.bool>.tl {background-position:top right;} 
+.variable.bool>.tr {background-position:-1022px top;}
+.variable.bool>.bl {background-position:bottom right;}
+.variable.bool>.br {background-position:-1022px bottom;}
+
+/*hat*/
+.hat>.t   {background-position:   -5px -55px;}
+.hat>.tl {background-position:    0px -55px;}
+.hat>.tr {background-position: -990px -55px;}
+/*<<<background<<<-------------------------------------------------------------------------------------------------------------*/ 
+
+

@@ -1,0 +1,236 @@
+what,kind,bundleId,bundleVersion,description,time
+stopped,bundle,com.google.gdt.eclipse.designer.SmartGWT,2.5.0.r37x201202061331,"com.google.gdt.eclipse.designer.SmartGWT",1342797155646
+error,log,,,"Problems encountered starting up plug-in: ""org.osgi.framework.BundleException: The activator com.google.gdt.eclipse.designer.smart.Activator for bundle com.google.gdt.eclipse.designer.SmartGWT is invalid"".",1342797155691
+error,log,,,"Unhandled Exception",1342797155692
+error,log,,,"Unable to execute early startup code for an extension",1342797155695
+error,log,,,"Bad extension specification",1342797155696
+error,log,,,"startup class must implement org.eclipse.ui.IStartup",1342797155743
+error,log,,,"Problems encountered starting up plug-in: ""org.osgi.framework.BundleException: The activator com.google.gdt.eclipse.designer.uibinder.Activator for bundle com.google.gdt.eclipse.designer.UiBinder is invalid"".",1342797156930
+error,log,,,"Unhandled Exception",1342797156931
+error,log,,,"Unable to execute early startup code for an extension",1342797156933
+error,log,,,"Bad extension specification",1342797156934
+error,log,,,"startup class must implement org.eclipse.ui.IStartup",1342797156935
+stopped,bundle,com.google.gdt.eclipse.designer.UiBinder,2.5.0.r37x201202061313,"com.google.gdt.eclipse.designer.UiBinder",1342797156968
+started,bundle,org.eclipse.wb.discovery.core,1.3.0.r37x201202052340,"org.eclipse.wb.discovery.core",1342797157625
+started,bundle,org.eclipse.team.cvs.core,3.3.400.I20110510-0800,"org.eclipse.team.cvs.core",1342797158735
+started,bundle,org.eclipse.team.cvs.ui,3.3.400.I20110510-0800,"org.eclipse.team.cvs.ui",1342797160815
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1342797162519
+started,bundle,org.eclipse.wb.discovery.ui,1.3.0.r37x201202052340,"org.eclipse.wb.discovery.ui",1342797162801
+started,bundle,com.android.ide.eclipse.adt,18.0.0.v201203301601-306762,"com.android.ide.eclipse.adt",1342797172065
+started,bundle,com.google.gdt.eclipse.mobile.android,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.mobile.android",1342797172843
+started,bundle,org.eclipse.mylyn.team.ui,3.7.1.v20120425-0100,"org.eclipse.mylyn.team.ui",1342797173153
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1342797174537
+error,log,,,"Exception occurred while creating compilation participant",1342797174542
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1342797174592
+error,log,,,"Exception occurred while creating compilation participant",1342797174597
+error,log,,,"Could not create content describer for org.eclipse.wb.core.javaSourceGUI. Content type has been disabled.",1342797179533
+error,log,,,"Could not create content describer for org.eclipse.wb.core.javaSourceGUI. Content type has been disabled.",1342797179540
+error,log,,,"Could not create content describer for org.eclipse.wb.core.javaSourceGUI. Content type has been disabled.",1342797179543
+error,log,,,"Could not create content describer for org.eclipse.wb.core.javaSourceGUI. Content type has been disabled.",1342797179544
+started,bundle,org.python.pydev.jython,2.5.0.2012040618,"org.python.pydev.jython",1342797205065
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1342797208165
+error,log,,,"Exception occurred while creating compilation participant",1342797208168
+started,bundle,org.eclipse.jpt.common.core,1.0.2.v201111103010,"org.eclipse.jpt.common.core",1342797209439
+started,bundle,org.eclipse.jpt.jpa.core,3.0.2.v201201243020,"org.eclipse.jpt.jpa.core",1342797209440
+started,bundle,org.eclipse.pde.core,3.7.1.v20110822-2108,"org.eclipse.pde.core",1342797211398
+started,bundle,org.eclipse.equinox.p2.garbagecollector,1.0.200.v20110510,"org.eclipse.equinox.p2.garbagecollector",1342797339912
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.201.r371_v20110824-0800,"org.eclipse.ltk.core.refactoring",1356117248806
+started,bundle,org.eclipse.ltk.ui.refactoring,3.6.0.v20110505-0800,"org.eclipse.ltk.ui.refactoring",1356117248930
+started,bundle,com.google.gdt.eclipse.mobile.android,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.mobile.android",1356117249571
+started,bundle,org.eclipse.mylyn.team.ui,3.7.1.v20120425-0100,"org.eclipse.mylyn.team.ui",1356117249658
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1356117249896
+closed,view,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.internal.introview",1356117249978
+started,bundle,org.eclipse.wb.core.ui,1.3.0.r37x201202052340,"org.eclipse.wb.core.ui",1356117250724
+error,log,,,"Could not create action delegate for id: org.eclipse.wb.core.wizards.actions.NewDesignerTypeDropDownAction",1356117250749
+error,log,,,"Plug-in ""org.eclipse.wb.core.ui"" was unable to instantiate class ""org.eclipse.wb.internal.core.wizards.actions.NewDesignerTypeDropDownAction"".",1356117250751
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1356117250855
+started,bundle,org.eclipse.team.cvs.core,3.3.400.I20110510-0800,"org.eclipse.team.cvs.core",1356117253175
+started,bundle,org.eclipse.team.cvs.ui,3.3.400.I20110510-0800,"org.eclipse.team.cvs.ui",1356117253455
+started,bundle,org.eclipse.wst.sse.core,1.1.602.v201112071516,"org.eclipse.wst.sse.core",1356117253846
+started,bundle,org.eclipse.wst.sse.ui,1.3.2.v201201041522,"org.eclipse.wst.sse.ui",1356117253932
+started,bundle,org.eclipse.wst.xml.ui,1.1.202.v201112071516,"org.eclipse.wst.xml.ui",1356117253933
+started,bundle,com.android.ide.eclipse.traceview,18.0.0.v201203301601-306762,"com.android.ide.eclipse.traceview",1356117254777
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1356117255194
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1356117260399
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1356117262355
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1356117329610
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1356117380962
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1356117387740
+started,bundle,org.eclipse.jst.servlet.ui,1.1.501.v201108220630,"org.eclipse.jst.servlet.ui",1356117403762
+started,bundle,org.python.pydev.parser,2.5.0.2012040618,"org.python.pydev.parser",1356117403970
+error,log,,,"Python not configured.",1356117404297
+started,bundle,com.google.gdt.eclipse.appengine.rpc,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.appengine.rpc",1356117404327
+started,bundle,com.google.appengine.eclipse.core,2.6.1.v201205091048-rel-r37,"com.google.appengine.eclipse.core",1356117404701
+started,bundle,org.eclipse.jst.jee.ui,1.0.400.v201105122000,"org.eclipse.jst.jee.ui",1356117405246
+started,bundle,org.eclipse.jst.j2ee.navigator.ui,1.1.501.v201107261503,"org.eclipse.jst.j2ee.navigator.ui",1356117405349
+error,log,,,"Info: Rebuilding internal caches: C:\\Users\\GINAPE\\Desktop\\D\\Dropbox\\Workspace\\.metadata\\.plugins\\org.eclipse.core.resources\\.projects\\DuinoBlocks\\com.python.pydev.analysis\\AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)",1356117405504
+started,bundle,org.eclipse.wst.common.core,1.2.0.v200908252030,"org.eclipse.wst.common.core",1356117405974
+started,bundle,org.eclipse.wst.common.modulecore,1.2.103.v201201190400,"org.eclipse.wst.common.modulecore",1356117406630
+started,bundle,org.eclipse.jst.j2ee.core,1.2.102.v201202090300,"org.eclipse.jst.j2ee.core",1356117406842
+started,bundle,org.eclipse.jem,2.0.501.v201111030500,"org.eclipse.jem",1356117406902
+started,bundle,org.eclipse.wst.common.frameworks.ui,1.2.100.v201105122000,"org.eclipse.wst.common.frameworks.ui",1356117408604
+started,bundle,org.eclipse.wst.xml.core,1.1.602.v201201091944,"org.eclipse.wst.xml.core",1356117408832
+started,bundle,org.eclipse.wst.validation,1.2.303.v201202090300,"org.eclipse.wst.validation",1356117409144
+started,bundle,org.eclipse.jst.j2ee,1.1.503.v201202090300,"org.eclipse.jst.j2ee",1356117409587
+started,bundle,org.eclipse.jst.common.project.facet.core,1.4.200.v201103170302,"org.eclipse.jst.common.project.facet.core",1356117410966
+started,bundle,org.eclipse.jst.ws.jaxrs.core,1.0.301.v201108240656,"org.eclipse.jst.ws.jaxrs.core",1356117411106
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1356117411305
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.import",1356117411332
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1356117411396
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1356117419751
+started,bundle,org.eclipse.debug.core,3.7.0.v20110518,"org.eclipse.debug.core",1356117421593
+started,bundle,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui",1356117421909
+started,bundle,org.eclipse.ui.externaltools,3.2.0.v20110506,"org.eclipse.ui.externaltools",1356117425035
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.300.v201108240515,"org.eclipse.wst.ws.service.policy.ui",1356117432988
+started,bundle,org.eclipse.wst.ws.service.policy,1.0.303.v201009221810,"org.eclipse.wst.ws.service.policy",1356117432995
+started,bundle,org.eclipse.wst.command.env,1.0.409.v201004211805,"org.eclipse.wst.command.env",1356117433069
+started,bundle,org.eclipse.wst.ws,1.1.203.v201004211805,"org.eclipse.wst.ws",1356117433075
+stopped,bundle,com.google.gdt.eclipse.designer,2.5.0.r37x201202061313,"com.google.gdt.eclipse.designer",1356117433448
+error,log,,,"An error occurred while automatically activating bundle com.google.gdt.eclipse.designer (1042).",1356117433454
+error,log,,,"Plug-in com.google.gdt.eclipse.designer was unable to load class com.google.gdt.eclipse.designer.common.GwtPropertyTester.",1356117433457
+error,log,,,"No property tester contributes a property com.google.gdt.eclipse.designer.isGwtModuleElement to type class org.eclipse.core.internal.resources.Project",1356117433459
+error,log,,,"No property tester contributes a property com.google.gdt.eclipse.designer.isGwtModuleElement to type class org.eclipse.core.internal.resources.Project",1356117433462
+error,log,,,"No property tester contributes a property com.google.gdt.eclipse.designer.isGwtProjectElement to type class org.eclipse.core.internal.resources.Project",1356117433465
+error,log,,,"No property tester contributes a property com.google.gdt.eclipse.designer.isGwtModuleElement to type class org.eclipse.core.internal.resources.Project",1356117433468
+started,bundle,org.eclipse.compare.core,3.5.200.I20110208-0800,"org.eclipse.compare.core",1356117433614
+started,bundle,org.eclipse.compare,3.5.201.R37x_v20110817-0800,"org.eclipse.compare",1356117433644
+started,bundle,org.python.pydev.customizations,2.5.0.2012040618,"org.python.pydev.customizations",1356117433826
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1356117447284
+error,log,,,"The encoding found: >>mbcs<< on C:\\Python27\\Lib\\site-packages\\comtypes\\gen\\_00020430_0000_0000_C000_000000000046_0_2_0.py is not a valid encoding.",1356117512667
+error,log,,,"The encoding found: >>mbcs<< on C:\\Python27\\Lib\\site-packages\\comtypes\\gen\\_3050F1C5_98B5_11CF_BB82_00AA00BDCE0B_0_4_0.py is not a valid encoding.",1356117512737
+error,log,,,"The encoding found: >>mbcs<< on C:\\Python27\\Lib\\site-packages\\comtypes\\gen\\_EAB22AC0_30C1_11CF_A7EB_0000C05BAE0B_0_1_1.py is not a valid encoding.",1356117513659
+error,log,,,"The encoding found: >>mbcs<< on C:\\Python27\\Lib\\site-packages\\comtypes\\gen\\_F5078F18_C551_11D3_89B9_0000F81FE221_0_3_0.py is not a valid encoding.",1356117513681
+error,log,,,"The encoding found: >>mbcs<< on C:\\Python27\\Lib\\site-packages\\comtypes\\gen\\_F5078F18_C551_11D3_89B9_0000F81FE221_0_6_0.py is not a valid encoding.",1356117513781
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1356117560859
+error,log,,,"The encoding found: >>mbcs<< on C:\\Python27\\lib\\site-packages\\comtypes\\gen\\_00020430_0000_0000_C000_000000000046_0_2_0.py is not a valid encoding.",1356117561984
+error,log,,,"The encoding found: >>mbcs<< on C:\\Python27\\lib\\site-packages\\comtypes\\gen\\_3050F1C5_98B5_11CF_BB82_00AA00BDCE0B_0_4_0.py is not a valid encoding.",1356117561989
+error,log,,,"The encoding found: >>mbcs<< on C:\\Python27\\lib\\site-packages\\comtypes\\gen\\_EAB22AC0_30C1_11CF_A7EB_0000C05BAE0B_0_1_1.py is not a valid encoding.",1356117562227
+error,log,,,"The encoding found: >>mbcs<< on C:\\Python27\\lib\\site-packages\\comtypes\\gen\\_F5078F18_C551_11D3_89B9_0000F81FE221_0_3_0.py is not a valid encoding.",1356117562234
+error,log,,,"The encoding found: >>mbcs<< on C:\\Python27\\lib\\site-packages\\comtypes\\gen\\_F5078F18_C551_11D3_89B9_0000F81FE221_0_6_0.py is not a valid encoding.",1356117562250
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1356117582358
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1356117585306
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1356117587716
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1356117587843
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.properties",1356117587910
+started,bundle,org.eclipse.wst.html.core,1.1.502.v201202091936,"org.eclipse.wst.html.core",1356117591154
+error,log,,,"The encoding found: >>mbcs<< on C:\\Python27\\lib\\site-packages\\comtypes\\gen\\_00020430_0000_0000_C000_000000000046_0_2_0.py is not a valid encoding.",1356117593635
+error,log,,,"The encoding found: >>mbcs<< on C:\\Python27\\lib\\site-packages\\comtypes\\gen\\_3050F1C5_98B5_11CF_BB82_00AA00BDCE0B_0_4_0.py is not a valid encoding.",1356117593659
+error,log,,,"The encoding found: >>mbcs<< on C:\\Python27\\lib\\site-packages\\comtypes\\gen\\_EAB22AC0_30C1_11CF_A7EB_0000C05BAE0B_0_1_1.py is not a valid encoding.",1356117593884
+error,log,,,"The encoding found: >>mbcs<< on C:\\Python27\\lib\\site-packages\\comtypes\\gen\\_F5078F18_C551_11D3_89B9_0000F81FE221_0_3_0.py is not a valid encoding.",1356117593892
+error,log,,,"The encoding found: >>mbcs<< on C:\\Python27\\lib\\site-packages\\comtypes\\gen\\_F5078F18_C551_11D3_89B9_0000F81FE221_0_6_0.py is not a valid encoding.",1356117593907
+started,bundle,org.python.pydev.red_core,2.5.0.2012040618,"org.python.pydev.red_core",1356117594877
+started,bundle,com.python.pydev,2.5.0.2012040618,"com.python.pydev",1356117595238
+started,bundle,com.python.pydev.refactoring,2.5.0.2012040618,"com.python.pydev.refactoring",1356117595346
+started,bundle,org.python.pydev.debug,2.5.0.2012040618,"org.python.pydev.debug",1356117595455
+started,bundle,org.python.pydev.django,2.5.0.2012040618,"org.python.pydev.django",1356117595464
+started,bundle,org.python.pydev.refactoring,2.5.0.2012040618,"org.python.pydev.refactoring",1356117595836
+started,bundle,org.eclipse.core.variables,3.2.500.v20110511,"org.eclipse.core.variables",1356117598324
+started,bundle,com.python.pydev.codecompletion,2.5.0.2012040618,"com.python.pydev.codecompletion",1356117599466
+opened,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1356117603263
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1356117604605
+started,bundle,org.python.pydev.jython,2.5.0.2012040618,"org.python.pydev.jython",1356117620515
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1356117622458
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1356117638027
+closed,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1356117638591
+stopped,bundle,org.eclipse.jst.ws.axis.creation.ui,1.0.700.v201104070312,"org.eclipse.jst.ws.axis.creation.ui",1356117642756
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.ui,1.0.505.v201004211805,"org.eclipse.jst.ws.axis.consumption.ui",1356117642756
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.core,1.0.407.v201104071820,"org.eclipse.jst.ws.axis.consumption.core",1356117642756
+stopped,bundle,org.eclipse.jst.ws.axis2.creation.ui,1.0.104.v201004211805,"org.eclipse.jst.ws.axis2.creation.ui",1356117642756
+stopped,bundle,org.eclipse.jst.ws.axis2.consumption.ui,1.0.103.v201004211805,"org.eclipse.jst.ws.axis2.consumption.ui",1356117642756
+stopped,bundle,org.eclipse.jst.ws.axis2.creation.core,1.0.106.v201004211805,"org.eclipse.jst.ws.axis2.creation.core",1356117642756
+stopped,bundle,org.eclipse.jst.ws.axis2.consumption.core,1.0.105.v201004211805,"org.eclipse.jst.ws.axis2.consumption.core",1356117642756
+stopped,bundle,org.eclipse.jst.ws.axis2.ui,1.0.303.v201003110431,"org.eclipse.jst.ws.axis2.ui",1356117642757
+stopped,bundle,org.eclipse.jst.ws.axis2.core,1.0.204.v201004211805,"org.eclipse.jst.ws.axis2.core",1356117642757
+stopped,bundle,org.eclipse.jst.ws.cxf.creation.ui,1.0.100.v201104022153,"org.eclipse.jst.ws.cxf.creation.ui",1356117642757
+stopped,bundle,org.eclipse.jst.ws.creation.ui,1.0.609.v201103082016,"org.eclipse.jst.ws.creation.ui",1356117642757
+stopped,bundle,org.eclipse.jst.ws.cxf.consumption.ui,1.0.0.v201003222311,"org.eclipse.jst.ws.cxf.consumption.ui",1356117642757
+stopped,bundle,org.eclipse.jst.ws.consumption.ui,1.1.401.v201108240414,"org.eclipse.jst.ws.consumption.ui",1356117642757
+stopped,bundle,org.eclipse.jst.ws.consumption,1.0.601.v201108230319,"org.eclipse.jst.ws.consumption",1356117642757
+stopped,bundle,org.eclipse.jst.ws.cxf.consumption.core,1.0.0.v201003222311,"org.eclipse.jst.ws.cxf.consumption.core",1356117642757
+stopped,bundle,org.eclipse.jst.ws.cxf.creation.core,1.0.100.v201104022153,"org.eclipse.jst.ws.cxf.creation.core",1356117642757
+stopped,bundle,org.eclipse.jst.ws.cxf.ui,1.0.0.v201004171919,"org.eclipse.jst.ws.cxf.ui",1356117642757
+stopped,bundle,org.eclipse.jst.ws.cxf.core,1.0.100.v201104022153,"org.eclipse.jst.ws.cxf.core",1356117642757
+stopped,bundle,org.eclipse.jst.ws.uddiregistry,1.0.500.v201004211805,"org.eclipse.jst.ws.uddiregistry",1356117642757
+stopped,bundle,org.eclipse.jst.ws.ui,1.0.403.v201004211805,"org.eclipse.jst.ws.ui",1356117642757
+stopped,bundle,org.eclipse.jst.ws,1.0.509.v201108250610,"org.eclipse.jst.ws",1356117642757
+stopped,bundle,org.eclipse.wst.ws.explorer,1.0.607.v201103082002,"org.eclipse.wst.ws.explorer",1356117642757
+stopped,bundle,org.eclipse.wst.wsdl.ui,1.2.403.v201108240515,"org.eclipse.wst.wsdl.ui",1356117642757
+stopped,bundle,org.eclipse.wst.ws.ui,1.1.200.v201004211805,"org.eclipse.wst.ws.ui",1356117642757
+stopped,bundle,org.eclipse.wst.wsi.ui,1.0.502.v201104071820,"org.eclipse.wst.wsi.ui",1356117642758
+stopped,bundle,org.eclipse.wst.wsi,1.0.401.v201104071820,"org.eclipse.wst.wsi",1356117642758
+stopped,bundle,org.eclipse.wst.ws,1.1.203.v201004211805,"org.eclipse.wst.ws",1356117642760
+stopped,bundle,org.eclipse.jst.j2ee.webservice.ui,1.1.500.v201105122000,"org.eclipse.jst.j2ee.webservice.ui",1356117642760
+stopped,bundle,org.eclipse.jst.j2ee.webservice,1.1.400.v201004110600,"org.eclipse.jst.j2ee.webservice",1356117642760
+stopped,bundle,org.eclipse.wst.ws.parser,1.0.403.v201004211805,"org.eclipse.wst.ws.parser",1356117642760
+stopped,bundle,org.eclipse.jpt.dbws.eclipselink.ui,1.0.0.v201104110000,"org.eclipse.jpt.dbws.eclipselink.ui",1356117642761
+stopped,bundle,org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples,2.5.0.200810071,"org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples",1356117642762
+stopped,bundle,org.eclipse.datatools.sqltools.schemaobjecteditor.ui.pages,1.1.0.200810071,"org.eclipse.datatools.sqltools.schemaobjecteditor.ui.pages",1356117642762
+stopped,bundle,org.eclipse.datatools.sqltools.schemaobjecteditor.ui,1.1.1.200810071,"org.eclipse.datatools.sqltools.schemaobjecteditor.ui",1356117642762
+stopped,bundle,org.eclipse.jst.j2ee.xdoclet.runtime,1.1.300.v201004280700,"org.eclipse.jst.j2ee.xdoclet.runtime",1356117642762
+stopped,bundle,org.eclipse.jst.j2ee.ejb.annotations.xdoclet,1.2.200.v201103302125,"org.eclipse.jst.j2ee.ejb.annotations.xdoclet",1356117642762
+stopped,bundle,com.google.gdt.eclipse.mobile.android,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.mobile.android",1356117642763
+stopped,bundle,overlay.com.android.ide.eclipse.adt.overlay,18.0.0.v201203301601-306762,"overlay.com.android.ide.eclipse.adt.overlay",1356117642763
+stopped,bundle,com.android.ide.eclipse.adt,18.0.0.v201203301601-306762,"com.android.ide.eclipse.adt",1356117642873
+stopped,bundle,org.eclipse.jst.jsf.apache.trinidad.tagsupport,1.1.200.v201104061711,"org.eclipse.jst.jsf.apache.trinidad.tagsupport",1356117642873
+stopped,bundle,org.eclipse.jst.jsf.facesconfig.ui,1.2.2.v201103292152,"org.eclipse.jst.jsf.facesconfig.ui",1356117642873
+stopped,bundle,org.eclipse.jst.jsf.facelet.ui,1.0.1.v201104032306,"org.eclipse.jst.jsf.facelet.ui",1356117642873
+stopped,bundle,org.eclipse.jst.jsf.ui,1.3.2.v201104251204,"org.eclipse.jst.jsf.ui",1356117642873
+stopped,bundle,org.eclipse.jst.pagedesigner.jsf.ui,1.2.100.v201104061711,"org.eclipse.jst.pagedesigner.jsf.ui",1356117642873
+stopped,bundle,org.eclipse.jst.pagedesigner,1.3.103.v201109010833,"org.eclipse.jst.pagedesigner",1356117642874
+stopped,bundle,org.eclipse.jst.jsf.common.ui,1.2.100.v201104061711,"org.eclipse.jst.jsf.common.ui",1356117642874
+stopped,bundle,org.eclipse.pde.ua.ui,1.0.100.v20110516,"org.eclipse.pde.ua.ui",1356117642874
+stopped,bundle,org.eclipse.pde.api.tools.ui,1.0.301.v20110803_r371,"org.eclipse.pde.api.tools.ui",1356117642874
+stopped,bundle,org.eclipse.pde.ds.ui,1.0.100.v20110516,"org.eclipse.pde.ds.ui",1356117642874
+stopped,bundle,org.eclipse.pde.runtime,3.4.201.v20110819-0851,"org.eclipse.pde.runtime",1356117642874
+stopped,bundle,org.eclipse.pde.ui.templates,3.4.400.v20110516,"org.eclipse.pde.ui.templates",1356117642874
+stopped,bundle,org.eclipse.datatools.connectivity.oda.template.ui,3.2.3.v201201121156,"org.eclipse.datatools.connectivity.oda.template.ui",1356117642874
+stopped,bundle,org.eclipse.pde.ui,3.6.100.v20110603,"org.eclipse.pde.ui",1356117642875
+stopped,bundle,org.eclipse.ui.cheatsheets,3.4.100.v20110425,"org.eclipse.ui.cheatsheets",1356117642875
+stopped,bundle,org.eclipse.help.ui,3.5.101.r37_20110819,"org.eclipse.help.ui",1356117642875
+stopped,bundle,org.eclipse.help.webapp,3.6.0.v20110518,"org.eclipse.help.webapp",1356117642875
+stopped,bundle,org.eclipse.epp.mpc.ui,1.1.1.I20110907-0947,"org.eclipse.epp.mpc.ui",1356117642875
+stopped,bundle,org.eclipse.epp.usagedata.ui,1.3.1.R201106061540,"org.eclipse.epp.usagedata.ui",1356117642876
+stopped,bundle,org.eclipse.ui.intro.universal,3.2.500.v20110510,"org.eclipse.ui.intro.universal",1356117642876
+stopped,bundle,org.eclipse.wtp.epp.package.jee.intro,1.3.0.v201006142040,"org.eclipse.wtp.epp.package.jee.intro",1356117642876
+stopped,bundle,org.eclipse.ui.intro,3.4.100.v20110425,"org.eclipse.ui.intro",1356117642876
+stopped,bundle,org.eclipse.datatools.enablement.hsqldb.ui,1.0.0.v201108120600,"org.eclipse.datatools.enablement.hsqldb.ui",1356117642876
+stopped,bundle,org.eclipse.datatools.enablement.ingres.ui,1.0.0.v201105270214,"org.eclipse.datatools.enablement.ingres.ui",1356117642877
+stopped,bundle,org.eclipse.jpt.jpa.eclipselink.ui,2.0.1.v201108080010,"org.eclipse.jpt.jpa.eclipselink.ui",1356117642877
+stopped,bundle,org.eclipse.jpt.jpa.ui,3.0.2.v201201243020,"org.eclipse.jpt.jpa.ui",1356117642877
+stopped,bundle,org.eclipse.datatools.enablement.postgresql.ui,1.0.0.v201107221506,"org.eclipse.datatools.enablement.postgresql.ui",1356117642877
+stopped,bundle,org.eclipse.datatools.enablement.sqlite.ui,1.0.0.v201107221507,"org.eclipse.datatools.enablement.sqlite.ui",1356117642877
+stopped,bundle,org.eclipse.datatools.connectivity.db.generic.ui,1.0.1.v201107221459,"org.eclipse.datatools.connectivity.db.generic.ui",1356117642877
+stopped,bundle,org.eclipse.datatools.enablement.sybase.ase.ui,1.0.1.v200906020900,"org.eclipse.datatools.enablement.sybase.ase.ui",1356117642877
+stopped,bundle,org.eclipse.datatools.sqltools.data.ui,1.2.1.v201010270945,"org.eclipse.datatools.sqltools.data.ui",1356117642878
+stopped,bundle,org.eclipse.datatools.sqltools.db.derby.ui,1.0.0.v200906020900,"org.eclipse.datatools.sqltools.db.derby.ui",1356117642878
+stopped,bundle,org.eclipse.datatools.sqltools.db.generic.ui,1.0.0.v200906020900,"org.eclipse.datatools.sqltools.db.generic.ui",1356117642878
+stopped,bundle,org.eclipse.datatools.sqltools.debugger.core.ui,1.0.0.v201003161000,"org.eclipse.datatools.sqltools.debugger.core.ui",1356117642878
+stopped,bundle,org.eclipse.datatools.sqltools.routineeditor.ui,1.0.2.v201111230714,"org.eclipse.datatools.sqltools.routineeditor.ui",1356117642878
+stopped,bundle,org.eclipse.datatools.sqltools.sqlbuilder,1.0.3.v201107221520,"org.eclipse.datatools.sqltools.sqlbuilder",1356117642878
+stopped,bundle,org.eclipse.datatools.enablement.sybase.asa.ui,1.0.1.v200906111204,"org.eclipse.datatools.enablement.sybase.asa.ui",1356117642878
+stopped,bundle,org.eclipse.datatools.sqltools.ddlgen.ui,1.0.2.v201201131129,"org.eclipse.datatools.sqltools.ddlgen.ui",1356117642879
+stopped,bundle,org.eclipse.datatools.sqltools.debugger.core,1.0.1.v201107221520,"org.eclipse.datatools.sqltools.debugger.core",1356117642879
+stopped,bundle,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201107221520,"org.eclipse.datatools.sqltools.sqlscrapbook",1356117642879
+stopped,bundle,org.eclipse.datatools.sqltools.sqleditor,1.0.2.v201107221520,"org.eclipse.datatools.sqltools.sqleditor",1356117642879
+stopped,bundle,org.eclipse.datatools.sqltools.editor.core.ui,1.0.0.v201001150815,"org.eclipse.datatools.sqltools.editor.core.ui",1356117642879
+stopped,bundle,org.eclipse.datatools.sqltools.tabledataeditor,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.tabledataeditor",1356117642879
+stopped,bundle,org.eclipse.datatools.connectivity.apache.derby.ui,1.0.3.v201107221459,"org.eclipse.datatools.connectivity.apache.derby.ui",1356117642879
+stopped,bundle,org.eclipse.datatools.enablement.sybase.ui,1.0.0.v200906090452,"org.eclipse.datatools.enablement.sybase.ui",1356117642880
+stopped,bundle,org.eclipse.datatools.connectivity.sqm.server.ui,1.1.100.v201107221459,"org.eclipse.datatools.connectivity.sqm.server.ui",1356117642880
+stopped,bundle,org.eclipse.datatools.connectivity.sqm.core.ui,1.2.1.v20110926045,"org.eclipse.datatools.connectivity.sqm.core.ui",1356117642880
+stopped,bundle,org.eclipse.jst.j2ee.ejb.annotations.ui,1.1.200.v201004290730,"org.eclipse.jst.j2ee.ejb.annotations.ui",1356117642880
+stopped,bundle,org.eclipse.datatools.connectivity.ui.dse,1.1.4.v201107221459,"org.eclipse.datatools.connectivity.ui.dse",1356117642880
+stopped,bundle,org.eclipse.help.base,3.6.1.v201109091335,"org.eclipse.help.base",1356117642880
+stopped,bundle,org.eclipse.equinox.http.jetty,2.0.100.v20110502,"org.eclipse.equinox.http.jetty",1356117642880
+stopped,bundle,org.eclipse.wst.server.preview,1.1.100.v20091208,"org.eclipse.wst.server.preview",1356117642881
+stopped,bundle,com.google.appengine.eclipse.sdkbundle,1.6.4.v201203300216r37,"com.google.appengine.eclipse.sdkbundle",1356117642881
+stopped,bundle,com.google.appengine.eclipse.datatools,2.6.1.v201205091048-rel-r37,"com.google.appengine.eclipse.datatools",1356117642881
+stopped,bundle,com.google.appengine.eclipse.webtools,2.6.1.v201205091048-rel-r37,"com.google.appengine.eclipse.webtools",1356117642881
+stopped,bundle,com.google.gdt.eclipse.appengine.rpc,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.appengine.rpc",1356117642881
+stopped,bundle,com.google.gdt.eclipse.gph.e36,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.gph.e36",1356117642881
+stopped,bundle,com.google.gdt.eclipse.gph.hge,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.gph.hge",1356117642881
+stopped,bundle,com.google.gdt.eclipse.gph.subclipse,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.gph.subclipse",1356117642882
+stopped,bundle,com.google.gdt.eclipse.gph.subversive,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.gph.subversive",1356117642882
+stopped,bundle,com.google.gdt.eclipse.suite.ext,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.suite.ext",1356117642882
+stopped,bundle,com.google.gdt.eclipse.gph,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.gph",1356117642882
+stopped,bundle,com.google.gdt.eclipse.maven.e37,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.maven.e37",1356117642882

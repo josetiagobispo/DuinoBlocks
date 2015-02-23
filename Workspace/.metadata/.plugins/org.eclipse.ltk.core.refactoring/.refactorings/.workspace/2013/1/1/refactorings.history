@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;DuinoBlocks/src/edu/uca/util/PopupSaveState.py&apos;" deleteContents="false" description="Delete resource &apos;DuinoBlocks/src/edu/uca/util/PopupSaveState.py&apos;" element1="/DuinoBlocks/src/edu/uca/util/PopupSaveState.py" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1357401322933"/>
+</session>

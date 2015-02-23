@@ -1,0 +1,61 @@
+from pyjamas.ui.FlowPanel import FlowPanel
+from edu.uca.util.Button import Button
+from edu.uca.ui.listener.GenerateCodeButtonListener import GenerateCodeButtonListener
+from edu.uca.Workspace import getWorkspace
+
+class Header(FlowPanel):
+    
+    def __init__(self, **kwargs):
+        FlowPanel.__init__(self, **kwargs)
+        self.setID('header')
+        buttonReload = Button("Recarregar", self.reloadClick)
+        self.add(buttonReload)
+        
+        buttonReload = Button("Criar Bloco", None)
+        self.add(buttonReload)
+           
+        self.buttonTranslate = Button("Traduzir", GenerateCodeButtonListener(getWorkspace().getCodePanel()))
+        self.buttonTranslate.addMouseListener(self)
+        self.add(self.buttonTranslate)
+        
+        self.mainStack = []
+        
+    def reloadClick(self, sender):
+        getWorkspace().reload()
+        
+    def onMouseEnter(self, sender):
+        rootSetupBlock = None
+        if getWorkspace().getMainBlock() is not None:
+            rootSetupBlock = getWorkspace().getMainBlock().getFirstBlock()
+        self.mainStack = []
+        self.createMainStack(rootSetupBlock)
+        allBlocks = getWorkspace().getBlocks()
+        for block in allBlocks:
+            if block not in self.mainStack:
+                block.addStyleName('disabled')
+    
+    def createMainStack(self, root):
+        if root is None:
+            return
+        
+        self.mainStack.append(root)
+        for holder in root.holderArguments:
+            self.createMainStack(holder.subBlock)
+        for holder in root.holderChildren:
+            self.createMainStack(holder.subBlock)
+        if root.holderSiblingDown is not None:
+            self.createMainStack(root.holderSiblingDown.subBlock)
+
+    def onMouseLeave(self, sender):
+        allBlocks = getWorkspace().getBlocks()
+        for block in allBlocks:
+            block.removeStyleName('disabled')
+
+    def onMouseMove(self, sender, x, y):
+        pass
+
+    def onMouseDown(self, sender, x, y):
+        pass
+
+    def onMouseUp(self, sender, x, y):
+        pass

@@ -1,0 +1,35 @@
+.drophere{width:100%; height:100%; background: #EDEFF4; border: 1px solid #666;}
+.dragover {background: #135;}
+/*-------------------------------------------------------------------------------------------------------------*/
+
+.gwt-TabPanel{width: 100%; height: 100%;}
+.gwt-TabBar a{background-image:url('../images/layout/shadow_black.png'); background-repeat:repeat-x; background-size:13px; color:#fff; display:block;
+float:left; font-weight:bold; height:26px; line-height:26px; text-align:center; text-shadow:rgba(0,0,0,0.2) 0px 1px 1px; width:100%;}
+/*-------------------------------------------------------------------------------------------------------------*/
+
+.gwt-TabBarFirst, .gwt-TabBarRest{display: none;}
+.gwt-TabBarItem{cursor: pointer; width: 50%;}
+.gwt-TabBarItem:focus{outline: none;}
+/*-------------------------------------------------------------------------------------------------------------*/
+
+#control_btn{background-color:#ffd391;} #operators_btn{background-color:#bdd3a7;}
+#input_btn   {background-color:#d3bde9;} #output_btn     {background-color:#91bdd3;}
+#config_btn {background-color:#91a7bd;} #variables_btn{background-color:#FFab91;}
+#control_btn:hover, .control_lbl{background-color:#ff9328;} #operators_btn:hover, .operators_lbl{background-color:#3f9800;}
+#input_btn:hover,   .input_lbl   {background-color:#9e46ad;} #output_btn:hover,    .output_lbl     {background-color:#599296;}
+#config_btn:hover,  .config_lbl {background-color:#003192;} #variables_btn:hover, .variables_lbl{background-color:#d01922;}
+/*-------------------------------------------------------------------------------------------------------------*/
+
+.gwt-TabBarItem-selected {cursor: default;}
+.gwt-TabBarItem-selected>#control_btn{color:#ff9328; background-color:white;} .gwt-TabBarItem-selected>#operators_btn{color:#3f9800; background-color:white;}
+.gwt-TabBarItem-selected>#input_btn   {color:#9e46ad; background-color:white;} .gwt-TabBarItem-selected>#output_btn     {color:#599296; background-color:white;}
+.gwt-TabBarItem-selected>#config_btn {color:#003192; background-color:white;} .gwt-TabBarItem-selected>#variables_btn{color:#d01922; background-color:white;}
+/*-------------------------------------------------------------------------------------------------------------*/
+
+.CategoryPanel {height: 0px !important;}
+.gwt-TabPanelBottom{height:100%; overflow:hidden; width:100%; position:relative; border-top: 1px solid #666; max-height: 100%; overflow-y: auto;}
+.SubCategoryPanel{width: 100%;}
+.SubCategoryPanel dt{background-image:url('../images/layout/shadow_white.png'); background-repeat:repeat-x; border-bottom:1px solid #EDEFF4; clear:both; color:#fff;
+display:block; float:none; font-size:12px; height:18px; line-height:18px; padding-left:5px; text-shadow:rgba(0,0,0,0.496094) 1px 2px 2px; z-index:1000;}
+.block_list{border-collapse:separate; border-spacing: 10px; width: 100%;}
+/*-------------------------------------------------------------------------------------------------------------*/

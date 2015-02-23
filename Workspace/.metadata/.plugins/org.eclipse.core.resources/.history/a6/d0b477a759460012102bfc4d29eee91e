@@ -1,0 +1,56 @@
+#hardware_drawer .hardware_block{position:relative;}
+
+/*.simple_hardware_icon{height:30px; width:40px; background-position:50% 50%; background-repeat:no-repeat;}*/
+.simple_hardware_icon {width: 40px; background-position: 50% 3px; background-repeat: no-repeat;
+left: 0px; top: 0px; position: absolute; height: 55px;}
+
+.simple_hardware_block{
+background:transparent url('../images/hardware/simple_component.png') no-repeat 0 0; border:none; margin: 5px;
+text-shadow:0 1px 0 #fff; padding:0; position:relative; min-height:30px; min-width:40px;
+-moz-border-radius: 8px; -webkit-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px;
+-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.45), 0 1px 0 #fff inset, 0 -1px 0 #888 inset;
+-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.45), 0 1px 0 #fff inset, 0 -1px 0 #888 inset;
+-ms-box-shadow: 0 1px 3px rgba(0,0,0,0.45), 0 1px 0 #fff inset, 0 -1px 0 #888 inset;
+-o-box-shadow: 0 1px 3px rgba(0,0,0,0.45), 0 1px 0 #fff inset, 0 -1px 0 #888 inset;
+box-shadow: 0 1px 3px rgba(0,0,0,0.45), 0 1px 0 #fff inset, 0 -1px 0 #888 inset;
+-moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
+}
+.simple_hardware_block:hover{border:1px solid #888;margin:4px;}
+
+.simple_hardware_pins, .simple_hardware_pins tbody, .simple_hardware_pins tr {width: 100%;}
+.simple_hardware_pins tbody tr:last-child td:last-child{
+-moz-border-radius-bottomright: 8px; -webkit-border-bottom-right-radius: 8px; border-bottom-right-radius: 8px;}
+.simple_hardware_pins tr td:last-child{padding-right: 5px;}
+
+.simple_hardware_pin_left{width: 40px; min-width: 40px;}
+
+/*.simple_hardware_name{padding:0 10px; color:#36424d; font-size:18px; font-weight:bold; line-height:30px;}*/
+.simple_hardware_name {padding: 0 40px; color: #36424D; font-size: 18px; font-weight: bold; line-height: 30px;}
+
+.simple_generic_pin{background:transparent url('../images/hardware/0_0_0_0.4.png');}
+.simple_input_pin{background:transparent url('../images/hardware/99_66_cc_0.4.png'); color:#96c;}
+.simple_output_pin{background:transparent url('../images/hardware/00_66_99_0.4.png'); color:#069;}
+
+.simple_hardware_pin_label{color:#fff; font-size:14px; font-family:'DejaVu', 'Monaco', 'Lucida Console', monospace; font-weight: bold;
+padding:3px 5px 0 10px; line-height:24px; text-align:right; text-shadow:0 1px 2px #000; width:1px; border-collapse:collapse;}
+
+.simple_hardware_pin .dropdown_btn .dropdown_arrow li{padding: 1px 9px 1px 8px;}
+.simple_hardware_pin .title{font-weight: bold;}
+.simple_hardware_pin .titleOK{font-size: 15px;}
+.simple_hardware_pin td {padding-bottom: 2px;}
+.simple_hardware_pin .dropdown_btn{margin-top:3px;}
+
+.component_led{background-image: url(../images/hardware/led.png);}
+.component_button{background-image: url(../images/hardware/button.png);}
+.component_rgb_led{background-image: url(../images/hardware/rgb_led.png); height:85px}
+.component_knob{background-image: url(../images/hardware/knob.png);}
+.component_ldr{background-image: url(../images/hardware/ldr.png);}
+.component_servo{background-image: url(../images/hardware/servo.png);}
+.component_buzzer{background-image: url(../images/hardware/buzzer.png);}
+.component_motor{background-image: url(../images/hardware/motor.png); height:85px}
+.component_thermistor{background-image: url(../images/hardware/thermistor.png);}
+.component_lcd{background-image: url(../images/hardware/lcd.png); height:85px}
+
+.component_Arduino_UNO{background-image: url(../images/hardware/Arduino_UNO.png); width:270px; height:190px;
+background-repeat: no-repeat; position: absolute; left:50%; top:50%;}
+.component_Arduino_UNO:hover{cursor: url('../images/cursors/hand_open.cur'), move; cursor: -moz-grab;}

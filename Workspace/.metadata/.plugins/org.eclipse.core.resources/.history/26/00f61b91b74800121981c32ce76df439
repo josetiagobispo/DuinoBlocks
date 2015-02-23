@@ -1,0 +1,352 @@
+from edu.uca.Workspace import vars, numericVars, logicVars, alphaNumericVars, createdBlocks
+from pyjamas.ui.HorizontalPanel import HorizontalPanel
+from pyjamas.ui.VerticalPanel import VerticalPanel
+from edu.uca.renderable.block.Block import Block
+from edu.uca.util.PopupNewVar import PopupNewVar
+from edu.uca.renderable.Element import Element
+from pyjamas.ui.FocusWidget import FocusWidget
+from edu.uca.util.Dropdown import Dropdown
+from edu.uca.util.Button import Button
+from edu.uca.util.Popup import Popup
+from pyjamas.ui.Widget import Widget
+from pyjamas.ui.Label import Label
+from pyjamas import DOM
+
+from edu.uca.renderable.block.ArduinoBlocks import forever, if_, if_else_,\
+    repeat_, while_, delay_, plus, minus, multiply, divide, equals, lesser,\
+    greater, and_, or_, not_, true_, false_, digitalRead, analogRead,\
+    digitalWrite, analogWrite, println, intToStr, boolToStr, glue, setNumericVar,\
+    getNumericVar, incNumericVar, setLogicVar, getLogicVar, setAlphaNumericVar,\
+    getAlphaNumericVar, min_, max_, sqrt_, abs_, sin_, cos_, tan_, decNumericVar,\
+    setLed, getButton, millis, random, random_min_max, map2_
+from gwt.ui.FlowPanel import FlowPanel
+
+#----------------------------------------------------------------------------------------------------------------------------
+
+class TabTitle(Widget):
+    def __init__(self, tabName, tabId):
+        Widget.__init__(self, Element=DOM.createElement('a'))    
+        DOM.setInnerHTML(self.getElement(), tabName)
+        self.setID(tabId)
+
+#----------------------------------------------------------------------------------------------------------------------------
+
+class CategoryPanel(VerticalPanel):
+    def __init__(self):
+        VerticalPanel.__init__(self, StyleName='CategoryPanel')#bug
+        self.myBlocksSubCat = None
+        self.label = ''
+        
+    def addSubCategory(self, block):
+        if self.myBlocksSubCat == None:
+            self.myBlocksSubCat = SubCategoryPanel('Meus Blocos', self.label)
+            self.add(self.myBlocksSubCat)
+        self.myBlocksSubCat.addBlock(block)
+        
+#----------------------------------------------------------------------------------------------------------------------------
+
+class SubCategoryPanel(VerticalPanel):
+    def __init__(self, subCategoryName='', subCategoryClassName='', openList=True):
+        self.list = VerticalPanel(StyleName='block_list')
+        self.list.setStyleAttribute("display", "block")
+        VerticalPanel.__init__(self, StyleName='SubCategoryPanel')
+        self.subCategoryName = subCategoryName
+        if subCategoryName != '':
+            self.title = Element(Element=DOM.createElement('dt'), StyleName=subCategoryClassName)
+            DOM.setInnerHTML(self.title.getElement(), self.subCategoryName)
+            self.collapse = FocusWidget(Element=DOM.createDiv(), StyleName='collapse close_up')
+            self.collapse.addClickListener(self.showHide)
+            self.title.add(self.collapse)
+            self.add(self.title)
+            if openList:
+                self.list.setStyleAttribute("display", "block")
+                self.collapse.setStyleName('collapse close_up')
+            else:
+                self.list.setStyleAttribute("display", "none")
+                self.collapse.setStyleName('collapse open_down')
+        self.add(self.list) 
+        self.blocks = []      
+        
+    def addBlock(self, block, classHelp='help_default', beforeIndex=None):
+        panel = HorizontalPanel()
+        panel.add(block)
+        info = Label('i', StyleName='info_btn')
+        info.block = block
+        info.classHelp = classHelp
+        info.addClickListener(self.showInfo)
+        panel.add(info)
+        if beforeIndex is not None:
+            self.list.insert(panel, self.list.getBody(), 0)#deprecated
+        else:
+            self.list.add(panel)
+        self.list.setStyleName(self.list.getWidgetTd(panel), 'block_info')
+        self.blocks.append(block)
+        
+    def removeBlock(self, block):#deprecated
+        self.list.remove(block.getParent())
+        self.blocks.remove(block)
+    
+    def removeAllBlocks(self):
+        while len(self.blocks)>0: 
+            self.removeBlock(self.blocks[0])
+            
+    def addWidget(self, widget):    
+        self.list.add(widget)   
+        
+    def showInfo(self, sender):
+        if sender.block.name in ['commandType', 'numericType', 'logicType', 'alphaNumericType']:
+            createdBlocks[sender.block.varName][2].show()
+        else:
+            popup = Popup('<b>Ajuda</b>', None, None)
+            popup.center.append(Widget(Element=DOM.createDiv(), StyleName=sender.classHelp))
+            popup.caption.setStyleAttribute('text-align', 'center')
+            popup.show()
+            
+    def showHide(self):
+        if self.list.getStyleAttribute('display') == 'none':
+            self.list.setStyleAttribute("display", "block")
+            self.collapse.setStyleName('collapse close_up')
+        else:
+            self.list.setStyleAttribute("display", "none")
+            self.collapse.setStyleName('collapse open_down')
+              
+    def changeTitle(self, count):# faz perder o collapse
+        DOM.setInnerHTML(self.title.getElement(), self.subCategoryName+': #'+str(count))
+        self.title.add(self.collapse)
+        
+#----------------------------------------------------------------------------------------------------------------------------
+
+class Control(CategoryPanel):
+    def __init__(self):
+        CategoryPanel.__init__(self)
+        self.label = 'control_lbl'
+        self.subLoop = SubCategoryPanel('Loops', self.label)
+        self.mainBlock = forever()
+        self.subLoop.addBlock(self.mainBlock, 'help_forever')
+        self.subLoop.addBlock(repeat_())
+        self.subLoop.addBlock(while_())
+        self.add(self.subLoop)
+        self.sub = SubCategoryPanel('Controles de Fluxo', self.label)
+        self.sub.addBlock(if_(), 'help_if')
+        self.sub.addBlock(if_else_())
+        self.sub.addBlock(delay_())
+        self.add(self.sub)
+    
+    def hideMainBlock(self):
+        DOM.setStyleAttribute(self.subLoop.list.getBody().firstChild, 'display', 'none')
+    
+    def showMainBlock(self):
+        DOM.setStyleAttribute(self.subLoop.list.getBody().firstChild, 'display', '')
+        
+#----------------------------------------------------------------------------------------------------------------------------
+
+class Operators(CategoryPanel):
+    def __init__(self):
+        CategoryPanel.__init__(self)
+        self.label = 'operators_lbl'
+        sub = SubCategoryPanel('Aritméticos', self.label)
+        sub.addBlock(plus())
+        sub.addBlock(minus())
+        sub.addBlock(multiply())
+        sub.addBlock(divide())
+        self.add(sub)
+        sub = SubCategoryPanel('Relacionais', self.label)
+        sub.addBlock(equals())
+        sub.addBlock(lesser())
+        sub.addBlock(greater())
+        self.add(sub)
+        sub = SubCategoryPanel('Lógicos', self.label)
+        sub.addBlock(and_())
+        sub.addBlock(or_())
+        sub.addBlock(not_())
+        sub.addBlock(true_())
+        sub.addBlock(false_())
+        self.add(sub)
+
+#----------------------------------------------------------------------------------------------------------------------------
+
+class Input(CategoryPanel): 
+    def __init__(self):
+        CategoryPanel.__init__(self)
+        self.label = 'input_lbl'
+        sub = SubCategoryPanel()
+        sub.addBlock(digitalRead())
+        sub.addBlock(analogRead())
+        self.add(sub)
+        self.subComp = SubCategoryPanel('Componentes', self.label)
+        self.subComp.addBlock(getButton())
+    def showComponentBlocks(self, show):
+        if show: self.add(self.subComp)
+        else: self.remove(self.subComp)
+        
+#----------------------------------------------------------------------------------------------------------------------------
+
+class Output(CategoryPanel):
+    def __init__(self):
+        CategoryPanel.__init__(self)
+        self.label = 'output_lbl'
+        sub = SubCategoryPanel()
+        sub.addBlock(digitalWrite())
+        sub.addBlock(analogWrite())
+        self.add(sub)
+        self.subComp = SubCategoryPanel('Componentes', self.label)
+        self.subComp.addBlock(setLed())
+    def showComponentBlocks(self, show):
+        if show: self.add(self.subComp)
+        else: self.remove(self.subComp)
+
+#----------------------------------------------------------------------------------------------------------------------------
+        
+class Setup(CategoryPanel):
+    def __init__(self):
+        CategoryPanel.__init__(self)
+        self.label = 'config_lbl'
+        sub = SubCategoryPanel('Operadores Alfanuméricos', self.label)
+        sub.addBlock(println())
+        sub.addBlock(glue())
+        sub.addBlock(intToStr())
+        sub.addBlock(boolToStr())
+        self.add(sub)
+        
+        sub = SubCategoryPanel('Funções Matemáticas', self.label, openList=False)
+        sub.addBlock(min_())
+        sub.addBlock(max_())
+        sub.addBlock(sqrt_())
+        sub.addBlock(abs_())
+        #sub.addBlock(modulo_()) Operador
+        #sub.addBlock(constrains_()) 
+        #sub.addBlock(map_())
+        self.add(sub)
+        
+        sub = SubCategoryPanel('Funções Trigonométricas', self.label, openList=False)
+        sub.addBlock(sin_())
+        sub.addBlock(cos_())
+        sub.addBlock(tan_())
+        self.add(sub)
+        
+        sub = SubCategoryPanel('Outros', self.label, openList=False)
+        sub.addBlock(millis())
+        sub.addBlock(random())
+        sub.addBlock(random_min_max())
+        #sub.addBlock(map2_())
+        self.add(sub)
+
+#----------------------------------------------------------------------------------------------------------------------------
+
+class Variables(CategoryPanel):
+    def __init__(self):
+        CategoryPanel.__init__(self)
+        self.label = 'variables_lbl'
+        
+        buttonsTab = SubCategoryPanel()
+        self.add(buttonsTab)
+        
+        self.buttonAddVar = Button('Adicionar Variável', self.addVarClick)
+        buttonsTab.addWidget(self.buttonAddVar)
+        
+        self.dropdownRemoveVar = Dropdown('Remover Variável', self.menuClick, self.itemClick, StyleName='dropdown_btn') 
+        self.dropdownRemoveVar.setStyleAttribute('display', 'none')       
+        buttonsTab.addWidget(self.dropdownRemoveVar)
+        
+        self.alphanumericTab = SubCategoryPanel('Alfanuméricas', self.label)
+        self.numericTab = SubCategoryPanel('Numéricas', self.label)
+        self.logicTab = SubCategoryPanel('Lógicas', self.label)
+        
+        self.genericLogicBlocks = []
+        self.genericNumericBlocks = []
+        self.genericAlphaNumericBlocks = []
+        
+        self.addGenericLogicBlocks()
+        self.addGenericNumericBlocks()
+        self.addGenericAlphaNumericBlocks()
+        
+    def popupConfirmNewVar(self, text, typeVar):    
+        if typeVar == Block.NUMBER_BLOCK:
+            if len(numericVars) == 0:
+                self.insert(self.numericTab,  self.getBody(), 1)
+            numericVars.append(text)
+            self.numericTab.changeTitle(len(numericVars))
+            
+        elif typeVar == Block.BOOLEAN_BLOCK:
+            if len(logicVars) == 0:
+                self.insert(self.logicTab,  self.getBody(), 1)
+            logicVars.append(text)
+            self.logicTab.changeTitle(len(logicVars))
+            
+        elif typeVar == Block.STRING_BLOCK:
+            if len(alphaNumericVars) == 0:
+                self.insert(self.alphanumericTab,  self.getBody(), 1)  
+            alphaNumericVars.append(text)
+            self.alphanumericTab.changeTitle(len(alphaNumericVars))
+            
+        vars[text] = ''    
+        if len(vars) > 0:               
+            self.dropdownRemoveVar.setStyleAttribute('display', 'block')
+            
+    def addGenericNumericBlocks(self):
+        setVar = setNumericVar()
+        getVar = getNumericVar()
+        incVar = incNumericVar()
+        decVar = decNumericVar()
+        self.numericTab.addBlock(setVar)
+        self.numericTab.addBlock(incVar)
+        self.numericTab.addBlock(decVar)
+        self.numericTab.addBlock(getVar)
+        self.genericNumericBlocks = [setVar, getVar, incVar, decVar]
+        
+    def addGenericLogicBlocks(self):
+        setVar = setLogicVar()
+        getVar = getLogicVar()
+        self.logicTab.addBlock(setVar)
+        self.logicTab.addBlock(getVar)
+        self.logicTab.genericLogicBlocks = [setVar, getVar]
+        
+    def addGenericAlphaNumericBlocks(self):
+        setVar = setAlphaNumericVar()
+        getVar = getAlphaNumericVar()
+        self.alphanumericTab.addBlock(setVar)
+        self.alphanumericTab.addBlock(getVar)
+        self.genericAlphaNumericBlocks = [setVar, getVar]
+                     
+    def addVarClick(self, sender):
+        popup = PopupNewVar(self.popupConfirmNewVar)
+        popup.show()
+        
+    def menuClick(self):
+        v = vars#bug!            
+        self.dropdownRemoveVar.addValues(v.keys())   
+        
+    def itemClick(self, value):
+        del vars[value]
+          
+        if len(vars) == 0:               
+            self.dropdownRemoveVar.setStyleAttribute('display', 'none')
+               
+        if value in alphaNumericVars:
+            alphaNumericVars.remove(value)
+            if len(alphaNumericVars) == 0:
+                self.remove(self.alphanumericTab)
+            self.alphanumericTab.changeTitle(len(alphaNumericVars))
+            
+        elif value in numericVars:
+            numericVars.remove(value)
+            if len(numericVars) == 0:
+                self.remove(self.numericTab)
+            self.numericTab.changeTitle(len(numericVars))
+            
+        elif value in logicVars:
+            logicVars.remove(value)
+            if len(logicVars) == 0:
+                self.remove(self.logicTab)
+            self.logicTab.changeTitle(len(logicVars))
+            
+    def reload(self):  
+        v = vars#bug!  
+        for key in v.keys(): 
+            v.pop(key)
+        self.dropdownRemoveVar.setStyleAttribute('display', 'none')
+        self.remove(self.alphanumericTab)
+        self.remove(self.numericTab)
+        self.remove(self.logicTab)
+
+#----------------------------------------------------------------------------------------------------------------------------

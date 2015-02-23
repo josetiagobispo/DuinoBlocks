@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+locale,sysinfo,,,"pt_BR",1341881636662
+processors,sysinfo,,,"2",1341881636662
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1341881636662
+java.runtime.version,sysinfo,,,"1.7.0_02-b13",1341881636662
+java.specification.name,sysinfo,,,"Java Platform API Specification",1341881636662
+java.specification.vendor,sysinfo,,,"Oracle Corporation",1341881636662
+java.specification.version,sysinfo,,,"1.7",1341881636662
+java.vendor,sysinfo,,,"Oracle Corporation",1341881636662
+java.version,sysinfo,,,"1.7.0_02",1341881636662
+java.vm.info,sysinfo,,,"mixed mode, sharing",1341881636662
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1341881636662
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1341881636662
+java.vm.specification.vendor,sysinfo,,,"Oracle Corporation",1341881636662
+java.vm.specification.version,sysinfo,,,"1.7",1341881636662
+java.vm.vendor,sysinfo,,,"Oracle Corporation",1341881636662
+java.vm.version,sysinfo,,,"22.0-b10",1341881636662
+started,bundle,org.eclipse.m2e.usagedata,1.0.100.20110804-1717,"org.eclipse.m2e.usagedata",1341881637615
+started,bundle,org.eclipse.epp.usagedata.ui,1.3.1.R201106061540,"org.eclipse.epp.usagedata.ui",1341881638855
+error,log,,,"An error occurred while automatically activating bundle org.eclipse.wb.core (1063).",1341881639694
+error,log,,,"Problems encountered starting up plug-in: ""org.osgi.framework.BundleException: The activator com.google.gdt.eclipse.designer.Activator for bundle com.google.gdt.eclipse.designer is invalid"".",1341881639699
+error,log,,,"Unhandled Exception",1341881639701
+error,log,,,"Unable to execute early startup code for an extension",1341881639705
+error,log,,,"Bad extension specification",1341881639707
+error,log,,,"startup class must implement org.eclipse.ui.IStartup",1341881639708
+stopped,bundle,org.eclipse.wb.core,1.3.0.r37x201202052311,"org.eclipse.wb.core",1341881639765
+stopped,bundle,com.google.gdt.eclipse.designer,2.5.0.r37x201202061313,"com.google.gdt.eclipse.designer",1341881639838
+error,log,,,"Problems encountered starting up plug-in: ""org.osgi.framework.BundleException: The activator com.google.gdt.eclipse.designer.gxt.Activator for bundle com.google.gdt.eclipse.designer.GXT is invalid"".",1341881640344
+error,log,,,"Unhandled Exception",1341881640346
+error,log,,,"Unable to execute early startup code for an extension",1341881640349
+error,log,,,"Bad extension specification",1341881640351
+error,log,,,"startup class must implement org.eclipse.ui.IStartup",1341881640352
+stopped,bundle,com.google.gdt.eclipse.designer.GXT,2.5.0.r37x201202061331,"com.google.gdt.eclipse.designer.GXT",1341881640484
+error,log,,,"Problems encountered starting up plug-in: ""org.osgi.framework.BundleException: The activator com.google.gdt.eclipse.designer.smart.Activator for bundle com.google.gdt.eclipse.designer.SmartGWT is invalid"".",1341881641260
+error,log,,,"Unhandled Exception",1341881641261
+error,log,,,"Unable to execute early startup code for an extension",1341881641264
+error,log,,,"Bad extension specification",1341881641266
+error,log,,,"startup class must implement org.eclipse.ui.IStartup",1341881641267
+stopped,bundle,com.google.gdt.eclipse.designer.SmartGWT,2.5.0.r37x201202061331,"com.google.gdt.eclipse.designer.SmartGWT",1341881641293
+started,bundle,org.eclipse.team.cvs.core,3.3.400.I20110510-0800,"org.eclipse.team.cvs.core",1341881641331
+error,log,,,"Problems encountered starting up plug-in: ""org.osgi.framework.BundleException: The activator com.google.gdt.eclipse.designer.uibinder.Activator for bundle com.google.gdt.eclipse.designer.UiBinder is invalid"".",1341881641730
+error,log,,,"Unhandled Exception",1341881641731
+error,log,,,"Unable to execute early startup code for an extension",1341881641735
+error,log,,,"Bad extension specification",1341881641736
+error,log,,,"startup class must implement org.eclipse.ui.IStartup",1341881641737
+stopped,bundle,com.google.gdt.eclipse.designer.UiBinder,2.5.0.r37x201202061313,"com.google.gdt.eclipse.designer.UiBinder",1341881641741
+started,bundle,org.eclipse.wb.discovery.core,1.3.0.r37x201202052340,"org.eclipse.wb.discovery.core",1341881642658
+started,bundle,org.eclipse.team.cvs.ui,3.3.400.I20110510-0800,"org.eclipse.team.cvs.ui",1341881642861
+started,bundle,org.eclipse.wb.discovery.ui,1.3.0.r37x201202052340,"org.eclipse.wb.discovery.ui",1341881647070
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341881653630
+started,bundle,com.android.ide.eclipse.adt,18.0.0.v201203301601-306762,"com.android.ide.eclipse.adt",1341881659339
+started,bundle,com.google.gdt.eclipse.mobile.android,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.mobile.android",1341881660349
+started,bundle,org.eclipse.mylyn.team.ui,3.7.1.v20120425-0100,"org.eclipse.mylyn.team.ui",1341881660961
+started,bundle,org.eclipse.m2e.core,1.0.100.20110804-1717,"org.eclipse.m2e.core",1341881661703
+started,bundle,org.eclipse.m2e.jdt,1.0.100.20110804-1717,"org.eclipse.m2e.jdt",1341881661945
+started,bundle,org.eclipse.core.externaltools,1.0.100.v20110506,"org.eclipse.core.externaltools",1341881668122
+stopped,bundle,com.google.gdt.eclipse.designer,2.5.0.r37x201202061313,"com.google.gdt.eclipse.designer",1341881668154
+error,log,,,"An error occurred while automatically activating bundle com.google.gdt.eclipse.designer (1042).",1341881668158
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1341881668166
+error,log,,,"Exception occurred while creating compilation participant",1341881668168
+started,bundle,com.google.appengine.eclipse.core,2.6.1.v201205091048-rel-r37,"com.google.appengine.eclipse.core",1341881673569
+started,bundle,com.google.gdt.eclipse.appengine.rpc,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.appengine.rpc",1341881674676
+started,bundle,com.google.gdt.eclipse.platform.shared,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.platform.shared",1341881676442
+started,bundle,com.google.gwt.eclipse.core,2.6.1.v201205091048-rel-r37,"com.google.gwt.eclipse.core",1341881680354
+started,bundle,org.eclipse.jdt.apt.core,3.3.500.v20110420-1015,"org.eclipse.jdt.apt.core",1341881680564
+started,bundle,org.eclipse.jdt.apt.pluggable.core,1.0.400.v20110305-1450,"org.eclipse.jdt.apt.pluggable.core",1341881680586
+started,bundle,org.jboss.tools.maven.apt.core,1.0.0.201206052025,"org.jboss.tools.maven.apt.core",1341881686345
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341881693186
+started,bundle,org.python.pydev.jython,2.5.0.2012040618,"org.python.pydev.jython",1341881695841
+opened,view,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.DebugView",1341881697247
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1341881698430
+error,log,,,"Exception occurred while creating compilation participant",1341881698432
+activated,view,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.DebugView",1341881699538
+started,bundle,org.eclipse.jst.servlet.ui,1.1.501.v201108220630,"org.eclipse.jst.servlet.ui",1341881700516
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1341881704856
+started,bundle,org.eclipse.jst.ws.jaxws.dom.integration,1.0.100.v201101252155,"org.eclipse.jst.ws.jaxws.dom.integration",1341881704862
+started,bundle,org.eclipse.jst.ws.jaxws.dom.ui,1.0.0.v201004171919,"org.eclipse.jst.ws.jaxws.dom.ui",1341881704869
+started,bundle,org.eclipse.jpt.common.core,1.0.2.v201111103010,"org.eclipse.jpt.common.core",1341881705389
+started,bundle,org.eclipse.jpt.jpa.core,3.0.2.v201201243020,"org.eclipse.jpt.jpa.core",1341881705389
+started,bundle,org.eclipse.wst.sse.core,1.1.602.v201112071516,"org.eclipse.wst.sse.core",1341881705523
+error,log,,,"Core exception while retrieving the content description",1341881711384
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1341881718072
+error,log,,,"Exception occurred while creating compilation participant",1341881718074
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1341881718083
+error,log,,,"Exception occurred while creating compilation participant",1341881718085
+opened,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341881718153
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341881718530
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341881723678
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.findReplace",1341881723715
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341881731608
+executed,command,com.python.pydev.refactoring,2.5.0.2012040618,"org.python.pydev.editor.actions.navigation.pyGoToDefinition",1341881757856
+executed,command,com.python.pydev.refactoring,2.5.0.2012040618,"org.python.pydev.editor.actions.navigation.pyGoToDefinition",1341881758394
+executed,command,com.python.pydev.refactoring,2.5.0.2012040618,"org.python.pydev.editor.actions.navigation.pyGoToDefinition",1341881758839
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341881761993
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.findReplace",1341881762025
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341881852863
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341881856310
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341882016250
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341882049053
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341882229776
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1341882242308
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341882251071
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341882254474
+error,log,,,"Could not create content describer for org.eclipse.wb.core.javaSourceGUI. Content type has been disabled.",1341882273183
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341882276798
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1341882278016
+error,log,,,"Exception occurred while creating compilation participant",1341882278018
+started,bundle,org.eclipse.jdt.debug.ui,3.6.1.v20110803_r371,"org.eclipse.jdt.debug.ui",1341882278072
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341882279104
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341882279635
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341882280618
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341882301424
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341882404273
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.copy",1341882411695
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341882412985
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341882424868
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341882427648
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341882475525
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1341882586880
+error,log,,,"Core exception while retrieving the content description",1341882586896
+started,bundle,org.eclipse.wst.html.core,1.1.502.v201202091936,"org.eclipse.wst.html.core",1341882587323
+error,log,,,"Core exception while retrieving the content description",1341882587334
+error,log,,,"Core exception while retrieving the content description",1341882587337
+error,log,,,"Core exception while retrieving the content description",1341882587341
+error,log,,,"Core exception while retrieving the content description",1341882587344
+error,log,,,"Core exception while retrieving the content description",1341882587347
+error,log,,,"Core exception while retrieving the content description",1341882587353
+error,log,,,"Core exception while retrieving the content description",1341882587358
+error,log,,,"Core exception while retrieving the content description",1341882587362
+error,log,,,"Core exception while retrieving the content description",1341882587365
+error,log,,,"Core exception while retrieving the content description",1341882587368
+error,log,,,"Core exception while retrieving the content description",1341882587372
+error,log,,,"Core exception while retrieving the content description",1341882587376
+error,log,,,"Core exception while retrieving the content description",1341882587379
+error,log,,,"Core exception while retrieving the content description",1341882587419
+error,log,,,"Core exception while retrieving the content description",1341882587423
+error,log,,,"Core exception while retrieving the content description",1341882587429
+error,log,,,"Core exception while retrieving the content description",1341882587488
+error,log,,,"Core exception while retrieving the content description",1341882587496
+error,log,,,"Core exception while retrieving the content description",1341882587505
+error,log,,,"Core exception while retrieving the content description",1341882587519
+error,log,,,"Core exception while retrieving the content description",1341882587524
+error,log,,,"Core exception while retrieving the content description",1341882587531
+error,log,,,"Core exception while retrieving the content description",1341882587534
+error,log,,,"Core exception while retrieving the content description",1341882587538
+error,log,,,"Core exception while retrieving the content description",1341882587542
+error,log,,,"Core exception while retrieving the content description",1341882587672
+error,log,,,"Core exception while retrieving the content description",1341882587677
+error,log,,,"Core exception while retrieving the content description",1341882587683
+error,log,,,"Core exception while retrieving the content description",1341882587688
+error,log,,,"Core exception while retrieving the content description",1341882587694
+opened,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341882626275
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341882626472
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341882633033
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341882635784
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341882638624
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341882640526
+started,bundle,org.eclipse.wst.server.core,1.1.304.v20120208_1420,"org.eclipse.wst.server.core",1341882643502
+started,bundle,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.ui",1341882643599
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341882643912
+started,bundle,com.google.gdt.eclipse.suite,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.suite",1341882644121
+error,log,,,"Launch shortcut 'com.google.gdt.eclipse.designer.launch.gwtCompilerLaunchShortcut' enablement expression caused exception. Shortcut was removed.",1341882644185
+error,log,,,"Launch shortcut 'com.google.gdt.eclipse.designer.launch.gwtLaunchShortcut' enablement expression caused exception. Shortcut was removed.",1341882644187
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341882648158
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.findReplace",1341882648203
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341882716383
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1341882719434
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1341882722848
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1341882735375
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1341882743724
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1341882745242
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341882774972
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341882775118
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341882779964
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341882829974
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341883450221
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1341883528420
+opened,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341883528730
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341883528835
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1341883537675
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1341883573264
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.undo",1341883663292
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1341883818178
+opened,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341883818792
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341883818905
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1341883829791
+opened,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341883830105
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341883830254
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341883875598
+closed,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341883875602
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341883876894
+closed,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341883876895
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341883877975
+closed,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341883877975
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341883879498
+closed,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341883879498
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341883882159
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1341883883193
+error,log,,,"Exception occurred while creating compilation participant",1341883883195
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341883883484
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341883883484
+opened,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341883884847
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341883884928
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1341883906163
+opened,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341883910824
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341883910899
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341884468174
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341884876463
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1341884881765
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341884885840
+started,bundle,org.eclipse.compare,3.5.201.R37x_v20110817-0800,"org.eclipse.compare",1341884887398
+error,log,,,"No property tester contributes a property com.google.gdt.eclipse.designer.isGwtModuleElement to type class org.eclipse.core.internal.resources.File",1341884887463
+error,log,,,"No property tester contributes a property com.google.gdt.eclipse.designer.isGwtModuleElement to type class org.eclipse.core.internal.resources.File",1341884887465
+error,log,,,"No property tester contributes a property com.google.gdt.eclipse.designer.isGwtModuleElement to type class org.eclipse.core.internal.resources.File",1341884887468
+error,log,,,"No property tester contributes a property com.google.gdt.eclipse.designer.isGwtProjectElement to type class org.eclipse.core.internal.resources.File",1341884887470
+error,log,,,"No property tester contributes a property com.google.gdt.eclipse.designer.isGwtModuleElement to type class org.eclipse.core.internal.resources.File",1341884887493
+error,log,,,"No property tester contributes a property com.google.gdt.eclipse.designer.isResource to type class org.eclipse.ui.part.FileEditorInput",1341884888083
+started,bundle,com.google.gdt.eclipse.maven,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.maven",1341884896829
+executed,command,,,"org.python.pydev.debug.ui.launchShortcut.python.run",1341884896864
+opened,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1341884899293
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1341884903205
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341884903312
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1341884907461
+opened,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341884907680
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341884907759
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1341884910040
+opened,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341884910230
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341884910308
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1341884912068
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341884912200
+activated,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1341884917024
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341884929737
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341885060114
+closed,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341885060115
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341885061348
+closed,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341885061348
+started,bundle,org.eclipse.mylyn.java.tasks,3.7.1.v20120425-0100,"org.eclipse.mylyn.java.tasks",1341885069996
+opened,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341885070842
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341885070928
+opened,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341885075332
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341885075428
+opened,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341885091685
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341885091766
+opened,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341885111271
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341885111440
+opened,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341885121720
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341885121858
+opened,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341885172057
+activated,editor,org.python.pydev,2.5.0.2012040618,"org.python.pydev.editor.PythonEditor",1341885172138
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1341885197341
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1341885204408

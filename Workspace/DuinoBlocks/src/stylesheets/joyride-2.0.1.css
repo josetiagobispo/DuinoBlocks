@@ -1,0 +1,58 @@
+/* Artfully masterminded by ZURB */
+
+#joyRideTipContent { display: none; }
+/*-------------------------------------------------------------------------------------*/
+
+.group_operation{cursor: pointer;}
+.green .group_operation:hover{border: 1px solid #55802A;}
+.darkblue .group_operation:hover{border: 1px solid #159;}
+.darkblue .group_operation{border: 1px solid #003192;}
+.green .group_operation{border: 1px solid #3f9800;}
+.disabled .group_operation{border: 1px solid #999;}
+
+/*-------------------------------------------------------------------------------------*/
+
+.tip-item{clear: both; text-align: center; white-space: nowrap; border-bottom: 1px solid #222; border-top: 1px solid #333;}
+.tip-item:hover{background: #6D84B4; border-bottom: 1px solid #3B59D8; border-top: 1px solid #3B59D8; color: white; text-decoration: none;}
+.joyride-tip-guide li:last-child {border-bottom: none; -moz-border-radius: 0px 0px 4px 4px; -webkit-border-radius: 0px 0px 4px 4px; border-radius: 0px 0px 4px 4px;}
+.joyride-tip-guide li:first-child { border-top: none; -moz-border-radius: 4px 4px 0px 0px; -webkit-border-radius: 4px 4px 0px 0px; border-radius: 4px 4px 0px 0px;}
+/*-------------------------------------------------------------------------------------*/
+
+.tip-itens{float: none;}
+.joyride-tip-guide.two_itens{top: -10px;}
+.joyride-tip-guide.tree_itens{top: -20px;}
+.two_itens.joyride-tip-guide span.joyride-nub.left{top: 5px;}
+.tree_itens.joyride-tip-guide span.joyride-nub.left{top: 15px;}
+/*-------------------------------------------------------------------------------------*/
+
+/* Default styles for the container */
+.joyride-tip-guide {position: absolute; background: #000; background: rgba(0,0,0,0.82); color: #fff; width:88px; z-index: 101;
+  right:-103px; top: -27px; /*top: 0;*/ /* keeps the page from scrolling when calculating position *//*left: 0;*/  
+  -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;}
+
+.joyride-content-wrapper {padding: 10px 10px 15px 15px;}
+
+/* Add a little css triangle pip, older browser just miss out on the fanciness of it */
+.joyride-tip-guide span.joyride-nub {display: block; position: absolute; left: 16px;/*left: 22px;*/width: 0; height: 0; border: solid 14px;}
+
+.joyride-tip-guide span.joyride-nub.top {
+  /*IE7/IE8 Don't support rgba so we set the fallback
+  border color here. However, IE7/IE8 are also buggy
+  in that the fallback color doesn't work for
+  border-bottom-color so here we set the border-color
+  and override the top,left,right colors below.*/
+  border-color: #000; border-color: rgba(0,0,0,0.8);
+  border-top-color: transparent !important; border-left-color: transparent !important; border-right-color: transparent !important;
+  top: -28px; bottom: none;}
+
+.joyride-tip-guide span.joyride-nub.bottom {border-color: #000; border-color: rgba(0,0,0,0.8) !important;
+  border-bottom-color: transparent !important; border-left-color: transparent !important; border-right-color: transparent !important;
+  bottom: -28px; bottom: none;}
+
+.joyride-tip-guide span.joyride-nub.right {border-color: #000; border-color: rgba(0,0,0,0.8) !important;
+  border-top-color: transparent !important; border-right-color: transparent !important; border-bottom-color: transparent !important;
+  top: 22px; bottom: none; left: auto; right: -28px;}
+
+.joyride-tip-guide span.joyride-nub.left {border-color: #000; border-color: rgba(0,0,0,0.8) !important;
+  border-top-color: transparent !important; border-left-color: transparent !important; border-bottom-color: transparent !important;
+  top: 22px; left: -28px; right: auto; bottom: none;}

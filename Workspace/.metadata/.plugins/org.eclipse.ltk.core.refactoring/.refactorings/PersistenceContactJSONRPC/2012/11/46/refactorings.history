@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;PersistenceContactJSONRPC/src/json-service&apos; to &apos;services&apos;" description="Rename resource &apos;json-service&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/json-service" name="services" stamp="1352338910647" updateReferences="true"/>
+</session>

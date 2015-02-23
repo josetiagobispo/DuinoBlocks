@@ -1,0 +1,28 @@
+from edu.uca.renderable.Element import Element
+from pyjamas import DOM
+
+class GroupElement(Element):
+
+    def __init__(self, number=True):
+        Element.__init__(self, Element=DOM.createTable())
+        self.number = number
+        self.draw()
+        
+    def draw(self):
+        self.addStyleName('line_table')
+        DOM.setAttribute(self.getElement(), 'border', 0)        
+        DOM.setAttribute(self.getElement(), 'cellPadding', 0)
+        DOM.setAttribute(self.getElement(), 'cellSpacing', 0)
+        self.body = Element(Element=DOM.createTBody())
+        self.row = Element(Element=DOM.createTR())
+        self.row.addStyleName('code_row')
+        self.body.append(self.row)
+        self.append(self.body)
+    
+    def drawSubElement(self, element):
+        td = Element(Element=DOM.createTD())
+        td.append(element)
+        self.row.append(td)
+
+
+        

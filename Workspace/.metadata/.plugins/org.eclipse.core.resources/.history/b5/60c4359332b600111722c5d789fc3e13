@@ -1,0 +1,2449 @@
+/* start module: DNDTest */
+$pyjs.loaded_modules['DNDTest'] = function (__mod_name__) {
+	if($pyjs.loaded_modules['DNDTest'].__was_initialized__) return $pyjs.loaded_modules['DNDTest'];
+	var $m = $pyjs.loaded_modules["DNDTest"];
+	$m.__repr__ = function() { return "<module: DNDTest>"; };
+	$m.__was_initialized__ = true;
+	if ((__mod_name__ === null) || (typeof __mod_name__ == 'undefined')) __mod_name__ = 'DNDTest';
+	$m.__name__ = __mod_name__;
+
+
+	$m['pyjd'] = $p['___import___']('pyjd', null);
+	$m['HasVerticalAlignment'] = $p['___import___']('pyjamas.ui.HasVerticalAlignment', null, null, false);
+	$m['Timer'] = $p['___import___']('pyjamas.Timer.Timer', null, null, false);
+	$m['alert'] = $p['___import___']('pyjamas.Window.alert', null, null, false);
+	$m['eventCoordinates'] = $p['___import___']('pyjamas.dnd.utils.eventCoordinates', null, null, false);
+	$m['DragHandler'] = $p['___import___']('pyjamas.ui.DragHandler.DragHandler', null, null, false);
+	$m['datetime'] = $p['___import___']('datetime.datetime', null, null, false);
+	$m['Widget'] = $p['___import___']('pyjamas.ui.Widget.Widget', null, null, false);
+	$m['DOM'] = $p['___import___']('pyjamas.DOM', null, null, false);
+	$m['Label'] = $p['___import___']('pyjamas.ui.Label.Label', null, null, false);
+	$m['Button'] = $p['___import___']('pyjamas.ui.Button.Button', null, null, false);
+	$m['HTML'] = $p['___import___']('pyjamas.ui.HTML.HTML', null, null, false);
+	$m['RootPanel'] = $p['___import___']('pyjamas.ui.RootPanel.RootPanel', null, null, false);
+	$m['VerticalPanel'] = $p['___import___']('pyjamas.ui.VerticalPanel.VerticalPanel', null, null, false);
+	$m['HorizontalPanel'] = $p['___import___']('pyjamas.ui.HorizontalPanel.HorizontalPanel', null, null, false);
+	$m['AbsolutePanel'] = $p['___import___']('pyjamas.ui.AbsolutePanel.AbsolutePanel', null, null, false);
+	$m['GWTCanvas'] = $p['___import___']('pyjamas.Canvas.GWTCanvas.GWTCanvas', null, null, false);
+	$m['Color'] = $p['___import___']('pyjamas.Canvas.Color', null, null, false);
+	$m['makeDraggable'] = $p['___import___']('pyjamas.dnd.makeDraggable', null, null, false);
+	$m['DragWidget'] = $p['___import___']('pyjamas.ui.DragWidget.DragWidget', null, null, false);
+	$m['DragContainer'] = $p['___import___']('pyjamas.ui.DragWidget.DragContainer', null, null, false);
+	$m['DropWidget'] = $p['___import___']('pyjamas.ui.DropWidget.DropWidget', null, null, false);
+	$m['Panel'] = $p['___import___']('pyjamas.ui.Panel.Panel', null, null, false);
+	$m['getTypes'] = $p['___import___']('pyjamas.dnd.getTypes', null, null, false);
+	$m['JSONParser'] = $p['___import___']('pyjamas.JSONParser.JSONParser', null, null, false);
+	$m['Window'] = $p['___import___']('pyjamas.Window', null, null, false);
+	$m['random'] = $p['___import___']('random', null);
+	$m['json'] = $m['JSONParser']();
+	$m['DNDDemos'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('__init__', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+
+			$m['VerticalPanel']['__init__'](self);
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('width', '100%') : $p['setattr'](self, 'width', '100%');
+			self['setID']('content');
+			self['add']((typeof TopVerbage == "undefined"?$m.TopVerbage:TopVerbage)());
+			self['add']((typeof NewSchool == "undefined"?$m.NewSchool:NewSchool)());
+			self['add']((typeof Delegated == "undefined"?$m.Delegated:Delegated)());
+			self['add']((typeof ImageDrop == "undefined"?$m.ImageDrop:ImageDrop)());
+			self['add']((typeof DataTransferDemo == "undefined"?$m.DataTransferDemo:DataTransferDemo)());
+			self['add']((typeof DragEffects == "undefined"?$m.DragEffects:DragEffects)());
+			self['add']((typeof AbsolutePosition == "undefined"?$m.AbsolutePosition:AbsolutePosition)());
+			self['add']((typeof MultiTargetDemo == "undefined"?$m.MultiTargetDemo:MultiTargetDemo)());
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['__init__'] = $method;
+		var $bases = new Array($m['VerticalPanel']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('DNDDemos', $p['tuple']($bases), $data);
+	})();
+	$m['AddablePanel'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('__init__', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+				var kw = arguments.length >= 1 ? arguments[arguments.length-1] : arguments[arguments.length];
+				if (typeof kw != 'object' || kw.__name__ != 'dict' || typeof kw.$pyjs_is_kwarg == 'undefined') {
+					var kw = arguments[arguments.length+1];
+				} else {
+					delete kw['$pyjs_is_kwarg'];
+				}
+			} else {
+				var self = arguments[0];
+				var kw = arguments.length >= 2 ? arguments[arguments.length-1] : arguments[arguments.length];
+				if (typeof kw != 'object' || kw.__name__ != 'dict' || typeof kw.$pyjs_is_kwarg == 'undefined') {
+					kw = arguments[arguments.length+1];
+				} else {
+					delete kw['$pyjs_is_kwarg'];
+				}
+			}
+			if (typeof kw == 'undefined') {
+				kw = $p['__empty_dict']();
+				if (typeof self != 'undefined') {
+					if (self !== null && typeof self['$pyjs_is_kwarg'] != 'undefined') {
+						kw = self;
+						self = arguments[1];
+					}
+				} else {
+				}
+			}
+
+			$pyjs_kwargs_call($m['Panel'], '__init__', null, kw, [{}, self]);
+			return null;
+		}
+	, 1, [null,['kw'],['self']]);
+		$cls_definition['__init__'] = $method;
+		$method = $pyjs__bind_method2('add', function(widget, container) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				widget = arguments[1];
+				container = arguments[2];
+			}
+			if (typeof container == 'undefined') container=arguments.callee.__args__[4][1];
+
+			self['adopt'](widget, self['getElement']());
+			self['children']['append'](widget);
+			return null;
+		}
+	, 1, [null,null,['self'],['widget'],['container', null]]);
+		$cls_definition['add'] = $method;
+		$method = $pyjs__bind_method2('remove', function(widget) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				widget = arguments[1];
+			}
+
+			self['disown'](widget);
+			self['children']['remove'](widget);
+			return null;
+		}
+	, 1, [null,null,['self'],['widget']]);
+		$cls_definition['remove'] = $method;
+		var $bases = new Array($m['Panel']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('AddablePanel', $p['tuple']($bases), $data);
+	})();
+	$m['TopVerbage'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$cls_definition['title'] = 'Drag and Drop in %s Pyjamas';
+		$method = $pyjs__bind_method2('__init__', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+			var img,$attr1,$attr2,$mod1,$mod2;
+			$pyjs_kwargs_call($m['AddablePanel'], '__init__', null, null, [{Element:$m['DOM']['createElement']('div')}, self]);
+			self['setID']('toc');
+			img = '\x3Cimg id=\x22logo\x22 src=\x22pyjamas.png\x22\x3E';
+			self['add']($m['HTML']($p['sprintf']('\x3Ch1\x3E%s\x3C/h1\x3E', $p['tuple']([(typeof ($mod1=(($attr1=($attr2=self)['title']) == null || (($attr2.__is_instance__) && typeof $attr1 == 'function') || (typeof $attr1['__get__'] == 'function')?
+						$p['getattr']($attr2, 'title'):
+						self['title']))==typeof ($mod2=img) && typeof $mod1=='number'?
+				(($mod1=$mod1%$mod2)<0&&$mod2>0?$mod1+$mod2:$mod1):
+				$p['op_mod']($mod1,$mod2))]))));
+			self['add']($m['HTML']('\x0A            \x3Cp\x3EThis page is a reimagining of\x0A            \x3Ca href=\x22http://decafbad.com/2009/07/drag-and-drop/api-demos.html\x22\x3E\x0A            http://decafbad.com/2009/07/drag-and-drop/api-demos.html\x3C/a\x3E using\x0A            pyjamas.\x3C/p\x3E\x0A            \x3Cp\x3E\x0A            \x3Cp\x3EThis page offers a few demonstrations and experiments, mostly\x0A            as a test tool for the background implementation.\x3C/p\x3E\x0A            '));
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['__init__'] = $method;
+		var $bases = new Array($m['AddablePanel']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('TopVerbage', $p['tuple']($bases), $data);
+	})();
+	$m['DragWidget1'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('__init__', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+
+			$pyjs_kwargs_call($m['Label'], '__init__', null, null, [{Element:$m['DOM']['createElement']('div')}, self]);
+			self['setText']('Drag me!');
+			$m['DragWidget']['__init__'](self);
+			self['setStyleName']('dragme1');
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['__init__'] = $method;
+		$method = $pyjs__bind_method2('onDragStart', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+			var $attr3,dt,$attr4;
+			dt = (($attr3=($attr4=event)['dataTransfer']) == null || (($attr4.__is_instance__) && typeof $attr3 == 'function') || (typeof $attr3['__get__'] == 'function')?
+						$p['getattr']($attr4, 'dataTransfer'):
+						event['dataTransfer']);
+			dt['setData']('Text', 'Dropped in zone!');
+			dt.__is_instance__ && typeof dt.__setattr__ == 'function' ? dt.__setattr__('effectAllowed', 'copy') : $p['setattr'](dt, 'effectAllowed', 'copy');
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragStart'] = $method;
+		$method = $pyjs__bind_method2('onDragEnd', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+
+			self['addMessage']('Drag ended');
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragEnd'] = $method;
+		$method = $pyjs__bind_method2('addMessage', function(message) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				message = arguments[1];
+			}
+			var parent;
+			parent = self['getParent']();
+			while ($p['bool'](!$p['bool']($p['hasattr'](parent, 'addMessage')))) {
+				parent = parent['getParent']();
+			}
+			parent['addMessage'](message);
+			return null;
+		}
+	, 1, [null,null,['self'],['message']]);
+		$cls_definition['addMessage'] = $method;
+		var $bases = new Array($m['DragWidget'],$m['Label']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('DragWidget1', $p['tuple']($bases), $data);
+	})();
+	$m['DropWidget1'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('__init__', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+
+			$pyjs_kwargs_call($m['Label'], '__init__', null, null, [{Element:$m['DOM']['createElement']('div')}, self]);
+			$m['DropWidget']['__init__'](self);
+			self['setText']('Drop here!');
+			self['setStyleName']('drophere');
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['__init__'] = $method;
+		$method = $pyjs__bind_method2('onDragEnter', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+
+			self['addStyleName']('dragover');
+			$m['DOM']['eventPreventDefault'](event);
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragEnter'] = $method;
+		$method = $pyjs__bind_method2('onDragLeave', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+
+			self['removeStyleName']('dragover');
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragLeave'] = $method;
+		$method = $pyjs__bind_method2('onDragOver', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+
+			$m['DOM']['eventPreventDefault'](event);
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragOver'] = $method;
+		$method = $pyjs__bind_method2('onDrop', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+			var $attr5,$attr6,item,$pyjs_try_err,dt;
+			dt = (($attr5=($attr6=event)['dataTransfer']) == null || (($attr6.__is_instance__) && typeof $attr5 == 'function') || (typeof $attr5['__get__'] == 'function')?
+						$p['getattr']($attr6, 'dataTransfer'):
+						event['dataTransfer']);
+			try {
+				item = dt['getData']('text/plain');
+				self['addMessage'](item);
+			} catch($pyjs_try_err) {
+				var $pyjs_try_err_name = (typeof $pyjs_try_err.__name__ == 'undefined' ? $pyjs_try_err.name : $pyjs_try_err.__name__ );
+				$pyjs.__last_exception__ = {error: $pyjs_try_err, module: $m};
+				if (true) {
+					self['addMessage']('unsupported data type');
+				}
+			}
+			$m['DOM']['eventPreventDefault'](event);
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDrop'] = $method;
+		$method = $pyjs__bind_method2('addMessage', function(message) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				message = arguments[1];
+			}
+			var parent;
+			parent = self['getParent']();
+			while ($p['bool'](!$p['bool']($p['hasattr'](parent, 'addMessage')))) {
+				parent = parent['getParent']();
+			}
+			parent['addMessage'](message);
+			return null;
+		}
+	, 1, [null,null,['self'],['message']]);
+		$cls_definition['addMessage'] = $method;
+		var $bases = new Array($m['DropWidget'],$m['Label']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('DropWidget1', $p['tuple']($bases), $data);
+	})();
+	$m['Messages'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('__init__', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+
+			$pyjs_kwargs_call($m['Widget'], '__init__', null, null, [{Element:$m['DOM']['createElement']('ul')}, self]);
+			self['setStyleName']('messages');
+			self['addStyleName']('events_monitor');
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['__init__'] = $method;
+		$method = $pyjs__bind_method2('addMessage', function(text) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				text = arguments[1];
+			}
+			var $attr8,d,$attr7,li;
+			d = $m['datetime']['now']()['strftime']('%x %X');
+			li = $m['DOM']['createElement']('li');
+			$m['DOM']['setInnerHTML'](li, $p['sprintf']('\x3Cdt class=\x22time\x22\x3E%s\x3C/dt\x3E\x3Cdd class=\x22txt\x22\x3E%s\x3C/dd\x3E', $p['tuple']([d, text])));
+			$m['DOM']['insertChild']((($attr7=($attr8=self)['element']) == null || (($attr8.__is_instance__) && typeof $attr7 == 'function') || (typeof $attr7['__get__'] == 'function')?
+						$p['getattr']($attr8, 'element'):
+						self['element']), li, 0);
+			return null;
+		}
+	, 1, [null,null,['self'],['text']]);
+		$cls_definition['addMessage'] = $method;
+		var $bases = new Array($m['Widget']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('Messages', $p['tuple']($bases), $data);
+	})();
+	$m['DNDDemo'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$cls_definition['title'] = 'DND Demo';
+		$cls_definition['id'] = 'none';
+		$cls_definition['drag_widget'] = null;
+		$cls_definition['drop_widget'] = null;
+		$method = $pyjs__bind_method2('__init__', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+			var $attr9,g,p,$attr20,top_frame,$attr19,$attr18,demo_div,$attr15,$attr14,$attr17,$attr16,$attr11,$attr10,$attr13,$attr12;
+			$pyjs_kwargs_call($m['AddablePanel'], '__init__', null, null, [{Element:$m['DOM']['createElement']('div')}, self]);
+			self['setID']((($attr9=($attr10=self)['id']) == null || (($attr10.__is_instance__) && typeof $attr9 == 'function') || (typeof $attr9['__get__'] == 'function')?
+						$p['getattr']($attr10, 'id'):
+						self['id']));
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('h2', $m['HTML']($p['sprintf']('\x3Ch2\x3E%s\x3C/h2\x3E', (($attr11=($attr12=self)['title']) == null || (($attr12.__is_instance__) && typeof $attr11 == 'function') || (typeof $attr11['__get__'] == 'function')?
+						$p['getattr']($attr12, 'title'):
+						self['title'])))) : $p['setattr'](self, 'h2', $m['HTML']($p['sprintf']('\x3Ch2\x3E%s\x3C/h2\x3E', (($attr11=($attr12=self)['title']) == null || (($attr12.__is_instance__) && typeof $attr11 == 'function') || (typeof $attr11['__get__'] == 'function')?
+						$p['getattr']($attr12, 'title'):
+						self['title']))));
+			self['append']((($attr13=($attr14=self)['h2']) == null || (($attr14.__is_instance__) && typeof $attr13 == 'function') || (typeof $attr13['__get__'] == 'function')?
+						$p['getattr']($attr14, 'h2'):
+						self['h2']));
+			demo_div = $pyjs_kwargs_call(null, $m['AddablePanel'], null, null, [{Element:$m['DOM']['createElement']('div')}]);
+			demo_div['setStyleName']('demo');
+			top_frame = $m['HorizontalPanel']();
+			g = (($attr15=($attr16=self)['drag_widget']) == null || (($attr16.__is_instance__) && typeof $attr15 == 'function') || (typeof $attr15['__get__'] == 'function')?
+						$p['getattr']($attr16, 'drag_widget'):
+						self['drag_widget']);
+			if ($p['bool']((g !== null))) {
+				top_frame['add'](g);
+			}
+			p = (($attr17=($attr18=self)['drop_widget']) == null || (($attr18.__is_instance__) && typeof $attr17 == 'function') || (typeof $attr17['__get__'] == 'function')?
+						$p['getattr']($attr18, 'drop_widget'):
+						self['drop_widget']);
+			if ($p['bool']((p !== null))) {
+				top_frame['add'](p);
+			}
+			demo_div['add'](top_frame);
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('messages', $m['Messages']()) : $p['setattr'](self, 'messages', $m['Messages']());
+			demo_div['append']((($attr19=($attr20=self)['messages']) == null || (($attr20.__is_instance__) && typeof $attr19 == 'function') || (typeof $attr19['__get__'] == 'function')?
+						$p['getattr']($attr20, 'messages'):
+						self['messages']));
+			self['add'](demo_div);
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['__init__'] = $method;
+		$method = $pyjs__bind_method2('addMessage', function(message) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				message = arguments[1];
+			}
+
+			self['messages']['addMessage'](message);
+			return null;
+		}
+	, 1, [null,null,['self'],['message']]);
+		$cls_definition['addMessage'] = $method;
+		var $bases = new Array($m['AddablePanel']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('DNDDemo', $p['tuple']($bases), $data);
+	})();
+	$m['NewSchool'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('__init__', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('title', 'Drag and drop') : $p['setattr'](self, 'title', 'Drag and drop');
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('id', 'newschool') : $p['setattr'](self, 'id', 'newschool');
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('drag_widget', $m['DragWidget1']()) : $p['setattr'](self, 'drag_widget', $m['DragWidget1']());
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('drop_widget', $m['DropWidget1']()) : $p['setattr'](self, 'drop_widget', $m['DropWidget1']());
+			$m['DNDDemo']['__init__'](self);
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['__init__'] = $method;
+		var $bases = new Array($m['DNDDemo']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('NewSchool', $p['tuple']($bases), $data);
+	})();
+	$m['DragWidget2'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('onDragStart', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+			var target,$attr21,$attr22,$attr23,$attr24,dt;
+			target = $m['DOM']['eventGetTarget'](event);
+			dt = (($attr21=($attr22=event)['dataTransfer']) == null || (($attr22.__is_instance__) && typeof $attr21 == 'function') || (typeof $attr21['__get__'] == 'function')?
+						$p['getattr']($attr22, 'dataTransfer'):
+						event['dataTransfer']);
+			dt['setData']('Text', $p['sprintf']('Dropped %s', (($attr23=($attr24=target)['id']) == null || (($attr24.__is_instance__) && typeof $attr23 == 'function') || (typeof $attr23['__get__'] == 'function')?
+						$p['getattr']($attr24, 'id'):
+						target['id'])));
+			dt.__is_instance__ && typeof dt.__setattr__ == 'function' ? dt.__setattr__('effectAllowed', 'copy') : $p['setattr'](dt, 'effectAllowed', 'copy');
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragStart'] = $method;
+		$method = $pyjs__bind_method2('__init__', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+
+			self['setElement']($m['DOM']['createElement']('ul'));
+			$m['DragContainer']['__init__'](self);
+			$m['AddablePanel']['__init__'](self);
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['__init__'] = $method;
+		$method = $pyjs__bind_method2('onLoad', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+			var $iter1_nextval,$iter1_type,$iter1_idx,$iter1_iter,link,$attr25,$attr26,li,k,$iter1_array;
+			link = self['makeLink']();
+			link['addClickListener'](self);
+			li = $pyjs_kwargs_call(null, $m['AddablePanel'], null, null, [{Element:$m['DOM']['createElement']('li')}]);
+			li['add'](link);
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('button', li) : $p['setattr'](self, 'button', li);
+			self['add']((($attr25=($attr26=self)['button']) == null || (($attr26.__is_instance__) && typeof $attr25 == 'function') || (typeof $attr25['__get__'] == 'function')?
+						$p['getattr']($attr26, 'button'):
+						self['button']));
+			$iter1_iter = $p['range'](3);
+			$iter1_nextval=$p['__iter_prepare']($iter1_iter,false);
+			while (typeof($p['__wrapped_next']($iter1_nextval).$nextval) != 'undefined') {
+				k = $iter1_nextval.$nextval;
+				self['addDragWidget']();
+			}
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['onLoad'] = $method;
+		$method = $pyjs__bind_method2('addMessage', function(message) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				message = arguments[1];
+			}
+			var parent;
+			parent = self['getParent']();
+			while ($p['bool'](!$p['bool']($p['hasattr'](parent, 'addMessage')))) {
+				parent = parent['getParent']();
+			}
+			parent['addMessage'](message);
+			return null;
+		}
+	, 1, [null,null,['self'],['message']]);
+		$cls_definition['addMessage'] = $method;
+		$method = $pyjs__bind_method2('addDragWidget', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+			var $add4,$attr32,$attr31,$add2,$add3,s,$attr30,w,$attr27,$attr28,$attr29,$add1;
+			self['remove']((($attr27=($attr28=self)['button']) == null || (($attr28.__is_instance__) && typeof $attr27 == 'function') || (typeof $attr27['__get__'] == 'function')?
+						$p['getattr']($attr28, 'button'):
+						self['button']));
+			s = $p['len']((($attr29=($attr30=self)['children']) == null || (($attr30.__is_instance__) && typeof $attr29 == 'function') || (typeof $attr29['__get__'] == 'function')?
+						$p['getattr']($attr30, 'children'):
+						self['children']));
+			w = $pyjs_kwargs_call(null, $m['Label'], null, null, [{Element:$m['DOM']['createElement']('li')}]);
+			w['setID']($p['__op_add']($add1='drag',$add2=$p['str'](s)));
+			w['setStyleName']('dragme');
+			w['setText']($p['__op_add']($add3='Drag ',$add4=$p['str'](s)));
+			self['add'](w);
+			$m['makeDraggable'](w);
+			self['add']((($attr31=($attr32=self)['button']) == null || (($attr32.__is_instance__) && typeof $attr31 == 'function') || (typeof $attr31['__get__'] == 'function')?
+						$p['getattr']($attr32, 'button'):
+						self['button']));
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['addDragWidget'] = $method;
+		$method = $pyjs__bind_method2('makeLink', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+			var link;
+			link = $m['Button']();
+			link['setText']('+ Add another');
+			return link;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['makeLink'] = $method;
+		$method = $pyjs__bind_method2('onClick', function(sender) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				sender = arguments[1];
+			}
+
+			self['addDragWidget']();
+			return null;
+		}
+	, 1, [null,null,['self'],['sender']]);
+		$cls_definition['onClick'] = $method;
+		var $bases = new Array($m['DragContainer'],$m['AddablePanel']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('DragWidget2', $p['tuple']($bases), $data);
+	})();
+	$m['DropWidget2'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('__init__', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+
+			self['setElement']($m['DOM']['createElement']('ul'));
+			$m['DropWidget']['__init__'](self);
+			$m['AddablePanel']['__init__'](self);
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['__init__'] = $method;
+		$method = $pyjs__bind_method2('onLoad', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+			var $iter2_nextval,$iter2_type,$iter2_iter,li,$attr33,$iter2_idx,$attr34,k,button,$iter2_array;
+			button = self['makeButton']();
+			button['addClickListener'](self);
+			li = $pyjs_kwargs_call(null, $m['AddablePanel'], null, null, [{Element:$m['DOM']['createElement']('li')}]);
+			li['add'](button);
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('button', li) : $p['setattr'](self, 'button', li);
+			self['add']((($attr33=($attr34=self)['button']) == null || (($attr34.__is_instance__) && typeof $attr33 == 'function') || (typeof $attr33['__get__'] == 'function')?
+						$p['getattr']($attr34, 'button'):
+						self['button']));
+			$iter2_iter = $p['range'](3);
+			$iter2_nextval=$p['__iter_prepare']($iter2_iter,false);
+			while (typeof($p['__wrapped_next']($iter2_nextval).$nextval) != 'undefined') {
+				k = $iter2_nextval.$nextval;
+				self['addDropWidget']();
+			}
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['onLoad'] = $method;
+		$method = $pyjs__bind_method2('addDropWidget', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+			var $attr40,w,s,$attr37,$attr36,$attr35,$add5,$add6,$add8,$attr38,$attr39,$add7;
+			self['remove']((($attr35=($attr36=self)['button']) == null || (($attr36.__is_instance__) && typeof $attr35 == 'function') || (typeof $attr35['__get__'] == 'function')?
+						$p['getattr']($attr36, 'button'):
+						self['button']));
+			s = $p['len']((($attr37=($attr38=self)['children']) == null || (($attr38.__is_instance__) && typeof $attr37 == 'function') || (typeof $attr37['__get__'] == 'function')?
+						$p['getattr']($attr38, 'children'):
+						self['children']));
+			w = $pyjs_kwargs_call(null, $m['Label'], null, null, [{Element:$m['DOM']['createElement']('li')}]);
+			w['setID']($p['__op_add']($add5='drop',$add6=$p['str'](s)));
+			w['setStyleName']('drophere');
+			w['setText']($p['__op_add']($add7='Drop ',$add8=$p['str'](s)));
+			self['append'](w);
+			self['append']((($attr39=($attr40=self)['button']) == null || (($attr40.__is_instance__) && typeof $attr39 == 'function') || (typeof $attr39['__get__'] == 'function')?
+						$p['getattr']($attr40, 'button'):
+						self['button']));
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['addDropWidget'] = $method;
+		$method = $pyjs__bind_method2('onDragEnter', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+			var target,$pyjs_try_err,$attr42,t,$attr41,dt,class_names;
+			target = $m['DOM']['eventGetTarget'](event);
+			t = $pyjs_kwargs_call(null, $m['Widget'], null, null, [{Element:target}]);
+			try {
+				class_names = t['getStyleName']();
+			} catch($pyjs_try_err) {
+				var $pyjs_try_err_name = (typeof $pyjs_try_err.__name__ == 'undefined' ? $pyjs_try_err.name : $pyjs_try_err.__name__ );
+				$pyjs.__last_exception__ = {error: $pyjs_try_err, module: $m};
+				if (true) {
+					class_names = null;
+				}
+			}
+			dt = (($attr41=($attr42=event)['dataTransfer']) == null || (($attr42.__is_instance__) && typeof $attr41 == 'function') || (typeof $attr41['__get__'] == 'function')?
+						$p['getattr']($attr42, 'dataTransfer'):
+						event['dataTransfer']);
+			dt.__is_instance__ && typeof dt.__setattr__ == 'function' ? dt.__setattr__('dropEffect', 'copy') : $p['setattr'](dt, 'dropEffect', 'copy');
+			if ($p['bool']((class_names !== null))) {
+				if ($p['bool'](class_names.__contains__('drophere'))) {
+					t['addStyleName']('dragover');
+					$m['DOM']['eventPreventDefault'](event);
+				}
+			}
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragEnter'] = $method;
+		$method = $pyjs__bind_method2('onDragOver', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+			var target,$attr44,t,dt,class_names,$attr43;
+			target = $m['DOM']['eventGetTarget'](event);
+			t = $pyjs_kwargs_call(null, $m['Widget'], null, null, [{Element:target}]);
+			dt = (($attr43=($attr44=event)['dataTransfer']) == null || (($attr44.__is_instance__) && typeof $attr43 == 'function') || (typeof $attr43['__get__'] == 'function')?
+						$p['getattr']($attr44, 'dataTransfer'):
+						event['dataTransfer']);
+			dt.__is_instance__ && typeof dt.__setattr__ == 'function' ? dt.__setattr__('dropEffect', 'copy') : $p['setattr'](dt, 'dropEffect', 'copy');
+			class_names = t['getStyleName']();
+			if ($p['bool']((class_names !== null))) {
+				if ($p['bool'](class_names.__contains__('drophere'))) {
+					$m['DOM']['eventPreventDefault'](event);
+				}
+			}
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragOver'] = $method;
+		$method = $pyjs__bind_method2('onDragLeave', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+			var target,$pyjs_try_err,t,class_names;
+			target = $m['DOM']['eventGetTarget'](event);
+			t = $pyjs_kwargs_call(null, $m['Widget'], null, null, [{Element:target}]);
+			try {
+				class_names = t['getStyleName']();
+			} catch($pyjs_try_err) {
+				var $pyjs_try_err_name = (typeof $pyjs_try_err.__name__ == 'undefined' ? $pyjs_try_err.name : $pyjs_try_err.__name__ );
+				$pyjs.__last_exception__ = {error: $pyjs_try_err, module: $m};
+				if (true) {
+					class_names = null;
+				}
+			}
+			if ($p['bool']((class_names !== null))) {
+				if ($p['bool'](class_names.__contains__('drophere'))) {
+					t['removeStyleName']('dragover');
+				}
+			}
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragLeave'] = $method;
+		$method = $pyjs__bind_method2('onDrop', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+			var target,text,$attr46,$attr47,$attr48,$attr45,t,dt,class_names;
+			dt = (($attr45=($attr46=event)['dataTransfer']) == null || (($attr46.__is_instance__) && typeof $attr45 == 'function') || (typeof $attr45['__get__'] == 'function')?
+						$p['getattr']($attr46, 'dataTransfer'):
+						event['dataTransfer']);
+			text = dt['getData']('Text');
+			target = $m['DOM']['eventGetTarget'](event);
+			t = $pyjs_kwargs_call(null, $m['Widget'], null, null, [{Element:target}]);
+			class_names = t['getStyleName']();
+			$m['DOM']['eventPreventDefault'](event);
+			if ($p['bool']((class_names !== null))) {
+				if ($p['bool'](class_names.__contains__('drophere'))) {
+					self['addMessage']($p['sprintf']('%s onto %s', $p['tuple']([text, (($attr47=($attr48=target)['id']) == null || (($attr48.__is_instance__) && typeof $attr47 == 'function') || (typeof $attr47['__get__'] == 'function')?
+								$p['getattr']($attr48, 'id'):
+								target['id'])])));
+					return null;
+				}
+			}
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDrop'] = $method;
+		$method = $pyjs__bind_method2('makeButton', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+			var button;
+			button = $m['Button']('+ Add another');
+			return button;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['makeButton'] = $method;
+		$method = $pyjs__bind_method2('onClick', function(sender) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				sender = arguments[1];
+			}
+
+			self['addDropWidget']();
+			return null;
+		}
+	, 1, [null,null,['self'],['sender']]);
+		$cls_definition['onClick'] = $method;
+		$method = $pyjs__bind_method2('addMessage', function(message) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				message = arguments[1];
+			}
+			var parent;
+			parent = self['getParent']();
+			while ($p['bool'](!$p['bool']($p['hasattr'](parent, 'addMessage')))) {
+				parent = parent['getParent']();
+			}
+			parent['addMessage'](message);
+			return null;
+		}
+	, 1, [null,null,['self'],['message']]);
+		$cls_definition['addMessage'] = $method;
+		var $bases = new Array($m['DropWidget'],$m['AddablePanel']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('DropWidget2', $p['tuple']($bases), $data);
+	})();
+	$m['Delegated'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$cls_definition['title'] = 'DND with Event Delegation';
+		$cls_definition['id'] = 'delegated';
+		$method = $pyjs__bind_method2('__init__', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+			var drop,$attr51,$attr50,$attr52,drag,$attr49;
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('drag_widget', $m['DragWidget2']()) : $p['setattr'](self, 'drag_widget', $m['DragWidget2']());
+			drag = (($attr49=($attr50=self)['drag_widget']) == null || (($attr50.__is_instance__) && typeof $attr49 == 'function') || (typeof $attr49['__get__'] == 'function')?
+						$p['getattr']($attr50, 'drag_widget'):
+						self['drag_widget']);
+			drag['setStyleName']('drag_delegates');
+			drag['addStyleName']('draglist');
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('drop_widget', $m['DropWidget2']()) : $p['setattr'](self, 'drop_widget', $m['DropWidget2']());
+			drop = (($attr51=($attr52=self)['drop_widget']) == null || (($attr52.__is_instance__) && typeof $attr51 == 'function') || (typeof $attr51['__get__'] == 'function')?
+						$p['getattr']($attr52, 'drop_widget'):
+						self['drop_widget']);
+			drop['setStyleName']('drop_delegates');
+			drop['addStyleName']('droplist');
+			$m['DNDDemo']['__init__'](self);
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['__init__'] = $method;
+		var $bases = new Array($m['DNDDemo']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('Delegated', $p['tuple']($bases), $data);
+	})();
+	$m['DragWidget3'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('__init__', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+
+			self['setElement']($m['DOM']['createElement']('ul'));
+			$p['$$super']($m['DragWidget3'], self)['__init__']();
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['__init__'] = $method;
+		$method = $pyjs__bind_method2('onLoad', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+			var $iter3_idx,$iter3_type,$iter3_iter,$iter3_array,k,$iter3_nextval;
+			self['setStyleName']('drag_delegates');
+			self['addStyleName']('draglist');
+			$iter3_iter = $p['range'](4);
+			$iter3_nextval=$p['__iter_prepare']($iter3_iter,false);
+			while (typeof($p['__wrapped_next']($iter3_nextval).$nextval) != 'undefined') {
+				k = $iter3_nextval.$nextval;
+				self['addDragWidget']();
+			}
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['onLoad'] = $method;
+		$method = $pyjs__bind_method2('makeCanvasImg', function(canvas) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				canvas = arguments[1];
+			}
+			var $attr53,ctx,$attr54;
+			ctx = canvas;
+			ctx['beginPath']();
+			ctx['setLineWidth'](3);
+			ctx['setStrokeStyle']((($attr53=($attr54=$m['Color'])['ORANGE']) == null || (($attr54.__is_instance__) && typeof $attr53 == 'function') || (typeof $attr53['__get__'] == 'function')?
+						$p['getattr']($attr54, 'ORANGE'):
+						$m['Color']['ORANGE']));
+			ctx['moveTo'](25, 1.5);
+			ctx['lineTo'](50, 50);
+			ctx['lineTo'](1.5, 50);
+			ctx['lineTo'](25, 1.5);
+			ctx['stroke']();
+			return null;
+		}
+	, 1, [null,null,['self'],['canvas']]);
+		$cls_definition['makeCanvasImg'] = $method;
+		$method = $pyjs__bind_method2('onDragStart', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+			var $attr58,target,parent,ctx,img,$attr55,$attr57,$attr56,$pyjs_try_err,id,dt;
+			dt = (($attr55=($attr56=event)['dataTransfer']) == null || (($attr56.__is_instance__) && typeof $attr55 == 'function') || (typeof $attr55['__get__'] == 'function')?
+						$p['getattr']($attr56, 'dataTransfer'):
+						event['dataTransfer']);
+			target = $m['DOM']['eventGetTarget'](event);
+			target = $pyjs_kwargs_call(null, $m['Widget'], null, null, [{Element:target}]);
+			id = target['getID']();
+			dt['setData']('Text', $p['sprintf']('Dropped %s', target['getID']()));
+			dt.__is_instance__ && typeof dt.__setattr__ == 'function' ? dt.__setattr__('effectAllowed', 'copy') : $p['setattr'](dt, 'effectAllowed', 'copy');
+			if ($p['bool']($p['op_eq'](id, 'imgdrag1'))) {
+				parent = self['getParent']();
+				while ($p['bool'](!$p['bool']($p['hasattr'](parent, 'h2')))) {
+					parent = parent['getParent']();
+				}
+				dt['setDragImage'](parent['h2']['getElement'](), 10, 10);
+			}
+			else if ($p['bool']($p['op_eq'](id, 'imgdrag2'))) {
+				dt['setDragImage']($doc['getElementById']('logo'), 10, 10);
+			}
+			else if ($p['bool']($p['op_eq'](id, 'imgdrag3'))) {
+				ctx = $m['GWTCanvas'](50, 50);
+				self['makeCanvasImg'](ctx);
+				try {
+					img = $m['DOM']['createImg']();
+					$m['DOM']['setAttribute'](img, 'src', ctx['canvas']['toDataURL']());
+					dt['setDragImage'](img, 25, 25);
+				} catch($pyjs_try_err) {
+					var $pyjs_try_err_name = (typeof $pyjs_try_err.__name__ == 'undefined' ? $pyjs_try_err.name : $pyjs_try_err.__name__ );
+					$pyjs.__last_exception__ = {error: $pyjs_try_err, module: $m};
+					if (true) {
+						dt['setDragImage']((($attr57=($attr58=ctx)['canvas']) == null || (($attr58.__is_instance__) && typeof $attr57 == 'function') || (typeof $attr57['__get__'] == 'function')?
+									$p['getattr']($attr58, 'canvas'):
+									ctx['canvas']), 25, 25);
+					}
+				}
+			}
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragStart'] = $method;
+		$method = $pyjs__bind_method2('addDragWidget', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+			var $attr59,$attr60,texts,s,$add10,w,$add9;
+			s = $p['len']((($attr59=($attr60=self)['children']) == null || (($attr60.__is_instance__) && typeof $attr59 == 'function') || (typeof $attr59['__get__'] == 'function')?
+						$p['getattr']($attr60, 'children'):
+						self['children']));
+			w = $pyjs_kwargs_call(null, $m['Label'], null, null, [{Element:$m['DOM']['createElement']('li')}]);
+			w['setStyleName']('dragme');
+			w['setID']($p['__op_add']($add9='imgdrag',$add10=$p['str'](s)));
+			texts = $p['list'](['Default', 'Element', 'Image', 'Canvas']);
+			w['setText'](texts.__getitem__(s));
+			self['add'](w);
+			$m['makeDraggable'](w);
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['addDragWidget'] = $method;
+		var $bases = new Array($m['DragWidget2']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('DragWidget3', $p['tuple']($bases), $data);
+	})();
+	$m['DropWidget3'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('onLoad', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+
+			self['setID']('imgdrop');
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['onLoad'] = $method;
+		var $bases = new Array($m['DropWidget1']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('DropWidget3', $p['tuple']($bases), $data);
+	})();
+	$m['ImageDrop'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('__init__', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('title', 'Using drag feedback images') : $p['setattr'](self, 'title', 'Using drag feedback images');
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('id', 'feedback_image') : $p['setattr'](self, 'id', 'feedback_image');
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('drop_widget', $m['DropWidget3']()) : $p['setattr'](self, 'drop_widget', $m['DropWidget3']());
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('drag_widget', $m['DragWidget3']()) : $p['setattr'](self, 'drag_widget', $m['DragWidget3']());
+			$m['DNDDemo']['__init__'](self);
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['__init__'] = $method;
+		var $bases = new Array($m['DNDDemo']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('ImageDrop', $p['tuple']($bases), $data);
+	})();
+	$m['DragWidget4'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('__init__', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+
+			self['setElement']($m['DOM']['createElement']('ul'));
+			$p['$$super']($m['DragWidget4'], self)['__init__']();
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['__init__'] = $method;
+		$method = $pyjs__bind_method2('onLoad', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+			var $iter4_nextval,$attr61,$attr62,$iter4_idx,$iter4_type,$iter4_array,$iter4_iter,k;
+			self['setStyleName']('drag_delegates');
+			self['addStyleName']('draglist');
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('following_text', $m['HTML']('\x3Cli\x3E\x3Cp\x3E\x0A               ... and try dragging to other windows and applications.\x0A               \x3C/p\x3E\x3C/li\x3E\x0A            ')) : $p['setattr'](self, 'following_text', $m['HTML']('\x3Cli\x3E\x3Cp\x3E\x0A               ... and try dragging to other windows and applications.\x0A               \x3C/p\x3E\x3C/li\x3E\x0A            '));
+			$iter4_iter = $p['range'](3);
+			$iter4_nextval=$p['__iter_prepare']($iter4_iter,false);
+			while (typeof($p['__wrapped_next']($iter4_nextval).$nextval) != 'undefined') {
+				k = $iter4_nextval.$nextval;
+				self['addDragWidget']();
+			}
+			self['append']((($attr61=($attr62=self)['following_text']) == null || (($attr62.__is_instance__) && typeof $attr61 == 'function') || (typeof $attr61['__get__'] == 'function')?
+						$p['getattr']($attr62, 'following_text'):
+						self['following_text']));
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['onLoad'] = $method;
+		$method = $pyjs__bind_method2('addDragWidget', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+			var $add12,$attr64,$attr63,texts,s,$add11,w;
+			s = $p['len']((($attr63=($attr64=self)['children']) == null || (($attr64.__is_instance__) && typeof $attr63 == 'function') || (typeof $attr63['__get__'] == 'function')?
+						$p['getattr']($attr64, 'children'):
+						self['children']));
+			w = $pyjs_kwargs_call(null, $m['Label'], null, null, [{Element:$m['DOM']['createElement']('li')}]);
+			w['setID']($p['__op_add']($add11='datadrag',$add12=$p['str'](s)));
+			w['setStyleName']('dragme');
+			texts = $p['list'](['Text', 'Text / HTML / URI', 'Disallowed']);
+			w['setText'](texts.__getitem__(s));
+			self['append'](w);
+			$m['makeDraggable'](w);
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['addDragWidget'] = $method;
+		$method = $pyjs__bind_method2('onDragStart', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+			var target,$attr65,uri,html,logo_parent_element,id,$pyjs_try_err,text,$attr66,logo,dt;
+			dt = (($attr65=($attr66=event)['dataTransfer']) == null || (($attr66.__is_instance__) && typeof $attr65 == 'function') || (typeof $attr65['__get__'] == 'function')?
+						$p['getattr']($attr66, 'dataTransfer'):
+						event['dataTransfer']);
+			target = $m['DOM']['eventGetTarget'](event);
+			target = $pyjs_kwargs_call(null, $m['Widget'], null, null, [{Element:target}]);
+			try {
+				id = target['getID']();
+			} catch($pyjs_try_err) {
+				var $pyjs_try_err_name = (typeof $pyjs_try_err.__name__ == 'undefined' ? $pyjs_try_err.name : $pyjs_try_err.__name__ );
+				$pyjs.__last_exception__ = {error: $pyjs_try_err, module: $m};
+				if (true) {
+					id = '';
+				}
+			}
+			if ($p['bool']($p['op_eq'](id, 'datadrag0'))) {
+				dt['setData']('text/plain', 'Hello World!');
+			}
+			else if ($p['bool']($p['op_eq'](id, 'datadrag1'))) {
+				logo = $doc['getElementById']('logo');
+				logo_parent_element = $m['DOM']['getParent'](logo);
+				text = $m['DOM']['getInnerText'](logo_parent_element);
+				html = $m['DOM']['getInnerHTML'](logo_parent_element);
+				uri = $m['DOM']['getAttribute'](logo, 'src');
+				dt['setData']('text/plain', text);
+				dt['setData']('text/html', html);
+				dt['setData']('text/uri-list', uri);
+			}
+			else if ($p['bool']($p['op_eq'](id, 'datadrag2'))) {
+				dt['setData']('x-star-trek/tribble', 'I am a tribble');
+			}
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragStart'] = $method;
+		var $bases = new Array($m['DragWidget2']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('DragWidget4', $p['tuple']($bases), $data);
+	})();
+	$m['DropWidget4'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('onLoad', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+
+			self['setText']('Drop here from items on the left - and selected\x0A        content from other windows and applications.');
+			self['setID']('datadrop');
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['onLoad'] = $method;
+		$method = $pyjs__bind_method2('onDrop', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+			var $iter5_nextval,$iter6_type,$iter5_idx,$attr72,$iter5_iter,$iter5_type,$iter6_iter,$iter6_nextval,$attr68,$attr69,$attr67,$pyjs_try_err,$iter5_array,files,parent,ctype,$add14,$add15,$add16,$add13,dt,data,types,$iter6_idx,name,idx,$attr76,$attr75,$attr74,$attr73,$iter6_array,$attr71,$attr70,item,file_names;
+			dt = (($attr67=($attr68=event)['dataTransfer']) == null || (($attr68.__is_instance__) && typeof $attr67 == 'function') || (typeof $attr67['__get__'] == 'function')?
+						$p['getattr']($attr68, 'dataTransfer'):
+						event['dataTransfer']);
+			types = $m['getTypes'](event);
+			self['addMessage']($p['__op_add']($add13='drop types received: ',$add14=', '['join'](types)));
+			parent = self['getParent']();
+			parent['clearContent']();
+			self['addMessage']($p['__op_add']($add15='dt: ',$add16=$p['str'](dt)));
+			types['sort']();
+			$iter5_iter = types;
+			$iter5_nextval=$p['__iter_prepare']($iter5_iter,false);
+			while (typeof($p['__wrapped_next']($iter5_nextval).$nextval) != 'undefined') {
+				ctype = $iter5_nextval.$nextval;
+				data = dt['getData'](ctype);
+				if ($p['bool']($p['op_eq'](ctype, 'Files'))) {
+					file_names = $p['list']([]);
+					files = (($attr69=($attr70=dt)['files']) == null || (($attr70.__is_instance__) && typeof $attr69 == 'function') || (typeof $attr69['__get__'] == 'function')?
+								$p['getattr']($attr70, 'files'):
+								dt['files']);
+					$iter6_iter = $p['range']((($attr71=($attr72=files)['length']) == null || (($attr72.__is_instance__) && typeof $attr71 == 'function') || (typeof $attr71['__get__'] == 'function')?
+								$p['getattr']($attr72, 'length'):
+								files['length']));
+					$iter6_nextval=$p['__iter_prepare']($iter6_iter,false);
+					while (typeof($p['__wrapped_next']($iter6_nextval).$nextval) != 'undefined') {
+						idx = $iter6_nextval.$nextval;
+						item = files['item'](idx);
+						try {
+							name = (($attr73=($attr74=item)['$$name']) == null || (($attr74.__is_instance__) && typeof $attr73 == 'function') || (typeof $attr73['__get__'] == 'function')?
+										$p['getattr']($attr74, '$$name'):
+										item['$$name']);
+						} catch($pyjs_try_err) {
+							var $pyjs_try_err_name = (typeof $pyjs_try_err.__name__ == 'undefined' ? $pyjs_try_err.name : $pyjs_try_err.__name__ );
+							$pyjs.__last_exception__ = {error: $pyjs_try_err, module: $m};
+							if (true) {
+								name = (($attr75=($attr76=item)['fileName']) == null || (($attr76.__is_instance__) && typeof $attr75 == 'function') || (typeof $attr75['__get__'] == 'function')?
+											$p['getattr']($attr76, 'fileName'):
+											item['fileName']);
+							}
+						}
+						file_names['append'](name);
+					}
+					data = '\x3Cbr\x3E'['join'](file_names);
+				}
+				parent['addContent'](ctype, data);
+			}
+			$m['DOM']['eventPreventDefault'](event);
+			$m['DOM']['eventCancelBubble'](event, true);
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDrop'] = $method;
+		$method = $pyjs__bind_method2('onDragOver', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+			var types;
+			types = $m['getTypes'](event);
+			if ($p['bool'](!$p['bool'](types.__contains__('x-star-trek/tribble')))) {
+				self['addStyleName']('dragover');
+				$m['DOM']['eventPreventDefault'](event);
+			}
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragOver'] = $method;
+		$method = $pyjs__bind_method2('onDragEnter', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+			var types;
+			types = $m['getTypes'](event);
+			if ($p['bool'](!$p['bool'](types.__contains__('x-star-trek/tribble')))) {
+				self['addStyleName']('dragover');
+				$m['DOM']['eventPreventDefault'](event);
+			}
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragEnter'] = $method;
+		var $bases = new Array($m['DropWidget1']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('DropWidget4', $p['tuple']($bases), $data);
+	})();
+	$m['ContentDisplay'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('__init__', function(ctype, data) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				ctype = arguments[1];
+				data = arguments[2];
+			}
+			var $attr77,$attr78;
+			$m['Label']['__init__'](self);
+			$m['AddablePanel']['__init__'](self);
+			self['setStyleName']('content_text');
+			self['setText']($p['sprintf']('\x27%s\x27 content:', ctype));
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('content', $pyjs_kwargs_call(null, $m['HTML'], null, null, [{StyleName:'content'}, data])) : $p['setattr'](self, 'content', $pyjs_kwargs_call(null, $m['HTML'], null, null, [{StyleName:'content'}, data]));
+			self['append']((($attr77=($attr78=self)['content']) == null || (($attr78.__is_instance__) && typeof $attr77 == 'function') || (typeof $attr77['__get__'] == 'function')?
+						$p['getattr']($attr78, 'content'):
+						self['content']));
+			return null;
+		}
+	, 1, [null,null,['self'],['ctype'],['data']]);
+		$cls_definition['__init__'] = $method;
+		var $bases = new Array($m['Label'],$m['AddablePanel']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('ContentDisplay', $p['tuple']($bases), $data);
+	})();
+	$m['DropWidgetPanel4'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('__init__', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+
+			$pyjs_kwargs_call($m['AddablePanel'], '__init__', null, null, [{Element:$m['DOM']['createElement']('div')}, self]);
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['__init__'] = $method;
+		$method = $pyjs__bind_method2('onLoad', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+			var $attr82,$attr81,$attr80,$attr79;
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('drop_widget', $m['DropWidget4']()) : $p['setattr'](self, 'drop_widget', $m['DropWidget4']());
+			self['add']((($attr79=($attr80=self)['drop_widget']) == null || (($attr80.__is_instance__) && typeof $attr79 == 'function') || (typeof $attr79['__get__'] == 'function')?
+						$p['getattr']($attr80, 'drop_widget'):
+						self['drop_widget']));
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('contentPanel', $pyjs_kwargs_call(null, $m['AddablePanel'], null, null, [{Element:$m['DOM']['createElement']('div')}])) : $p['setattr'](self, 'contentPanel', $pyjs_kwargs_call(null, $m['AddablePanel'], null, null, [{Element:$m['DOM']['createElement']('div')}]));
+			self['add']((($attr81=($attr82=self)['contentPanel']) == null || (($attr82.__is_instance__) && typeof $attr81 == 'function') || (typeof $attr81['__get__'] == 'function')?
+						$p['getattr']($attr82, 'contentPanel'):
+						self['contentPanel']));
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['onLoad'] = $method;
+		$method = $pyjs__bind_method2('clearContent', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+
+			self['contentPanel']['clear']();
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['clearContent'] = $method;
+		$method = $pyjs__bind_method2('addContent', function(ctype, data) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				ctype = arguments[1];
+				data = arguments[2];
+			}
+			var display;
+			display = $m['ContentDisplay'](ctype, data);
+			self['contentPanel']['add'](display);
+			return null;
+		}
+	, 1, [null,null,['self'],['ctype'],['data']]);
+		$cls_definition['addContent'] = $method;
+		var $bases = new Array($m['AddablePanel']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('DropWidgetPanel4', $p['tuple']($bases), $data);
+	})();
+	$m['DataTransferDemo'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('__init__', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('title', 'Using data transfer content types') : $p['setattr'](self, 'title', 'Using data transfer content types');
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('id', 'data_transfer') : $p['setattr'](self, 'id', 'data_transfer');
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('drag_widget', $m['DragWidget4']()) : $p['setattr'](self, 'drag_widget', $m['DragWidget4']());
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('drop_widget', $m['DropWidgetPanel4']()) : $p['setattr'](self, 'drop_widget', $m['DropWidgetPanel4']());
+			$m['DNDDemo']['__init__'](self);
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['__init__'] = $method;
+		var $bases = new Array($m['DNDDemo']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('DataTransferDemo', $p['tuple']($bases), $data);
+	})();
+	$m['DragWidget5'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('onDragStart', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+			var $attr83,$attr86,target,$attr84,$attr85,effect_allowed,id,$pyjs_try_err,dt;
+			target = $m['DOM']['eventGetTarget'](event);
+			dt = (($attr83=($attr84=event)['dataTransfer']) == null || (($attr84.__is_instance__) && typeof $attr83 == 'function') || (typeof $attr83['__get__'] == 'function')?
+						$p['getattr']($attr84, 'dataTransfer'):
+						event['dataTransfer']);
+			try {
+				id = $pyjs_kwargs_call(null, $m['Widget'], null, null, [{Element:target}])['getID']();
+			} catch($pyjs_try_err) {
+				var $pyjs_try_err_name = (typeof $pyjs_try_err.__name__ == 'undefined' ? $pyjs_try_err.name : $pyjs_try_err.__name__ );
+				$pyjs.__last_exception__ = {error: $pyjs_try_err, module: $m};
+				if (true) {
+					id = '';
+				}
+			}
+			dt['setData']('Text', $p['sprintf']('Dropped %s', id));
+			effect_allowed = (($attr85=($attr86=self)['data']) == null || (($attr86.__is_instance__) && typeof $attr85 == 'function') || (typeof $attr85['__get__'] == 'function')?
+						$p['getattr']($attr86, 'data'):
+						self['data']).__getitem__($p['float_int'](id.__getitem__((typeof ($usub1=1)=='number'?
+				-$usub1:
+				$p['op_usub']($usub1)))));
+			dt.__is_instance__ && typeof dt.__setattr__ == 'function' ? dt.__setattr__('effectAllowed', effect_allowed) : $p['setattr'](dt, 'effectAllowed', effect_allowed);
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragStart'] = $method;
+		$method = $pyjs__bind_method2('onLoad', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+			var $iter7_nextval,$iter7_iter,$iter7_array,$iter7_idx,$iter7_type,k;
+			self['setStyleName']('drag_delegates');
+			self['addStyleName']('draglist');
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('data', $p['list'](['copy', 'move', 'link', 'all', 'none'])) : $p['setattr'](self, 'data', $p['list'](['copy', 'move', 'link', 'all', 'none']));
+			$iter7_iter = $p['range'](5);
+			$iter7_nextval=$p['__iter_prepare']($iter7_iter,false);
+			while (typeof($p['__wrapped_next']($iter7_nextval).$nextval) != 'undefined') {
+				k = $iter7_nextval.$nextval;
+				self['addDragWidget']();
+			}
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['onLoad'] = $method;
+		$method = $pyjs__bind_method2('addDragWidget', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+			var $attr87,$attr89,s,$add17,w,$add18,$attr88,$attr90;
+			s = $p['len']((($attr87=($attr88=self)['children']) == null || (($attr88.__is_instance__) && typeof $attr87 == 'function') || (typeof $attr87['__get__'] == 'function')?
+						$p['getattr']($attr88, 'children'):
+						self['children']));
+			w = $pyjs_kwargs_call(null, $m['Label'], null, null, [{Element:$m['DOM']['createElement']('li')}]);
+			w['setID']($p['__op_add']($add17='effectdrag',$add18=$p['str'](s)));
+			w['setStyleName']('dragme');
+			w['setText']($p['sprintf']('Drag %s (%s)', $p['tuple']([s, (($attr89=($attr90=self)['data']) == null || (($attr90.__is_instance__) && typeof $attr89 == 'function') || (typeof $attr89['__get__'] == 'function')?
+						$p['getattr']($attr90, 'data'):
+						self['data']).__getitem__(s)])));
+			self['add'](w);
+			$m['makeDraggable'](w);
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['addDragWidget'] = $method;
+		var $bases = new Array($m['DragWidget2']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('DragWidget5', $p['tuple']($bases), $data);
+	})();
+	$m['DropWidget5'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('onLoad', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+			var $iter8_idx,$iter8_array,$iter8_iter,$iter8_nextval,k,$iter8_type;
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('data', $p['list'](['copy', 'move', 'link', 'all', 'none'])) : $p['setattr'](self, 'data', $p['list'](['copy', 'move', 'link', 'all', 'none']));
+			self['setStyleName']('drop_delegates');
+			self['addStyleName']('droplist');
+			$iter8_iter = $p['range'](5);
+			$iter8_nextval=$p['__iter_prepare']($iter8_iter,false);
+			while (typeof($p['__wrapped_next']($iter8_nextval).$nextval) != 'undefined') {
+				k = $iter8_nextval.$nextval;
+				self['addDropWidget']();
+			}
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['onLoad'] = $method;
+		$method = $pyjs__bind_method2('addDropWidget', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+			var $attr94,$attr91,$attr93,$attr92,$add20,s,w,$add19;
+			s = $p['len']((($attr91=($attr92=self)['children']) == null || (($attr92.__is_instance__) && typeof $attr91 == 'function') || (typeof $attr91['__get__'] == 'function')?
+						$p['getattr']($attr92, 'children'):
+						self['children']));
+			w = $pyjs_kwargs_call(null, $m['Label'], null, null, [{Element:$m['DOM']['createElement']('li')}]);
+			w['setID']($p['__op_add']($add19='effectdrop',$add20=$p['str'](s)));
+			w['setStyleName']('drophere');
+			w['setText']($p['sprintf']('Drop %s (%s)', $p['tuple']([s, (($attr93=($attr94=self)['data']) == null || (($attr94.__is_instance__) && typeof $attr93 == 'function') || (typeof $attr93['__get__'] == 'function')?
+						$p['getattr']($attr94, 'data'):
+						self['data']).__getitem__(s)])));
+			self['append'](w);
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['addDropWidget'] = $method;
+		$method = $pyjs__bind_method2('onDragEnter', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+			var target,$pyjs_try_err,t,class_names;
+			target = $m['DOM']['eventGetTarget'](event);
+			t = $pyjs_kwargs_call(null, $m['Widget'], null, null, [{Element:target}]);
+			try {
+				class_names = t['getStyleName']();
+			} catch($pyjs_try_err) {
+				var $pyjs_try_err_name = (typeof $pyjs_try_err.__name__ == 'undefined' ? $pyjs_try_err.name : $pyjs_try_err.__name__ );
+				$pyjs.__last_exception__ = {error: $pyjs_try_err, module: $m};
+				if (true) {
+					class_names = null;
+				}
+			}
+			if ($p['bool']((class_names !== null))) {
+				if ($p['bool'](class_names.__contains__('drophere'))) {
+					t['addStyleName']('dragover');
+					$m['DOM']['eventPreventDefault'](event);
+				}
+			}
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragEnter'] = $method;
+		$method = $pyjs__bind_method2('onDragOver', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+			var $attr95,$attr97,$attr96,target,drop_effect,$attr98,id,t,dt,class_names;
+			target = $m['DOM']['eventGetTarget'](event);
+			t = $pyjs_kwargs_call(null, $m['Widget'], null, null, [{Element:target}]);
+			class_names = t['getStyleName']();
+			if ($p['bool']((class_names !== null))) {
+				if ($p['bool'](class_names.__contains__('drophere'))) {
+					dt = (($attr95=($attr96=event)['dataTransfer']) == null || (($attr96.__is_instance__) && typeof $attr95 == 'function') || (typeof $attr95['__get__'] == 'function')?
+								$p['getattr']($attr96, 'dataTransfer'):
+								event['dataTransfer']);
+					id = $pyjs_kwargs_call(null, $m['Widget'], null, null, [{Element:target}])['getID']();
+					drop_effect = (($attr97=($attr98=self)['data']) == null || (($attr98.__is_instance__) && typeof $attr97 == 'function') || (typeof $attr97['__get__'] == 'function')?
+								$p['getattr']($attr98, 'data'):
+								self['data']).__getitem__($p['float_int'](id.__getitem__((typeof ($usub2=1)=='number'?
+						-$usub2:
+						$p['op_usub']($usub2)))));
+					dt.__is_instance__ && typeof dt.__setattr__ == 'function' ? dt.__setattr__('dropEffect', drop_effect) : $p['setattr'](dt, 'dropEffect', drop_effect);
+					$m['DOM']['eventPreventDefault'](event);
+				}
+			}
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragOver'] = $method;
+		$method = $pyjs__bind_method2('onDragLeave', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+			var target,$pyjs_try_err,t,class_names;
+			target = $m['DOM']['eventGetTarget'](event);
+			t = $pyjs_kwargs_call(null, $m['Widget'], null, null, [{Element:target}]);
+			try {
+				class_names = t['getStyleName']();
+			} catch($pyjs_try_err) {
+				var $pyjs_try_err_name = (typeof $pyjs_try_err.__name__ == 'undefined' ? $pyjs_try_err.name : $pyjs_try_err.__name__ );
+				$pyjs.__last_exception__ = {error: $pyjs_try_err, module: $m};
+				if (true) {
+					class_names = null;
+				}
+			}
+			if ($p['bool']((class_names !== null))) {
+				if ($p['bool'](class_names.__contains__('drophere'))) {
+					t['removeStyleName']('dragover');
+				}
+			}
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragLeave'] = $method;
+		$method = $pyjs__bind_method2('onDrop', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+			var target,text,$attr99,$attr106,$attr104,$attr105,$attr102,t,$attr100,$attr101,dt,class_names,$attr103;
+			dt = (($attr99=($attr100=event)['dataTransfer']) == null || (($attr100.__is_instance__) && typeof $attr99 == 'function') || (typeof $attr99['__get__'] == 'function')?
+						$p['getattr']($attr100, 'dataTransfer'):
+						event['dataTransfer']);
+			text = dt['getData']('Text');
+			target = $m['DOM']['eventGetTarget'](event);
+			t = $pyjs_kwargs_call(null, $m['Widget'], null, null, [{Element:target}]);
+			class_names = t['getStyleName']();
+			if ($p['bool']((class_names !== null))) {
+				if ($p['bool'](class_names.__contains__('drophere'))) {
+					self['addMessage']($p['sprintf']('%s onto %s\x3Cbr\x3EeffectAllowed=%s, dropEffect=%s', $p['tuple']([text, (($attr101=($attr102=target)['id']) == null || (($attr102.__is_instance__) && typeof $attr101 == 'function') || (typeof $attr101['__get__'] == 'function')?
+								$p['getattr']($attr102, 'id'):
+								target['id']), (($attr103=($attr104=dt)['effectAllowed']) == null || (($attr104.__is_instance__) && typeof $attr103 == 'function') || (typeof $attr103['__get__'] == 'function')?
+								$p['getattr']($attr104, 'effectAllowed'):
+								dt['effectAllowed']), (($attr105=($attr106=dt)['dropEffect']) == null || (($attr106.__is_instance__) && typeof $attr105 == 'function') || (typeof $attr105['__get__'] == 'function')?
+								$p['getattr']($attr106, 'dropEffect'):
+								dt['dropEffect'])])));
+					$m['DOM']['eventPreventDefault'](event);
+				}
+			}
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDrop'] = $method;
+		var $bases = new Array($m['DropWidget2']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('DropWidget5', $p['tuple']($bases), $data);
+	})();
+	$m['DragEffects'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('__init__', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('title', 'Using drag effects') : $p['setattr'](self, 'title', 'Using drag effects');
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('id', 'data_transfer') : $p['setattr'](self, 'id', 'data_transfer');
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('drag_widget', $m['DragWidget5']()) : $p['setattr'](self, 'drag_widget', $m['DragWidget5']());
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('drop_widget', $m['DropWidget5']()) : $p['setattr'](self, 'drop_widget', $m['DropWidget5']());
+			$m['DNDDemo']['__init__'](self);
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['__init__'] = $method;
+		var $bases = new Array($m['DNDDemo']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('DragEffects', $p['tuple']($bases), $data);
+	})();
+	$m['AbsolutePosition'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('__init__', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('title', 'Absolute Position Drag and Drop') : $p['setattr'](self, 'title', 'Absolute Position Drag and Drop');
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('id', 'absolute_position') : $p['setattr'](self, 'id', 'absolute_position');
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('drop_widget', (typeof Drop6Container == "undefined"?$m.Drop6Container:Drop6Container)()) : $p['setattr'](self, 'drop_widget', (typeof Drop6Container == "undefined"?$m.Drop6Container:Drop6Container)());
+			$m['DNDDemo']['__init__'](self);
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['__init__'] = $method;
+		var $bases = new Array($m['DNDDemo']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('AbsolutePosition', $p['tuple']($bases), $data);
+	})();
+	$m['Drop6Container'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('__init__', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+			var right,drag2,drag,left;
+			$m['HorizontalPanel']['__init__'](self);
+			left = (typeof DropWidget6 == "undefined"?$m.DropWidget6:DropWidget6)();
+			right = (typeof DropWidget6 == "undefined"?$m.DropWidget6:DropWidget6)();
+			self['setSpacing']('10px');
+			drag = (typeof DragWidget6 == "undefined"?$m.DragWidget6:DragWidget6)('Drag1');
+			drag2 = (typeof DragWidget6 == "undefined"?$m.DragWidget6:DragWidget6)('Drag2');
+			left['add'](drag2);
+			drag2['setStyleAttribute']('top', 0);
+			drag2['setStyleAttribute']('left', 0);
+			$m['makeDraggable'](drag2);
+			left['add'](drag);
+			drag['setStyleAttribute']('top', 0);
+			drag['setStyleAttribute']('left', 100);
+			$m['makeDraggable'](drag);
+			self['add'](left);
+			self['add'](right);
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['__init__'] = $method;
+		var $bases = new Array($m['HorizontalPanel']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('Drop6Container', $p['tuple']($bases), $data);
+	})();
+	$m['DragWidget6'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('__init__', function(text) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				text = arguments[1];
+			}
+
+			$m['Label']['__init__'](self, text);
+			self['setStyleName']('dragme2');
+			self['setStyleAttribute']('position', 'absolute');
+			return null;
+		}
+	, 1, [null,null,['self'],['text']]);
+		$cls_definition['__init__'] = $method;
+		var $bases = new Array($m['Label']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('DragWidget6', $p['tuple']($bases), $data);
+	})();
+	$m['DropWidget6'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('__init__', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+
+			$pyjs_kwargs_call($m['AddablePanel'], '__init__', null, null, [{Element:$m['DOM']['createElement']('div')}, self]);
+			$m['DropWidget']['__init__'](self);
+			$m['DragContainer']['__init__'](self);
+			self['setStyleName']('drophere2');
+			self['setStyleAttribute']('position', 'relative');
+			self['setSize']('300px', '300px');
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['__init__'] = $method;
+		$method = $pyjs__bind_method2('onDragStart', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+			var $iter9_idx,$iter9_iter,$add21,$add23,$add22,$iter9_nextval,$add24,$attr107,$sub3,$sub2,$sub1,$iter9_type,$attr108,$sub4,clientX,clientY,widget,dt,target,package,$attr111,$attr110,$attr112,absx,absy,$iter9_array,$attr109;
+			dt = (($attr107=($attr108=event)['dataTransfer']) == null || (($attr108.__is_instance__) && typeof $attr107 == 'function') || (typeof $attr107['__get__'] == 'function')?
+						$p['getattr']($attr108, 'dataTransfer'):
+						event['dataTransfer']);
+			target = $m['DOM']['eventGetTarget'](event);
+			clientX = (($attr109=($attr110=event)['clientX']) == null || (($attr110.__is_instance__) && typeof $attr109 == 'function') || (typeof $attr109['__get__'] == 'function')?
+						$p['getattr']($attr110, 'clientX'):
+						event['clientX']);
+			clientY = (($attr111=($attr112=event)['clientY']) == null || (($attr112.__is_instance__) && typeof $attr111 == 'function') || (typeof $attr111['__get__'] == 'function')?
+						$p['getattr']($attr112, 'clientY'):
+						event['clientY']);
+			absx = $p['__op_add']($add21=clientX,$add22=$m['Window']['getScrollLeft']());
+			absy = $p['__op_add']($add23=clientY,$add24=$m['Window']['getScrollTop']());
+			package = $m['json']['encode']($p['dict']([['text', $m['DOM']['getInnerText'](target)], ['offsetX', $p['__op_sub']($sub1=absx,$sub2=$m['DOM']['getAbsoluteLeft'](target))], ['offsetY', $p['__op_sub']($sub3=absy,$sub4=$m['DOM']['getAbsoluteTop'](target))]]));
+			dt['setData']('text', package);
+			dt.__is_instance__ && typeof dt.__setattr__ == 'function' ? dt.__setattr__('allowedEffects', 'copy') : $p['setattr'](dt, 'allowedEffects', 'copy');
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('movingWidget', null) : $p['setattr'](self, 'movingWidget', null);
+			$iter9_iter = self['children'];
+			$iter9_nextval=$p['__iter_prepare']($iter9_iter,false);
+			while (typeof($p['__wrapped_next']($iter9_nextval).$nextval) != 'undefined') {
+				widget = $iter9_nextval.$nextval;
+				if ($p['bool']($p['op_eq'](target, widget['getElement']()))) {
+					self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('movingWidget', widget) : $p['setattr'](self, 'movingWidget', widget);
+				}
+			}
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragStart'] = $method;
+		$method = $pyjs__bind_method2('onDragLeave', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+			var $attr113,dt,$attr114;
+			dt = (($attr113=($attr114=event)['dataTransfer']) == null || (($attr114.__is_instance__) && typeof $attr113 == 'function') || (typeof $attr113['__get__'] == 'function')?
+						$p['getattr']($attr114, 'dataTransfer'):
+						event['dataTransfer']);
+			dt.__is_instance__ && typeof dt.__setattr__ == 'function' ? dt.__setattr__('dropEffect', 'none') : $p['setattr'](dt, 'dropEffect', 'none');
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragLeave'] = $method;
+		$method = $pyjs__bind_method2('onDrag', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+
+			self['movingWidget']['addStyleName']('invisible');
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDrag'] = $method;
+		$method = $pyjs__bind_method2('onDragEnd', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+			var $attr119,$attr118,$attr115,$attr117,$attr116,$attr120,$attr121,$attr122,ontimer,dt;
+			dt = (($attr115=($attr116=event)['dataTransfer']) == null || (($attr116.__is_instance__) && typeof $attr115 == 'function') || (typeof $attr115['__get__'] == 'function')?
+						$p['getattr']($attr116, 'dataTransfer'):
+						event['dataTransfer']);
+			self['addMessage']($p['sprintf']('Drop effect is \x22%s\x22', (($attr117=($attr118=dt)['dropEffect']) == null || (($attr118.__is_instance__) && typeof $attr117 == 'function') || (typeof $attr117['__get__'] == 'function')?
+						$p['getattr']($attr118, 'dropEffect'):
+						dt['dropEffect'])));
+			if ($p['bool'](!$p['op_eq']((($attr119=($attr120=dt)['dropEffect']) == null || (($attr120.__is_instance__) && typeof $attr119 == 'function') || (typeof $attr119['__get__'] == 'function')?
+						$p['getattr']($attr120, 'dropEffect'):
+						dt['dropEffect']), 'none'))) {
+				self['remove']((($attr121=($attr122=self)['movingWidget']) == null || (($attr122.__is_instance__) && typeof $attr121 == 'function') || (typeof $attr121['__get__'] == 'function')?
+							$p['getattr']($attr122, 'movingWidget'):
+							self['movingWidget']));
+			}
+			else {
+				ontimer = function(timer) {
+
+					self['movingWidget']['removeStyleName']('invisible');
+					return null;
+				};
+				ontimer.__name__ = 'ontimer';
+
+				ontimer.__bind_type__ = 0;
+				ontimer.__args__ = [null,null,['timer']];
+				$pyjs_kwargs_call(null, $m['Timer'], null, null, [{notify:ontimer}, 500]);
+			}
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragEnd'] = $method;
+		$method = $pyjs__bind_method2('onDragEnter', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+
+			$m['DOM']['eventPreventDefault'](event);
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragEnter'] = $method;
+		$method = $pyjs__bind_method2('onDragOver', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+			var $attr123,$attr124,dt;
+			dt = (($attr123=($attr124=event)['dataTransfer']) == null || (($attr124.__is_instance__) && typeof $attr123 == 'function') || (typeof $attr123['__get__'] == 'function')?
+						$p['getattr']($attr124, 'dataTransfer'):
+						event['dataTransfer']);
+			dt.__is_instance__ && typeof dt.__setattr__ == 'function' ? dt.__setattr__('dropEffect', 'copy') : $p['setattr'](dt, 'dropEffect', 'copy');
+			$m['DOM']['eventPreventDefault'](event);
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragOver'] = $method;
+		$method = $pyjs__bind_method2('onDrop', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+			var text,al,at,$sub9,$sub8,$attr125,$attr126,$sub7,$sub6,$sub5,w,$sub13,$sub12,$sub11,$sub10,$sub16,$sub15,$sub14,dt,package,offsetX,offsetY,scrollX,scrollY,posX,posY,y,x;
+			dt = (($attr125=($attr126=event)['dataTransfer']) == null || (($attr126.__is_instance__) && typeof $attr125 == 'function') || (typeof $attr125['__get__'] == 'function')?
+						$p['getattr']($attr126, 'dataTransfer'):
+						event['dataTransfer']);
+			text = dt['getData']('text');
+			package = $m['json']['decode'](text);
+			x = $m['DOM']['eventGetClientX'](event);
+			y = $m['DOM']['eventGetClientY'](event);
+			scrollY = $m['Window']['getScrollTop']();
+			scrollX = $m['Window']['getScrollLeft']();
+			offsetX = $p['float_int'](package.__getitem__('offsetX'));
+			offsetY = $p['float_int'](package.__getitem__('offsetY'));
+			at = self['getAbsoluteTop']();
+			al = self['getAbsoluteLeft']();
+			var $tupleassign1 = $p['tuple']([$p['__op_sub']($sub7=x,$sub8=$p['__op_sub']($sub5=al,$sub6=scrollX)), $p['__op_sub']($sub11=y,$sub12=$p['__op_sub']($sub9=at,$sub10=scrollY))]);
+			posX = $tupleassign1.__getitem__(0);
+			posY = $tupleassign1.__getitem__(1);
+			w = $m['DragWidget6'](package.__getitem__('text'));
+			self['add'](w);
+			$m['makeDraggable'](w);
+			w['setStyleAttribute']('left', $p['__op_sub']($sub13=posX,$sub14=offsetX));
+			w['setStyleAttribute']('top', $p['__op_sub']($sub15=posY,$sub16=offsetY));
+			w['removeStyleName']('invisible');
+			self['addMessage']($p['sprintf']('top:%s, left:%s, cy:%s cx:%s, sy:%s sx:%s dropy:%s dropx:%s', $p['tuple']([at, al, y, x, scrollY, scrollX, posY, posX])));
+			$m['DOM']['eventPreventDefault'](event);
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDrop'] = $method;
+		$method = $pyjs__bind_method2('addMessage', function(message) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				message = arguments[1];
+			}
+			var parent;
+			parent = self['getParent']();
+			while ($p['bool'](!$p['bool']($p['hasattr'](parent, 'addMessage')))) {
+				parent = parent['getParent']();
+			}
+			parent['addMessage'](message);
+			return null;
+		}
+	, 1, [null,null,['self'],['message']]);
+		$cls_definition['addMessage'] = $method;
+		var $bases = new Array($m['DropWidget'],$m['DragContainer'],$m['AddablePanel']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('DropWidget6', $p['tuple']($bases), $data);
+	})();
+	$m['StudentWidget'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('__init__', function(name, age) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				name = arguments[1];
+				age = arguments[2];
+			}
+			var $attr130,$attr127,$attr128,$attr129;
+			$pyjs_kwargs_call($m['Label'], '__init__', null, null, [{Element:$m['DOM']['createElement']('li')}, self]);
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('student_name', name) : $p['setattr'](self, 'student_name', name);
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('age', $p['float_int'](age)) : $p['setattr'](self, 'age', $p['float_int'](age));
+			self['setText']($p['sprintf']('%s (%s)', $p['tuple']([(($attr127=($attr128=self)['student_name']) == null || (($attr128.__is_instance__) && typeof $attr127 == 'function') || (typeof $attr127['__get__'] == 'function')?
+						$p['getattr']($attr128, 'student_name'):
+						self['student_name']), (($attr129=($attr130=self)['age']) == null || (($attr130.__is_instance__) && typeof $attr129 == 'function') || (typeof $attr129['__get__'] == 'function')?
+						$p['getattr']($attr130, 'age'):
+						self['age'])])));
+			self['setStyleName']('dragme');
+			return null;
+		}
+	, 1, [null,null,['self'],['name'],['age']]);
+		$cls_definition['__init__'] = $method;
+		$method = $pyjs__bind_method2('onClick', function(sender) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				sender = arguments[1];
+			}
+
+			self['addMessage']('clicked');
+			return null;
+		}
+	, 1, [null,null,['self'],['sender']]);
+		$cls_definition['onClick'] = $method;
+		$method = $pyjs__bind_method2('addMessage', function(message) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				message = arguments[1];
+			}
+			var parent;
+			parent = self['getParent']();
+			while ($p['bool'](!$p['bool']($p['hasattr'](parent, 'addMessage')))) {
+				parent = parent['getParent']();
+			}
+			parent['addMessage'](message);
+			return null;
+		}
+	, 1, [null,null,['self'],['message']]);
+		$cls_definition['addMessage'] = $method;
+		var $bases = new Array($m['Label']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('StudentWidget', $p['tuple']($bases), $data);
+	})();
+	$m['StudentContainer'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('__init__', function(min_age, max_age, id) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				min_age = arguments[1];
+				max_age = arguments[2];
+				id = arguments[3];
+			}
+			var $attr132,$attr131;
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('min_age', min_age) : $p['setattr'](self, 'min_age', min_age);
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('max_age', max_age) : $p['setattr'](self, 'max_age', max_age);
+			$m['VerticalPanel']['__init__'](self);
+			$m['DropWidget']['__init__'](self);
+			$m['DragContainer']['__init__'](self);
+			self['setID'](id);
+			self['setWidth'](200);
+			self['setHeight'](300);
+			self['setVerticalAlignment']((($attr131=($attr132=$m['HasVerticalAlignment'])['ALIGN_TOP']) == null || (($attr132.__is_instance__) && typeof $attr131 == 'function') || (typeof $attr131['__get__'] == 'function')?
+						$p['getattr']($attr132, 'ALIGN_TOP'):
+						$m['HasVerticalAlignment']['ALIGN_TOP']));
+			self['setStyleName']('drophere2');
+			self['addTitle']();
+			return null;
+		}
+	, 1, [null,null,['self'],['min_age'],['max_age'],['id']]);
+		$cls_definition['__init__'] = $method;
+		$method = $pyjs__bind_method2('getNames', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+			var $iter10_nextval,$iter10_array,$attr133,item,names,$attr135,$attr134,$iter10_type,$iter10_iter,$iter10_idx,$attr136;
+			names = $p['list']([]);
+			$iter10_iter = self['children'];
+			$iter10_nextval=$p['__iter_prepare']($iter10_iter,false);
+			while (typeof($p['__wrapped_next']($iter10_nextval).$nextval) != 'undefined') {
+				item = $iter10_nextval.$nextval;
+				if ($p['bool']($p['isinstance'](item, $m['StudentWidget']))) {
+					names['append']($p['tuple']([(($attr133=($attr134=item)['student_name']) == null || (($attr134.__is_instance__) && typeof $attr133 == 'function') || (typeof $attr133['__get__'] == 'function')?
+								$p['getattr']($attr134, 'student_name'):
+								item['student_name']), (($attr135=($attr136=item)['age']) == null || (($attr136.__is_instance__) && typeof $attr135 == 'function') || (typeof $attr135['__get__'] == 'function')?
+								$p['getattr']($attr136, 'age'):
+								item['age'])]));
+				}
+			}
+			return names;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['getNames'] = $method;
+		$method = $pyjs__bind_method2('addTitle', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+			var $attr140,$attr138,$attr137,$attr139;
+			self['append']($m['Label']($p['sprintf']('Allowed: %s to %s', $p['tuple']([(($attr137=($attr138=self)['min_age']) == null || (($attr138.__is_instance__) && typeof $attr137 == 'function') || (typeof $attr137['__get__'] == 'function')?
+						$p['getattr']($attr138, 'min_age'):
+						self['min_age']), (($attr139=($attr140=self)['max_age']) == null || (($attr140.__is_instance__) && typeof $attr139 == 'function') || (typeof $attr139['__get__'] == 'function')?
+						$p['getattr']($attr140, 'max_age'):
+						self['max_age'])]))));
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['addTitle'] = $method;
+		$method = $pyjs__bind_method2('addStudent', function(name, age) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				name = arguments[1];
+				age = arguments[2];
+			}
+			var $iter12_type,$attr142,$attr143,$attr141,$attr146,$attr144,$attr145,$iter11_idx,new_names,$iter11_iter,$iter12_array,student,$iter11_array,$iter11_nextval,$iter11_type,sw,$iter12_iter,item,found,$iter12_idx,$iter12_nextval;
+			new_names = self['getNames']();
+			found = false;
+			$iter11_iter = new_names;
+			$iter11_nextval=$p['__iter_prepare']($iter11_iter,false);
+			while (typeof($p['__wrapped_next']($iter11_nextval).$nextval) != 'undefined') {
+				item = $iter11_nextval.$nextval;
+				if ($p['bool']($p['op_eq'](item, $p['tuple']([name, age])))) {
+					found = true;
+					break;
+				}
+			}
+			if ($p['bool'](!$p['bool'](found))) {
+				new_names['append']($p['tuple']([name, age]));
+			}
+			new_names['sort']();
+			while ($p['bool']($p['len']((($attr141=($attr142=self)['children']) == null || (($attr142.__is_instance__) && typeof $attr141 == 'function') || (typeof $attr141['__get__'] == 'function')?
+						$p['getattr']($attr142, 'children'):
+						self['children'])))) {
+				self['remove']((($attr143=($attr144=self)['children']) == null || (($attr144.__is_instance__) && typeof $attr143 == 'function') || (typeof $attr143['__get__'] == 'function')?
+							$p['getattr']($attr144, 'children'):
+							self['children']).__getitem__(0));
+			}
+			self['addTitle']();
+			$iter12_iter = new_names;
+			$iter12_nextval=$p['__iter_prepare']($iter12_iter,false);
+			while (typeof($p['__wrapped_next']($iter12_nextval).$nextval) != 'undefined') {
+				student = $iter12_nextval.$nextval;
+				sw = $m['StudentWidget'](student.__getitem__(0), student.__getitem__(1));
+				$m['makeDraggable'](sw);
+				self['append'](sw);
+				self['setCellVerticalAlignment'](sw, (($attr145=($attr146=$m['HasVerticalAlignment'])['ALIGN_TOP']) == null || (($attr146.__is_instance__) && typeof $attr145 == 'function') || (typeof $attr145['__get__'] == 'function')?
+							$p['getattr']($attr146, 'ALIGN_TOP'):
+							$m['HasVerticalAlignment']['ALIGN_TOP']));
+			}
+			return null;
+		}
+	, 1, [null,null,['self'],['name'],['age']]);
+		$cls_definition['addStudent'] = $method;
+		$method = $pyjs__bind_method2('onDragStart', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+			var widget,$iter13_idx,$iter13_nextval,target,$iter13_iter,$attr149,$iter13_type,$iter13_array,$attr152,$attr150,$attr151,dt,$attr148,$attr147;
+			self['removeStyleName']('drop_fail');
+			dt = (($attr147=($attr148=event)['dataTransfer']) == null || (($attr148.__is_instance__) && typeof $attr147 == 'function') || (typeof $attr147['__get__'] == 'function')?
+						$p['getattr']($attr148, 'dataTransfer'):
+						event['dataTransfer']);
+			dt.__is_instance__ && typeof dt.__setattr__ == 'function' ? dt.__setattr__('effectAllowed', 'copy') : $p['setattr'](dt, 'effectAllowed', 'copy');
+			target = $m['DOM']['eventGetTarget'](event);
+			widget = null;
+			$iter13_iter = self['children'];
+			$iter13_nextval=$p['__iter_prepare']($iter13_iter,false);
+			while (typeof($p['__wrapped_next']($iter13_nextval).$nextval) != 'undefined') {
+				widget = $iter13_nextval.$nextval;
+				if ($p['bool']($p['op_eq'](widget['getElement'](), target))) {
+					self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('movingWidget', widget) : $p['setattr'](self, 'movingWidget', widget);
+					break;
+				}
+			}
+			dt['setData']('Text', $m['json']['encode']($p['dict']([['name', (($attr149=($attr150=widget)['student_name']) == null || (($attr150.__is_instance__) && typeof $attr149 == 'function') || (typeof $attr149['__get__'] == 'function')?
+						$p['getattr']($attr150, 'student_name'):
+						widget['student_name'])], ['age', (($attr151=($attr152=widget)['age']) == null || (($attr152.__is_instance__) && typeof $attr151 == 'function') || (typeof $attr151['__get__'] == 'function')?
+						$p['getattr']($attr152, 'age'):
+						widget['age'])], ['parent', self['getID']()]])));
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragStart'] = $method;
+		$method = $pyjs__bind_method2('onDrag', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+
+			self['movingWidget']['addStyleName']('invisible');
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDrag'] = $method;
+		$method = $pyjs__bind_method2('onDragEnd', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+			var styles,$attr154,$attr157,$attr156,$attr153,$and1,$attr158,$attr155,$and2,msg,dt;
+			dt = (($attr153=($attr154=event)['dataTransfer']) == null || (($attr154.__is_instance__) && typeof $attr153 == 'function') || (typeof $attr153['__get__'] == 'function')?
+						$p['getattr']($attr154, 'dataTransfer'):
+						event['dataTransfer']);
+			styles = self['getStyleName']();
+			if ($p['bool'](($p['bool']($and1=!$p['op_eq']((($attr155=($attr156=dt)['dropEffect']) == null || (($attr156.__is_instance__) && typeof $attr155 == 'function') || (typeof $attr155['__get__'] == 'function')?
+						$p['getattr']($attr156, 'dropEffect'):
+						dt['dropEffect']), 'none'))?!$p['bool'](styles.__contains__('drop_fail')):$and1))) {
+				self['remove']((($attr157=($attr158=self)['movingWidget']) == null || (($attr158.__is_instance__) && typeof $attr157 == 'function') || (typeof $attr157['__get__'] == 'function')?
+							$p['getattr']($attr158, 'movingWidget'):
+							self['movingWidget']));
+				msg = 'drop succeeded';
+			}
+			else {
+				self['movingWidget']['removeStyleName']('invisible');
+				msg = 'drop failed';
+			}
+			self['addMessage'](msg);
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragEnd'] = $method;
+		$method = $pyjs__bind_method2('onDragEnter', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+
+			self['addStyleName']('dragover');
+			$m['DOM']['eventPreventDefault'](event);
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragEnter'] = $method;
+		$method = $pyjs__bind_method2('onDragLeave', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+
+			self['removeStyleName']('dragover');
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragLeave'] = $method;
+		$method = $pyjs__bind_method2('onDragOver', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+
+			$m['DOM']['eventPreventDefault'](event);
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDragOver'] = $method;
+		$method = $pyjs__bind_method2('age_is_ok', function(age) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				age = arguments[1];
+			}
+			var $attr160,$and3,$and4,$attr161,$attr162,$attr159;
+			return ($p['bool']($and3=((($p['cmp'](age, (($attr159=($attr160=self)['min_age']) == null || (($attr160.__is_instance__) && typeof $attr159 == 'function') || (typeof $attr159['__get__'] == 'function')?
+						$p['getattr']($attr160, 'min_age'):
+						self['min_age'])))|1) == 1))?($p['cmp'](age, (($attr161=($attr162=self)['max_age']) == null || (($attr162.__is_instance__) && typeof $attr161 == 'function') || (typeof $attr161['__get__'] == 'function')?
+						$p['getattr']($attr162, 'max_age'):
+						self['max_age'])) < 1):$and3);
+		}
+	, 1, [null,null,['self'],['age']]);
+		$cls_definition['age_is_ok'] = $method;
+		$method = $pyjs__bind_method2('onDrop', function(event) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				event = arguments[1];
+			}
+			var removeFlash,name,$attr164,item_parent,$and5,$and6,$attr163,item,item_parent_id,dt,age,data;
+			dt = (($attr163=($attr164=event)['dataTransfer']) == null || (($attr164.__is_instance__) && typeof $attr163 == 'function') || (typeof $attr163['__get__'] == 'function')?
+						$p['getattr']($attr164, 'dataTransfer'):
+						event['dataTransfer']);
+			item = dt['getData']('Text');
+			data = $m['json']['decode'](item);
+			if ($p['bool'](($p['bool']($and5=data.__contains__('name'))?data.__contains__('age'):$and5))) {
+				age = data.__getitem__('age');
+				name = data.__getitem__('name');
+				self['removeStyleName']('dragover');
+				if ($p['bool'](self['age_is_ok'](age))) {
+					self['addStudent'](name, age);
+					dt.__is_instance__ && typeof dt.__setattr__ == 'function' ? dt.__setattr__('dropEffect', 'copy') : $p['setattr'](dt, 'dropEffect', 'copy');
+					self['addStyleName']('flash');
+					removeFlash = function(timer) {
+
+						self['removeStyleName']('flash');
+						return null;
+					};
+					removeFlash.__name__ = 'removeFlash';
+
+					removeFlash.__bind_type__ = 0;
+					removeFlash.__args__ = [null,null,['timer']];
+					$pyjs_kwargs_call(null, $m['Timer'], null, null, [{notify:removeFlash}, 250]);
+				}
+				else {
+					dt.__is_instance__ && typeof dt.__setattr__ == 'function' ? dt.__setattr__('dropEffect', 'none') : $p['setattr'](dt, 'dropEffect', 'none');
+					self['addMessage']('student could not be added');
+					item_parent_id = data.__getitem__('parent');
+					item_parent = self['parent']['containerFromId'](item_parent_id);
+					item_parent['addStyleName']('drop_fail');
+				}
+			}
+			$m['DOM']['eventPreventDefault'](event);
+			return null;
+		}
+	, 1, [null,null,['self'],['event']]);
+		$cls_definition['onDrop'] = $method;
+		$method = $pyjs__bind_method2('addMessage', function(message) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				message = arguments[1];
+			}
+			var parent;
+			parent = self['getParent']();
+			while ($p['bool'](!$p['bool']($p['hasattr'](parent, 'addMessage')))) {
+				parent = parent['getParent']();
+			}
+			parent['addMessage'](message);
+			return null;
+		}
+	, 1, [null,null,['self'],['message']]);
+		$cls_definition['addMessage'] = $method;
+		var $bases = new Array($m['DragContainer'],$m['DropWidget'],$m['VerticalPanel']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('StudentContainer', $p['tuple']($bases), $data);
+	})();
+	$m['ClassContainer'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('__init__', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+			var $iter14_array,$iter14_type,item,$iter14_idx,$iter14_iter,pool,$iter14_nextval;
+			$m['HorizontalPanel']['__init__'](self);
+			pool = $m['StudentContainer'](1, 20, 'pool_1');
+			$iter14_iter = $p['list']([$p['list'](['Fred', 12]), $p['list'](['Jane', 10]), $p['list'](['Sam', 18]), $p['list'](['Ginger', 8]), $p['list'](['Mary', 4])]);
+			$iter14_nextval=$p['__iter_prepare']($iter14_iter,false);
+			while (typeof($p['__wrapped_next']($iter14_nextval).$nextval) != 'undefined') {
+				item = $iter14_nextval.$nextval;
+				$pyjs_kwargs_call(pool, 'addStudent', null, null, [{name:item.__getitem__(0), age:item.__getitem__(1)}]);
+			}
+			self['append'](pool);
+			self['append']($m['StudentContainer'](6, 13, 'pool_2'));
+			self['append']($m['StudentContainer'](11, 20, 'pool_3'));
+			self['setSpacing']('10px');
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['__init__'] = $method;
+		$method = $pyjs__bind_method2('containerFromId', function(id) {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+				id = arguments[1];
+			}
+			var $iter15_iter,$iter15_array,$iter15_idx,item,$iter15_nextval,$iter15_type;
+			$iter15_iter = self['children'];
+			$iter15_nextval=$p['__iter_prepare']($iter15_iter,false);
+			while (typeof($p['__wrapped_next']($iter15_nextval).$nextval) != 'undefined') {
+				item = $iter15_nextval.$nextval;
+				if ($p['bool']($p['op_eq'](item['getID'](), id))) {
+					return item;
+				}
+			}
+			return null;
+		}
+	, 1, [null,null,['self'],['id']]);
+		$cls_definition['containerFromId'] = $method;
+		var $bases = new Array($m['HorizontalPanel']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('ClassContainer', $p['tuple']($bases), $data);
+	})();
+	$m['MultiTargetDemo'] = (function(){
+		var $cls_definition = new Object();
+		var $method;
+		$cls_definition.__module__ = 'DNDTest';
+		$method = $pyjs__bind_method2('__init__', function() {
+			if (this.__is_instance__ === true) {
+				var self = this;
+			} else {
+				var self = arguments[0];
+			}
+
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('drop_widget', $m['ClassContainer']()) : $p['setattr'](self, 'drop_widget', $m['ClassContainer']());
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('title', 'Drop with Validation') : $p['setattr'](self, 'title', 'Drop with Validation');
+			self.__is_instance__ && typeof self.__setattr__ == 'function' ? self.__setattr__('id', 'multi') : $p['setattr'](self, 'id', 'multi');
+			$m['DNDDemo']['__init__'](self);
+			return null;
+		}
+	, 1, [null,null,['self']]);
+		$cls_definition['__init__'] = $method;
+		var $bases = new Array($m['DNDDemo']);
+		var $data = $p['dict']();
+		for (var $item in $cls_definition) { $data.__setitem__($item, $cls_definition[$item]); }
+		return $p['_create_class']('MultiTargetDemo', $p['tuple']($bases), $data);
+	})();
+	if ($p['bool']($p['op_eq']((typeof __name__ == "undefined"?$m.__name__:__name__), '__main__'))) {
+		$m['pyjd']['setup']('./public/DNDTest.html');
+		$m['j'] = $m['RootPanel']();
+		$m['j']['add']($m['DNDDemos']());
+		$m['pyjd']['run']();
+	}
+	return this;
+}; /* end DNDTest */
+
+
+/* end module: DNDTest */
+
+
+/*
+PYJS_DEPS: ['pyjd', 'pyjamas.ui.HasVerticalAlignment', 'pyjamas', 'pyjamas.ui', 'pyjamas.Timer.Timer', 'pyjamas.Timer', 'pyjamas.Window.alert', 'pyjamas.Window', 'pyjamas.dnd.utils.eventCoordinates', 'pyjamas.dnd', 'pyjamas.dnd.utils', 'pyjamas.ui.DragHandler.DragHandler', 'pyjamas.ui.DragHandler', 'datetime.datetime', 'datetime', 'pyjamas.ui.Widget.Widget', 'pyjamas.ui.Widget', 'pyjamas.DOM', 'pyjamas.ui.Label.Label', 'pyjamas.ui.Label', 'pyjamas.ui.Button.Button', 'pyjamas.ui.Button', 'pyjamas.ui.HTML.HTML', 'pyjamas.ui.HTML', 'pyjamas.ui.RootPanel.RootPanel', 'pyjamas.ui.RootPanel', 'pyjamas.ui.VerticalPanel.VerticalPanel', 'pyjamas.ui.VerticalPanel', 'pyjamas.ui.HorizontalPanel.HorizontalPanel', 'pyjamas.ui.HorizontalPanel', 'pyjamas.ui.AbsolutePanel.AbsolutePanel', 'pyjamas.ui.AbsolutePanel', 'pyjamas.Canvas.GWTCanvas.GWTCanvas', 'pyjamas.Canvas', 'pyjamas.Canvas.GWTCanvas', 'pyjamas.Canvas.Color', 'pyjamas.dnd.makeDraggable', 'pyjamas.ui.DragWidget.DragWidget', 'pyjamas.ui.DragWidget', 'pyjamas.ui.DragWidget.DragContainer', 'pyjamas.ui.DropWidget.DropWidget', 'pyjamas.ui.DropWidget', 'pyjamas.ui.Panel.Panel', 'pyjamas.ui.Panel', 'pyjamas.dnd.getTypes', 'pyjamas.JSONParser.JSONParser', 'pyjamas.JSONParser', 'random']
+*/

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;DuinoBlocks/src/public/upload.js&apos;" deleteContents="false" description="Delete resource &apos;DuinoBlocks/src/public/upload.js&apos;" element1="/DuinoBlocks/src/public/upload.js" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1372663424154"/>
+</session>

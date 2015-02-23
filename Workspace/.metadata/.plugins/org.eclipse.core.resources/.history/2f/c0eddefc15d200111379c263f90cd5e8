@@ -1,0 +1,30 @@
+from edu.uca.renderable.StatementBlock import StatementBlock
+from edu.uca.renderable.Element import Element
+from pyjamas.ui.Widget import Widget
+from pyjamas import DOM
+
+class CompoundStatementBlock(StatementBlock):
+    
+    def __init__(self):
+        StatementBlock.__init__(self)
+        self.bn.addStyleName('i')
+        self.bl.addStyleName('i')  
+        self.c = Element(Element=DOM.createDiv())      
+        self.c.addStyleName('c '+self.color)
+        self.ti = Widget(Element=DOM.createDiv())
+        self.ti.addStyleName('ti '+self.color)
+        self.code = Widget(Element=DOM.createDiv())
+        self.code.addStyleName('codeBlockContents '+self.color)   
+        self.block = StatementBlock()    
+        self.block.addStyleName('codeBlockEnd statementElementEnd')
+        self.bi = Widget(Element=DOM.createDiv())
+        self.bi.setStyleName('bi '+ self.color)
+        self.draw2()
+             
+    def draw2(self):
+        self.bl.append(self.c)
+        self.c.append(self.ti)
+        self.c.append(self.code)
+        self.c.append(self.block)
+        self.block.append(self.bi)
+        

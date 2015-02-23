@@ -1,0 +1,21 @@
+from edu.uca.renderable.Element import Element
+from pyjamas import DOM
+from edu.uca.renderable.BlockHolder import BlockHolder
+from edu.uca.renderable.StatementHighlight import StatementHighlight
+
+class SiblingElement(Element):
+    
+    def __init__(self):
+        Element.__init__(self, Element=DOM.createDiv())
+        self.draw()
+        
+    def draw(self):
+        self.addStyleName('SiblingElement')
+        #self.append(StatementHighlight())#
+        self.append(BlockHolder(4))
+    
+    def drawSubElement(self):
+        pass
+    
+    def addSubElement(self, widget):
+        self.parent.parent.addSubElement(widget)

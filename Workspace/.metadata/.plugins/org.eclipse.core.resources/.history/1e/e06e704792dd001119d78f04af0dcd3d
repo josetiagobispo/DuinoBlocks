@@ -1,0 +1,253 @@
+from edu.uca.renderable.GroupElement import GroupElement
+from edu.uca.renderable.CodeElement import CodeElement
+from edu.uca.renderable.BlockHolder import BlockHolder
+from edu.uca.renderable.NumberBlock import NumberBlock
+from edu.uca.renderable.BooleanBlock import BooleanBlock
+from edu.uca.renderable.CompoundStatementBlock import CompoundStatementBlock
+from edu.uca.renderable.StatementBlock import StatementBlock
+
+class Operators(object):
+    def numericOperation(self, operator):
+        nb = NumberBlock()
+        ge = GroupElement()
+        ge.drawSubElement(CodeElement())
+        ge.drawSubElement(BlockHolder(1))            
+        ge.drawSubElement(CodeElement(operator))
+        ge.drawSubElement(BlockHolder(1))
+        ge.drawSubElement(CodeElement())
+        nb.append(ge)
+        return nb
+    def plus(self):
+        return self.numericOperation('+')
+    def minus(self):
+        return self.numericOperation('-')
+    def multiply(self):
+        return self.numericOperation('*')
+    def divide(self):
+        return self.numericOperation('/')
+    
+    def relationalOperation(self, operator):
+        nb = BooleanBlock()
+        ge = GroupElement()
+        #ge.drawSubElement(CodeElement())
+        ge.drawSubElement(BlockHolder(1))            
+        ge.drawSubElement(CodeElement(operator))
+        ge.drawSubElement(BlockHolder(1))
+        #ge.drawSubElement(CodeElement())
+        nb.append(ge)
+        return nb
+    def equals(self):
+        return self.relationalOperation('=')   
+    def lesser(self):
+        return self.relationalOperation('<')
+    def greater(self):
+        return self.relationalOperation('>')
+    
+    def logicOperation(self, operator):
+        bb = BooleanBlock()
+        ge = GroupElement()
+        #ge.drawSubElement(CodeElement())
+        ge.drawSubElement(BlockHolder(2))            
+        ge.drawSubElement(CodeElement(operator))
+        ge.drawSubElement(BlockHolder(2))
+        #ge.drawSubElement(CodeElement())
+        bb.append(ge)
+        return bb
+    def and_(self):
+        return self.logicOperation('e') 
+    def or_(self):
+        return self.logicOperation('ou') 
+    def not_(self):
+        bb = BooleanBlock()
+        ge = GroupElement()          
+        ge.drawSubElement(CodeElement('nao'))
+        ge.drawSubElement(BlockHolder(2))
+        #ge.drawSubElement(CodeElement())
+        bb.append(ge)
+        return bb
+    
+    def custom(self):
+        bb = BooleanBlock()
+        ge = GroupElement()
+        #ge.drawSubElement(CodeElement())
+        ge.drawSubElement(BlockHolder(1))            
+        ge.drawSubElement(CodeElement('custom'))
+        ge.drawSubElement(BlockHolder(2))
+        #ge.drawSubElement(CodeElement())
+        ge.drawSubElement(CodeElement('test'))
+        ge.drawSubElement(BlockHolder(2))
+        #ge.drawSubElement(CodeElement())
+        ge.drawSubElement(BlockHolder(1))            
+        ge.drawSubElement(CodeElement('uca'))
+        bb.append(ge)
+        return bb
+    
+    def custom2(self):
+        nb = NumberBlock()
+        ge = GroupElement()
+        #ge.drawSubElement(CodeElement())
+        ge.drawSubElement(CodeElement('123'))
+        ge.drawSubElement(BlockHolder(2))            
+        ge.drawSubElement(CodeElement('testando'))
+        ge.drawSubElement(BlockHolder(2))
+        #ge.drawSubElement(CodeElement())
+        ge.drawSubElement(CodeElement('test'))
+        ge.drawSubElement(BlockHolder(1))
+        #ge.drawSubElement(CodeElement())
+        ge.drawSubElement(BlockHolder(1))            
+        nb.append(ge)
+        return nb
+
+class Input(object):
+    def analogRead(self):
+        nb = NumberBlock('purple')
+        ge = GroupElement()
+        ge.drawSubElement(CodeElement('analogRead'))
+        ge.drawSubElement(BlockHolder(3))
+        ge.drawSubElement(CodeElement())
+        nb.append(ge)
+        return nb
+    def digitalRead(self):
+        nb = NumberBlock('purple')
+        ge = GroupElement()
+        ge.drawSubElement(CodeElement('digitalRead'))
+        ge.drawSubElement(BlockHolder(3))
+        ge.drawSubElement(CodeElement())
+        nb.append(ge)
+        return nb
+    
+class Control(object):
+    def if_(self):
+        csb = CompoundStatementBlock()
+        ge = GroupElement()
+        ge.drawSubElement(CodeElement('if&nbsp;&nbsp;'))
+        ge.drawSubElement(BlockHolder(2))
+        #ge.drawSubElement(CodeElement())
+        csb.append(ge)
+        return csb
+    def if_else(self):
+        csb = CompoundStatementBlock(2)
+        ge = GroupElement()
+        ge.drawSubElement(CodeElement('if&nbsp;&nbsp;'))
+        ge.drawSubElement(BlockHolder(2))
+        #ge.drawSubElement(CodeElement())
+        csb.append(ge)
+        ge = GroupElement()
+        ge.drawSubElement(CodeElement('else'))
+        csb.block.append(ge)
+        return csb
+    def forever(self):
+        csb = CompoundStatementBlock()              
+        ge = GroupElement()
+        ge.drawSubElement(CodeElement('forever'))
+        csb.append(ge)
+        return csb
+    def repeat(self):
+        csb = CompoundStatementBlock()
+        ge = GroupElement()
+        ge.drawSubElement(CodeElement('repeat'))
+        ge.drawSubElement(BlockHolder(1))
+        #ge.drawSubElement(CodeElement())
+        csb.append(ge)
+        return csb
+    def while_(self):
+        csb = CompoundStatementBlock()
+        ge = GroupElement()
+        ge.drawSubElement(CodeElement('while'))
+        ge.drawSubElement(BlockHolder(2))
+        #ge.drawSubElement(CodeElement())
+        csb.append(ge)
+        return csb
+    def delay(self):
+        sb = StatementBlock('orange')    
+        ge = GroupElement()
+        ge.drawSubElement(CodeElement('delay'))
+        ge.drawSubElement(BlockHolder(1))
+        #ge.drawSubElement(CodeElement())
+        sb.append(ge)
+        return sb
+    def custom(self):
+        csb = CompoundStatementBlock(3)
+        ge = GroupElement()
+        ge.drawSubElement(CodeElement('uca'))
+        ge.drawSubElement(BlockHolder(1))
+        #ge.drawSubElement(CodeElement())
+        csb.append(ge)
+        ge = GroupElement()
+        ge.drawSubElement(CodeElement('na......'))
+        ge.drawSubElement(BlockHolder(2))
+        #ge.drawSubElement(CodeElement())
+        csb.block.append(ge)
+        ge = GroupElement()
+        ge.drawSubElement(CodeElement('cuca'))
+        ge.drawSubElement(BlockHolder(3))
+        #ge.drawSubElement(CodeElement())
+        #csb.block.block.append(ge)
+        return csb
+    
+class Setup(object):
+    def pinMode(self):
+        sb = StatementBlock('darkblue')
+        ge = GroupElement()
+        ge.drawSubElement(CodeElement('pinMode'))
+        ge.drawSubElement(BlockHolder(3))
+        ge.drawSubElement(CodeElement())
+        ge.drawSubElement(BlockHolder(3))
+        #ge.drawSubElement(CodeElement())
+        sb.append(ge)
+        return sb
+
+class Output(object):
+    def digitalWrite(self):
+        sb = StatementBlock()
+        ge = GroupElement()
+        ge.drawSubElement(CodeElement('digitalWrite'))
+        ge.drawSubElement(BlockHolder(3))
+        ge.drawSubElement(CodeElement())
+        ge.drawSubElement(BlockHolder(3))
+        #ge.drawSubElement(CodeElement())
+        sb.append(ge)
+        return sb  
+    def analogWrite(self):
+        sb = StatementBlock()
+        ge = GroupElement()
+        ge.drawSubElement(CodeElement('analogWrite'))
+        ge.drawSubElement(BlockHolder(3))
+        ge.drawSubElement(CodeElement())
+        ge.drawSubElement(BlockHolder(1))
+        #ge.drawSubElement(CodeElement())
+        sb.append(ge)
+        return sb
+
+class Custom(object):
+    def custom1(self):
+        c = Control()
+        
+        d1 = c.delay()
+        d1.setAfter(c.delay())
+        
+        d2 = c.delay()
+        d2.setAfter(d1)
+        
+        f = c.forever()    
+        f.setAfter(c.delay())
+        f.setSocketAt(0, c.delay().setAfter(c.delay()))
+        
+        f.resize()
+        return f
+    def custom2(self):
+        op = Operators()
+        plus = op.plus()
+        
+        return plus
+    
+    
+    
+    
+    
+    
+    
+    
+            
+       
+            

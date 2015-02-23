@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<meta name="pygwt:module" content="DuinoBlocks">
+		
+		<link rel="stylesheet" type="text/css" href="../stylesheets/reset.css">
+		<link rel="stylesheet" type="text/css" href="../stylesheets/workspace.css">
+		<link rel="stylesheet" type="text/css" href="../stylesheets/buttons.css">
+		<link rel="stylesheet" type="text/css" href="../stylesheets/dialog.css">
+		<link rel="stylesheet" type="text/css" href="../stylesheets/block.css">
+		<link rel="stylesheet" type="text/css" href="../stylesheets/input.css">
+		<link rel="stylesheet" type="text/css" href="../stylesheets/variable.css">
+		<link rel="stylesheet" type="text/css" href="../stylesheets/hardware.css">
+		<link rel="stylesheet" type="text/css" href="../stylesheets/tabpanel.css">
+		<link rel="stylesheet" type="text/css" href="../stylesheets/footer.css">
+		<link rel="stylesheet" type="text/css" href="../stylesheets/joyride-2.0.1.css">
+				
+		<title>DuinoBlocks &#x263A</title>
+		<link id="favicon" rel="icon" type="image/png" href="../images/layout/led.png">
+		
+		<script type="text/javascript">	
+			/*window.onbeforeunload = function() {
+				return "Warning! Are you sure you want to leave this page?"
+			}*/
+			var myEvent = window.attachEvent || window.addEventListener;
+			var chkevent = window.attachEvent ? 'onbeforeunload' : 'beforeunload'; /// make IE7, IE8 compitable
+			
+	        myEvent(chkevent, function(e) { // For >=IE7, Chrome, Firefox
+	            var confirmationMessage = 'page?';  // a space
+	            (e || window.event).returnValue = confirmationMessage;
+	            return confirmationMessage;
+	        });
+		</script>		
+		<script type="text/javascript" src="../scripts/jquery.min.js"></script>
+		<script type="text/javascript" src="../scripts/lawnchair-0.6.1.min.js"></script>
+		<script type="text/javascript" src="../scripts/browser_detect.js"></script>
+		<script type="text/javascript" src="../scripts/compilerflasher.js"></script>
+		<script type="text/javascript" src="../scripts/ace.js" charset="utf-8"></script>	
+	</head>
+	
+	<body bgcolor="white" >
+		<script type="text/javascript" src="../scripts/bootstrap_progress.js"></script>
+		<div id='codeBenderPluginContent'></div>	
+	</body>
+</html>

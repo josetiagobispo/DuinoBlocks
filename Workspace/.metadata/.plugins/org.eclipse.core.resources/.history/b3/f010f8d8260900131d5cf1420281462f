@@ -1,0 +1,95 @@
+.btn, .dropdown_btn{cursor:pointer; position:relative; float:left; margin-right:6px; max-width:238px;}
+.btn .title, .dropdown_btn .title{color:#666; display:block; font-size:12px; line-height:24px; overflow:hidden;
+text-shadow:0px 1px 1px #fff; white-space:nowrap; padding:0 10px; resize: none;}
+.btn:active .title{color:black;}
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.btn, .btn .r, .btn .coverup, .dropdown_btn, .dropdown_btn .r, .dropdown_btn .coverup{
+  background:transparent url('../images/editor/controlbar_dropdown.png') no-repeat; height:24px;}
+.btn .r, .btn .coverup, .dropdown_btn .r, .dropdown_btn .coverup{position:absolute; top:0; right:-2px; width:2px;}
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.btn{background-position:0 -144px;}
+.btn .r{background-position:100% -144px;}
+.btn .coverup{background-position:100% -216px; width:17px;}
+.btn:hover{background-position:0 -168px;}
+.btn:hover .r{background-position:right -168px;}
+.btn:hover .coverup{background-position:right -240px;}
+.btn:active{background-position:0 -192px;}
+.btn:active .r{background-position:100% -192px;}
+.btn:active .coverup{background-position:100% -264px;}
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.dropdown_btn{background-position:0 0; /*margin-right:25px;*/}
+.dropdown_btn .r, .dropdown_btn .coverup{right:-21px; width:21px;}
+.dropdown_btn .r{background-position:100% 0;}
+.dropdown_btn .coverup{width:35px; background-position:right -72px;}
+#blocks_pad .dropdown_var:hover{background-position:0 -24px;}
+#blocks_pad .dropdown_btn:hover .r{background-position:100% -24px;}
+.dropdown_btn:hover .coverup{background-position:100% -96px;}
+#blocks_pad .dropdown_btn:active{background-position:0 -48px;}
+#blocks_pad .dropdown_btn:active .r{background-position:100% -48px;}
+.dropdown_btn:active .coverup{background-position:100% -120px;}
+.dropdown_btn:active .title{color:black;}
+.dropdown_btn .dropdown_arrow{position:absolute; background-color:white; top:21px; left:0px; margin-left:1px; z-index:10000; padding:0 17px 0 0;
+	min-width: 100%; border:1px solid #999;}
+.dropdown_btn .dropdown_arrow li{width:100%; clear:both; float:left; padding:4px 9px 4px 8px; white-space: nowrap;}
+.dropdown_btn .dropdown_arrow li:first-child{border-top:none;}
+
+.btn.disabled, .btn.disabled:hover, .btn.disabled:active{background-position:0 -144px; cursor:default; opacity:0.25;}
+.btn.disabled .r, .btn.disabled:hover .r, .btn.disabled:active .r{background-position:100% -144px;}
+.btn.disabled .coverup, .btn.disabled:hover .coverup, .btn.disabled:active .coverup{background-position:100% -216px;}
+
+.dropdownItem .title {padding-right:0px}
+
+.btn-group {margin: 7px 26px 7px 7px;}
+#header .btn-group .btn, .btn-group .btn {margin: 0}
+#header .btn-group .dropdown_btn, .btn-group .dropdown_btn {margin: 0; margin-left: 1px;}
+.btn-group>.dropdown_btn>.title {display: none;}
+.btn-group .dropdown_btn .coverup {width: 21px;}
+
+.btn-group2 {margin: 7px;}
+.btn-group2 .btn {margin-right: 1px}
+
+.dropdown_btn .dropdown_arrow .dropdownItem:hover .title {color:white; text-shadow: 0px 1px 1px #666;}
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.dropdown_var.red, .dropdown_var.red .r, .dropdown_var.red .coverup {background: transparent url('../images/editor/controlbar_dropdown_red.png') no-repeat;}
+.dropdown_var.red .r{background-position:100% 0;}
+.dropdown_var.blue, .dropdown_var.blue .r, .dropdown_var.blue .coverup {background: transparent url('../images/editor/controlbar_dropdown_blue.png') no-repeat;}
+.blue .dropdown_var .r{background-position:100% 0;}
+.dropdown_var.purple, .dropdown_var.purple .r, .dropdown_var.purple .coverup {background: transparent url('../images/editor/controlbar_dropdown_purple.png') no-repeat;}
+.dropdown_var.purple .r{background-position:100% 0;}
+
+.dropdown_var {height: 22px; margin-right: 21px;}
+.dropdown_var .title{line-height: 22px; padding: 0 0 0 8px; color: white; text-shadow: 0px 1px 1px black; 
+	font-family: 'lucida grande',tahoma,verdana,arial,sans-serif; font-size: 15px;}
+.dropdown_var .coverup{width: 0px;}
+.dropdown_var:active .title{color:white;}
+.dropdown_var .r{background-position:100% 0;}
+.disabled .dropdown_var {background-position: 0 -72px;}
+.disabled .dropdown_var .r {background-position: 100% -72px}
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+[class^="icon-"],
+[class*=" icon-"] {display: inline-block; width: 14px; height: 14px; margin-top: 4px; float: left; margin-left: 10px;
+  line-height: 14px; vertical-align: text-bottom; background-repeat: no-repeat; margin-right: -5px;}
+  
+.icon-ok {background-image: url("../images/ok.png");}
+.icon-cancel {background-image: url("../images/cancel.png");}
+.icon-repeat {background-image: url("../images/repeat.png");}
+.icon-undo {background-image: url("../images/undo.png");}
+.icon-redo {background-image: url("../images/redo.png");}
+.icon-open {width: 16px; background-image: url("../images/open.png");}
+.icon-open {width: 16px; background-image: url("../images/open.png");}
+.icon-download {background-image: url("../images/download.png");}
+.icon-upload {background-image: url("../images/upload.png");}
+.icon-pt_BR {width: 20px; background-image: url("../images/icon-pt_BR.png");}
+.icon-en_US {width: 20px; background-image: url("../images/icon-en_US.png");}
+.icon-es_ES {width: 20px; background-image: url("../images/icon-es_ES.png");}
+.icon-it_IT {width: 20px; background-image: url("../images/icon-it_IT.png");}
+.icon-selected{width: 20px; background-image: url("../images/form_controls.png"); background-position: 2px -115px;}
+.icon-deselected{width: 20px; background-image: url("../images/form_controls.png"); background-position: 2px -46px;}
+
+.dropdownItem [class^="icon-"],[class*=" icon-"] {margin-left: 0px;}
+/*-----------------------------------------------------------------------------------------------------------------*/

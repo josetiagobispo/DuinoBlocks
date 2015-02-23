@@ -1,0 +1,459 @@
+from edu.uca.renderable.CreatorBlockFactory import createStatementBlock,\
+    createNumberBlockHolder, createCompoundStatementBlock,\
+    createBooleanBlockHolder, createMainBlock, createBooleanBlock,\
+    createDropdownNumberBlockHolder, createNumberBlock, createStringBlockHolder,\
+    createStringBlock, createDropdownBooleanBlockHolder, createHatBlock
+    
+from edu.uca.util.Constants import *
+from edu.uca.Workspace import numericVars, alphaNumericVars, logicVars,\
+    countComponents
+
+#CONTROL-------------------------------------------------------------------------------------------
+ 
+def setup():#Deprecated
+    hb = createHatBlock('setup')
+    hb.addCodeElement('configura&ccedil;&atilde;o')
+    return hb
+def if_(off=False):
+    csb = createCompoundStatementBlock(off, 'if_') 
+    csb.addCodeElement('se&nbsp;&nbsp;')
+    csb.addArgumentHolder(createBooleanBlockHolder(off, csb))
+    return csb
+def if_else_(off=False):
+    csb = createCompoundStatementBlock(off, 'if_else_', 2)
+    csb.addCodeElement('se&nbsp;&nbsp;')
+    csb.addArgumentHolder(createBooleanBlockHolder(off, csb))
+    csb.block.addCodeElement('sen&atilde;o')
+    return csb
+def forever(off=False):
+    mb = createMainBlock(off, 'forever')              
+    mb.addCodeElement('sempre')
+    return mb
+def repeat_(off=False):
+    csb = createCompoundStatementBlock(off, 'repeat_', loop=True)
+    csb.addCodeElement('repita')
+    csb.addArgumentHolder(createNumberBlockHolder(off, csb)) 
+    return csb
+def while_(off=False):
+    csb = createCompoundStatementBlock(off, name='while_', loop=True)
+    csb.addCodeElement('enquanto')
+    csb.addArgumentHolder(createBooleanBlockHolder(off, csb))
+    return csb
+def delay_(off=False):
+    sb = createStatementBlock(off, 'delay_', 'orange')        
+    sb.addCodeElement('espere')
+    sb.addArgumentHolder(createNumberBlockHolder(off, sb))
+    sb.addCodeElement('ms')
+    return sb
+
+#OPERATORS-------------------------------------------------------------------------------------------     
+     
+def numericOperation(name, operator, off):
+    nb = createNumberBlock(off, name)
+    nb.addCodeElement()
+    nb.addArgumentHolder(createNumberBlockHolder(off, nb))          
+    nb.addCodeElement(operator, {'+':'plus', '&minus;':'minus', '&times;':'multiply', '&divide;':'divide'})
+    nb.addArgumentHolder(createNumberBlockHolder(off, nb))
+    nb.addCodeElement()
+    return nb
+def plus(off=False):
+    return numericOperation('plus', '+', off)
+def minus(off=False):
+    return numericOperation('minus', '&minus;', off)
+def multiply(off=False):
+    return numericOperation('multiply', '&times;', off)
+def divide(off=False):
+    return numericOperation('divide', '&divide;', off)   
+#-----------
+def relationalOperation( name, operator, off):
+    bb = createBooleanBlock(off, name)
+    bb.addArgumentHolder(createNumberBlockHolder(off, bb))          
+    bb.addCodeElement(operator, {'=':'equals','<':'lesser','>':'greater','&le;':'lesser_equals','&ge;':'greater_equals','&ne;':'not_equals'})
+    bb.addArgumentHolder(createNumberBlockHolder(off, bb))
+    return bb
+def equals(off=False):
+    return relationalOperation('equals', '=', off)   
+def lesser(off=False):
+    return relationalOperation('lesser', '<', off)
+def greater(off=False):
+    return relationalOperation('greater', '>', off)
+def lesser_equals(off=False):
+    return relationalOperation('lesser_equals', '&le;', off)
+def greater_equals(off=False):
+    return relationalOperation('greater_equals', '&ge;', off)
+def not_equals(off=False):
+    return relationalOperation('not_equals', '&ne;', off)
+#-----------   
+def logicOperation(name, operator, off):
+    bb = createBooleanBlock(off, name)
+    bb.addArgumentHolder(createBooleanBlockHolder(off, bb))             
+    bb.addCodeElement(operator, {'e':'and_', 'ou':'or_'})
+    bb.addArgumentHolder(createBooleanBlockHolder(off, bb))
+    return bb
+def and_(off=False):
+    return logicOperation('and_', 'e', off) 
+def or_(off=False):
+    return logicOperation('or_', 'ou', off) 
+def not_(off=False):
+    bb = createBooleanBlock(off, 'not_')        
+    bb.addCodeElement('n&atilde;o')
+    bb.addArgumentHolder(createBooleanBlockHolder(off, bb))
+    return bb
+def true_(off=False):
+    bb = createBooleanBlock(off, 'true_')        
+    bb.addCodeElement('VERDADEIRO', {'VERDADEIRO':'true_', 'FALSO':'false_'}, {'V':'VERDADEIRO', 'F':'FALSO'})
+    return bb
+def false_(off=False):
+    bb = createBooleanBlock(off, 'false_')        
+    bb.addCodeElement('FALSO', {'VERDADEIRO':'true_', 'FALSO':'false_'}, {'V':'VERDADEIRO', 'F':'FALSO'})
+    return bb
+
+#INPUT-------------------------------------------------------------------------------------------
+        
+def analogRead(off=False):
+    nb = createNumberBlock(off, 'analogRead', 'purple')
+    nb.addCodeElement('pino anal&oacute;gico')
+    nb.addArgumentHolder(createDropdownNumberBlockHolder(off, ANALOG_PINS, nb))
+    nb.addCodeElement()
+    return nb
+def digitalRead(off=False):
+    bb = createBooleanBlock(off, 'digitalRead', 'purple')
+    bb.addCodeElement('pino digital')
+    bb.addArgumentHolder(createDropdownNumberBlockHolder(off, ALL_PINS, bb))
+    bb.addCodeElement()
+    return bb
+def getButton(off=False):
+    sb = createBooleanBlock(off, 'getButton', 'purple')
+    sb.addCodeElement('pressionado')
+    sb.addVariableElement('botão', countComponents, 'component_button')
+    return sb
+def getKnob(off=False):
+    nb = createNumberBlock(off, 'getKnob', 'purple')
+    nb.addCodeElement('valor')
+    nb.addVariableElement('potenciômetro', countComponents, 'component_knob')
+    return nb
+def getLdr(off=False):
+    nb = createNumberBlock(off, 'getLdr', 'purple')
+    nb.addCodeElement('luminosidade')
+    nb.addVariableElement('ldr', countComponents, 'component_ldr')
+    return nb
+def getThermistor(off=False):
+    nb = createNumberBlock(off, 'getThermistor', 'purple')
+    nb.addCodeElement('temperatura')
+    nb.addVariableElement('thermistor', countComponents, 'component_thermistor')
+    return nb
+ 
+#OUTPUT-------------------------------------------------------------------------------------------
+
+def digitalWrite(off=False):
+    sb = createStatementBlock(off, 'digitalWrite')
+    sb.addCodeElement('atribui pino digital')
+    sb.addArgumentHolder(createDropdownNumberBlockHolder(off, ALL_PINS, sb))
+    sb.addCodeElement('valor')
+    sb.addArgumentHolder(createDropdownBooleanBlockHolder(off, DIGITAL_VALUES, sb))
+    return sb  
+def analogWrite(off=False):
+    sb = createStatementBlock(off, 'analogWrite')
+    sb.addCodeElement('atribui pino anal&oacute;gico')
+    sb.addArgumentHolder(createDropdownNumberBlockHolder(off, PWM_PINS, sb))
+    sb.addCodeElement('valor')
+    sb.addArgumentHolder(createNumberBlockHolder(off, sb))
+    return sb
+def setLed(off=False):
+    sb = createStatementBlock(off, 'setLed')
+    sb.addCodeElement('configura')
+    sb.addVariableElement('led', countComponents, 'component_led')
+    sb.addCodeElement('para')
+    sb.addCodeElement()
+    sb.addArgumentHolder(createDropdownBooleanBlockHolder(off, LED_VALUES, sb))
+    return sb
+def setRGBLed(off=False):
+    sb = createStatementBlock(off, 'setRGBLed')
+    sb.addCodeElement('configura')
+    sb.addVariableElement('led rgb', countComponents, 'component_rgb_led')
+    sb.addCodeElement('R')
+    sb.addArgumentHolder(createNumberBlockHolder(off, sb))
+    sb.addCodeElement('G')
+    sb.addArgumentHolder(createNumberBlockHolder(off, sb))
+    sb.addCodeElement('B')
+    sb.addArgumentHolder(createNumberBlockHolder(off, sb))
+    return sb
+def setServo(off=False):
+    sb = createStatementBlock(off, 'setServo')
+    sb.addCodeElement('configura')
+    sb.addVariableElement('servo', countComponents, 'component_servo')
+    sb.addCodeElement('ângulo')
+    sb.addArgumentHolder(createNumberBlockHolder(off, sb))
+    sb.addCodeElement('°')
+    return sb
+def setBuzzer(off=False):
+    sb = createStatementBlock(off, 'setBuzzer')
+    sb.addCodeElement('aciona')
+    sb.addVariableElement('buzina', countComponents, 'component_buzzer')
+    sb.addCodeElement('<i>nota</i>')
+    sb.addArgumentHolder(createDropdownNumberBlockHolder(off, MANY_FEW_NOTES, sb))
+    sb.addCodeElement('<i>duração</i>')
+    sb.addArgumentHolder(createNumberBlockHolder(off, sb))
+    return sb
+def onMotor(off=False):
+    sb = createStatementBlock(off, 'onMotor')
+    sb.addCodeElement('liga')
+    sb.addCodeElement()
+    sb.addVariableElement('motor', countComponents, 'component_motor')
+    sb.addCodeElement()
+    sb.addCodeElement('para')
+    sb.addCodeElement()
+    sb.addArgumentHolder(createDropdownBooleanBlockHolder(off, DIRECTIONS_MOTOR, sb))
+    return sb
+def offMotor(off=False):
+    sb = createStatementBlock(off, 'offMotor')
+    sb.addCodeElement('pare')
+    sb.addCodeElement()
+    sb.addVariableElement('motor', countComponents, 'component_motor')
+    return sb
+def speedMotor(off=False):
+    sb = createStatementBlock(off, 'speedMotor')
+    sb.addCodeElement('velocidade')
+    sb.addCodeElement()
+    sb.addVariableElement('motor', countComponents, 'component_motor')
+    sb.addCodeElement()
+    sb.addArgumentHolder(createNumberBlockHolder(off, sb))
+    return sb
+def setLcd(off=False):
+    sb = createStatementBlock(off, 'setLcd')
+    sb.addCodeElement('escreve')
+    sb.addVariableElement('lcd', countComponents, 'component_lcd')
+    sb.addCodeElement('texto')
+    sb.addArgumentHolder(createStringBlockHolder(off, sb))
+    return sb
+def posLcd(off=False):
+    sb = createStatementBlock(off, 'posLcd')
+    sb.addCodeElement('posiciona')
+    sb.addVariableElement('lcd', countComponents, 'component_lcd')
+    sb.addCodeElement('linha')
+    sb.addArgumentHolder(createDropdownNumberBlockHolder(off, LCD_ROWS, sb))
+    sb.addCodeElement('coluna')
+    sb.addArgumentHolder(createDropdownNumberBlockHolder(off, LCD_COLS, sb))
+    return sb
+def clearLcd(off=False):
+    sb = createStatementBlock(off, 'clearLcd')
+    sb.addCodeElement('limpa')
+    sb.addVariableElement('lcd', countComponents, 'component_lcd')
+    return sb
+def setNumericDisplay(off=False):
+    sb = createStatementBlock(off, 'setNumericDisplay')
+    sb.addCodeElement('mostre o n°')
+    sb.addVariableElement('lcd', countComponents, 'component_numericDisplay')
+    return sb
+#UTILITIES-------------------------------------------------------------------------------------------
+def trigonometryFunction(name, operator, off):
+    nb = createNumberBlock(off, name, 'darkblue')
+    nb.addCodeElement(operator, {'sen':'sin_', 'cos':'cos_', 'tan':'tan_'})
+    nb.addArgumentHolder(createNumberBlockHolder(off, nb))
+    nb.addCodeElement()
+    return nb
+def sin_(off=False):
+    return trigonometryFunction('sin_', 'sen', off) 
+def cos_(off=False):
+    return trigonometryFunction('cos_', 'cos', off)
+def tan_(off=False):
+    return trigonometryFunction('tan_', 'tan', off)
+#--------------------    
+def binaryFunction(name, operator, off):
+    nb = createNumberBlock(off, name, 'darkblue')
+    nb.addCodeElement(operator, {'máx':'max_', 'mín':'min_'})
+    nb.addArgumentHolder(createNumberBlockHolder(off, nb))
+    nb.addCodeElement()
+    nb.addArgumentHolder(createNumberBlockHolder(off, nb))
+    nb.addCodeElement()
+    return nb
+def unaryFunction(name, operator, off):
+    nb = createNumberBlock(off, name, 'darkblue')
+    nb.addCodeElement(operator, {'&radic;':'sqrt_', 'abs':'abs_'})
+    nb.addArgumentHolder(createNumberBlockHolder(off, nb))
+    nb.addCodeElement()
+    return nb
+def modulo_(off=False):
+    nb = createNumberBlock(off, 'modulo_', 'darkblue')
+    nb.addArgumentHolder(createNumberBlockHolder(off, nb))
+    nb.addCodeElement('resto da divisão por')
+    nb.addArgumentHolder(createNumberBlockHolder(off, nb))
+    nb.addCodeElement()
+    return nb
+def map_(off=False):
+    nb = createNumberBlock(off, 'map_', 'darkblue')
+    nb.addCodeElement('mapeie')
+    nb.addArgumentHolder(createNumberBlockHolder(off, nb))
+    nb.addArgumentHolder(createNumberBlockHolder(off, nb))
+    nb.addCodeElement()
+    nb.addArgumentHolder(createNumberBlockHolder(off, nb))
+    nb.addCodeElement('para')
+    nb.addArgumentHolder(createNumberBlockHolder(off, nb))
+    nb.addArgumentHolder(createNumberBlockHolder(off, nb))
+    nb.addCodeElement()
+    return nb
+def map2_(off=False):
+    nb = createNumberBlock(off, 'map2_', 'darkblue')
+    nb.addCodeElement('mapeie [0, 1024] para [0, 255]')
+    nb.addCodeElement()
+    nb.addArgumentHolder(createNumberBlockHolder(off, nb))
+    nb.addCodeElement()
+    return nb
+def constrains_(off=False):
+    nb = createNumberBlock(off, 'constrains_', 'darkblue')
+    nb.addCodeElement('restringe')
+    nb.addArgumentHolder(createNumberBlockHolder(off, nb))
+    nb.addCodeElement('entre')
+    nb.addArgumentHolder(createNumberBlockHolder(off, nb))
+    nb.addCodeElement('e')
+    nb.addArgumentHolder(createNumberBlockHolder(off, nb))
+    nb.addCodeElement()
+    return nb
+def abs_(off=False):
+    return unaryFunction('abs_', 'abs', off)
+def sqrt_(off=False):
+    return unaryFunction('sqrt_', '&radic;', off)
+def max_(off=False):
+    return binaryFunction('max_', 'máx', off)
+def min_(off=False):
+    return binaryFunction('min_', 'mín', off)
+def intToStr(off=False):
+    sb = createStringBlock(off, 'intToStr', 'darkblue')
+    sb.addCodeElement("converte")
+    sb.addArgumentHolder(createNumberBlockHolder(off, sb))
+    return sb
+def boolToStr(off=False):
+    sb = createStringBlock(off, 'boolToStr', 'darkblue')
+    sb.addCodeElement("converte")
+    sb.addArgumentHolder(createBooleanBlockHolder(off, sb))
+    return sb
+def glue(off=False):
+    sb = createStringBlock(off, 'glue', 'darkblue')
+    sb.addCodeElement("junte")
+    sb.addArgumentHolder(createStringBlockHolder(off, sb))
+    sb.addCodeElement("com")
+    sb.addArgumentHolder(createStringBlockHolder(off, sb))
+    return sb
+def println(off=False):
+    sb = createStatementBlock(off, 'println', 'darkblue')
+    sb.addCodeElement('escreve no monitor serial')
+    sb.addCodeElement()
+    sb.addArgumentHolder(createStringBlockHolder(off, sb))
+    sb.addCodeElement()
+    return sb
+def millis(off=False):
+    sb = createNumberBlock(off, 'millis', 'darkblue')
+    sb.addCodeElement('tempo decorrido <i>(ms)</i>')
+    return sb 
+def random(off=False):
+    sb = createNumberBlock(off, 'random', 'darkblue')
+    sb.addCodeElement('aleatório')
+    sb.addCodeElement('<i>máx</i>')
+    sb.addArgumentHolder(createNumberBlockHolder(off, sb))
+    return sb
+def random_min_max(off=False):
+    sb = createNumberBlock(off, 'random_min_max', 'darkblue')
+    sb.addCodeElement('aleatório')
+    sb.addCodeElement('<i>mín</i>')
+    sb.addArgumentHolder(createNumberBlockHolder(off, sb))
+    sb.addCodeElement()
+    sb.addCodeElement('<i>máx</i>')
+    sb.addArgumentHolder(createNumberBlockHolder(off, sb))
+    return sb
+        
+def pinMode(off=False):#deprecated
+    sb = createStatementBlock(off, 'pinMode', 'darkblue')
+    sb.addCodeElement('pinMode')
+    sb.addArgumentHolder(createDropdownNumberBlockHolder(off, ALL_PINS, sb))
+    sb.addCodeElement()
+    sb.addArgumentHolder(createDropdownNumberBlockHolder(off, PIN_MODES, sb))
+    return sb
+#TYPES-----------------------------------------------------------------------------------------------  
+def commandType(name, color, off=False):
+    sb = createStatementBlock(off, 'commandType', color)
+    sb.varName = name
+    sb.addCodeElement(name)
+    return sb
+def numericType(name, color, off=False):
+    nb = createNumberBlock(off, 'numericType', color)
+    nb.varName = name
+    nb.addCodeElement()
+    nb.addCodeElement(name)
+    nb.addCodeElement()
+    return nb
+def logicType(name, color, off=False): 
+    bb = createBooleanBlock(off, 'logicType', color)
+    bb.varName = name
+    bb.addCodeElement()         
+    bb.addCodeElement(name)
+    bb.addCodeElement()
+    return bb
+def alphaNumericType(name, color, off=False):
+    sb = createStringBlock(off, 'alphaNumericType', color)
+    sb.varName = name
+    sb.addCodeElement()         
+    sb.addCodeElement(name)
+    sb.addCodeElement()
+    return sb
+#VARIABLES-------------------------------------------------------------------------------------------   
+def getNumericVar(off=False):
+    nb = createNumberBlock(off, 'getNumericVar', 'red')
+    nb.addCodeElement()
+    nb.addVariableElement(TITLE_NUMERIC_VAR, numericVars)
+    nb.addCodeElement()
+    return nb
+def getLogicVar(off=False):
+    bb = createBooleanBlock(off, 'getLogicVar', 'red')
+    bb.addCodeElement()
+    bb.addVariableElement(TITLE_LOGIC_VAR, logicVars)
+    bb.addCodeElement()
+    return bb
+def getAlphaNumericVar(off=False):
+    sb = createStringBlock(off, 'getAlphaNumericVar', 'red')
+    sb.addCodeElement()
+    sb.addVariableElement(TITLE_ALPHANUMERIC_VAR, alphaNumericVars)
+    sb.addCodeElement()
+    return sb
+def setNumericVar(off=False):
+    sb = createStatementBlock(off, 'setNumericVar', 'red')
+    sb.addCodeElement('mude')
+    sb.addVariableElement(TITLE_NUMERIC_VAR, numericVars)
+    sb.addCodeElement('para')
+    sb.addCodeElement()
+    sb.addArgumentHolder(createNumberBlockHolder(off, sb))
+    return sb
+def setLogicVar(off=False):
+    sb = createStatementBlock(off, 'setLogicVar', 'red')
+    sb.addCodeElement('mude')
+    sb.addVariableElement(TITLE_LOGIC_VAR, logicVars)
+    sb.addCodeElement('para')
+    sb.addCodeElement()
+    sb.addArgumentHolder(createDropdownBooleanBlockHolder(off, LOGIC_VALUES, sb))
+    return sb
+def setAlphaNumericVar(off=False):
+    sb = createStatementBlock(off, 'setAlphaNumericVar', 'red')
+    sb.addCodeElement('mude')
+    sb.addVariableElement(TITLE_ALPHANUMERIC_VAR, alphaNumericVars)
+    sb.addCodeElement('para')
+    sb.addCodeElement()
+    sb.addArgumentHolder(createStringBlockHolder(off, sb))
+    sb.addCodeElement()
+    return sb
+def incNumericVar(off=False):
+    sb = createStatementBlock(off, 'incNumericVar', 'red')
+    sb.addCodeElement('incrementa')
+    sb.addVariableElement(TITLE_NUMERIC_VAR, numericVars)
+    sb.addCodeElement('de')
+    sb.addCodeElement()
+    sb.addArgumentHolder(createNumberBlockHolder(off, sb))
+    return sb
+def decNumericVar(off=False):
+    sb = createStatementBlock(off, 'decNumericVar', 'red')
+    sb.addCodeElement('decrementa')
+    sb.addVariableElement(TITLE_NUMERIC_VAR, numericVars)
+    sb.addCodeElement('de')
+    sb.addCodeElement()
+    sb.addArgumentHolder(createNumberBlockHolder(off, sb))
+    return sb
+
+#-------------------------------------------------------------------------------------------

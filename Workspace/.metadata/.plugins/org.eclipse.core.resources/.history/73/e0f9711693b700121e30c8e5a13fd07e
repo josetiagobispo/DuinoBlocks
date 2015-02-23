@@ -1,0 +1,163 @@
+#Para utilizar a biblioteca JQuery:
+#https://github.com/pyjs/pyjs/tree/master/examples/jsimport/
+
+import pyjd # this is dummy in pyjs
+from pyjamas.ui.RootPanel import RootPanel, manageRootPanel
+from pyjamas.ui.HorizontalPanel import HorizontalPanel
+from edu.uca.ui.listener.RootPanelListener import RootPanelListener
+from edu.uca.ui.BlockList import BlockList, ResizeWidget
+from edu.uca.ui.BlocksPad import BlocksPad
+from pyjamas.ui.VerticalPanel import VerticalPanel
+from pyjamas.ui.TextArea import TextArea
+from edu.uca.ui.Header import Header
+from edu.uca.renderable.Element import Element
+from pyjamas import DOM
+from pyjamas.ui.FocusWidget import FocusWidget
+from edu.uca.ui.HardwareList import HardwareList
+from edu.uca.ui.HardwaresPad import HardwaresPad
+from edu.uca.Workspace import getWorkspace
+from edu.uca.util.Serializable import stateChange
+#from pyjamas.ui.Button import Button
+from edu.uca.util.i18n import i18n, _, ngettext
+
+#para trocar o slider
+#from pyjamas.ui.VerticalSlider import VerticalSlider
+
+lang = ['nl_NL', 'de_DE', 'en_US',]
+
+class ContainerUCA(VerticalPanel):#getComponents
+    def __init__(self, ws):
+        VerticalPanel.__init__(self, Width='100%', Height='100%')
+        
+        self.codePanel = TextArea(StyleName='codePanel')
+        self.codePanel.setID('clip_text')
+        self.codePanel.setReadonly(True)
+        ws.setCodePanel(self.codePanel)
+        
+        self.header = Header()
+        getWorkspace().setHeaderPanel(self.header)
+        
+        self.blockList = BlockList()
+        self.hardwareList = HardwareList()
+        self.hardwareList.addStyleName('invisible')
+        self.left = Element(Element=DOM.createDiv(), Width='100%', Height='100%')
+        ws.setBlockList(self.blockList)
+        ws.setHardwaresList(self.hardwareList)
+        
+        self.blocksPad = BlocksPad()
+        self.hardwaresPad = HardwaresPad()
+        self.hardwaresPad.addStyleName('invisible')
+        self.middle = Element(Element=DOM.createDiv(), Width='100%', Height='100%')
+        ws.setBlocksPad(self.blocksPad)
+        ws.setHardwaresPad(self.hardwaresPad) 
+        
+    def onLoad(self):               
+        self.add(self.header)
+        self.setCellHeight(self.header, '38px')
+        
+        self.left.add(self.blockList)
+        self.left.add(self.hardwareList)
+        self.mainPanel = HorizontalPanel(Width='100%', Height='100%')
+        self.mainPanel.add(self.left)
+        self.mainPanel.setCellWidth(self.left, '250')
+               
+        self.middle.add(self.blocksPad) 
+        self.middle.add(self.hardwaresPad)       
+        center = VerticalPanel(Width='100%', Height='100%', StyleName="center_panel")
+        center.add(self.middle)
+        
+        #---------------------------------------------------------------------------------------------------------
+        bottom = Element(Element=DOM.createDiv(), StyleName='drawer_bottom')
+        
+        self.showHideLeft = FocusWidget(Element=DOM.createDiv(), StyleName='control_bar close_left')
+        self.showHideLeft.addClickListener(self.showHidePanelLeft)
+        self.showHideLeft.setStyleAttribute('float', 'lef')
+        bottom.add(self.showHideLeft)
+        
+        self.showHideRight = FocusWidget(Element=DOM.createDiv(), StyleName='control_bar')
+        self.showHideRight.addClickListener(self.showHidePanelRight)
+        bottom.add(self.showHideRight)
+        
+        center.add(bottom)
+        center.setCellHeight(bottom, '21px')
+        #---------------------------------------------------------------------------------------------------------
+        
+        self.mainPanel.add(center)     
+        
+        #---------------------------------------------------------------------------------------------------------   
+        self.cod = VerticalPanel(Width='100%', Height='100%', StyleName="right_panel")
+        self.cod.add(self.codePanel)
+        bot = Element(Element=DOM.createDiv(), StyleName='drawer_bottom')
+        res = ResizeWidget(self.cod, 100, 500, invert=True)
+        res.setStyleAttribute('float', 'left')
+        bot.append(res)
+        self.cod.add(bot)
+        self.cod.setCellHeight(bot, '21px')
+        self.mainPanel.add(self.cod)
+        self.mainPanel.setCellWidth(self.cod, '200')
+        self.showHidePanelRight()
+        
+        self.header.buttonBlocks.addClickListener(self.showBlocksList)
+        self.header.buttonHarwares.addClickListener(self.showHardwaresList)
+        self.header.buttonTranslate.addClickListener(self.showPanelRight)
+        self.header.buttonReload.addClickListener(self.hidePanelRight)
+        
+        #---------------------------------------------------------------------------------------------------------
+         
+        self.add(self.mainPanel)
+        
+        stateChange()
+        #print 'stestestestsetsetsetsetsetses'
+        from pyjamas import Window
+        Window.alert(_("Click me"))
+        
+    def showBlocksList(self):
+        self.hardwareList.addStyleName('invisible')
+        self.blockList.removeStyleName('invisible')
+        self.hardwaresPad.addStyleName('invisible')
+        self.blocksPad.removeStyleName('invisible')
+        self.blockList.refreshComponentBlocks(self.hardwaresPad.children)
+           
+    def showHardwaresList(self):
+        self.blockList.addStyleName('invisible')
+        self.hardwareList.removeStyleName('invisible')
+        self.blocksPad.addStyleName('invisible')
+        self.hardwaresPad.removeStyleName('invisible')
+        
+    def hidePanelRight(self):
+        if DOM.getStyleAttribute(self.mainPanel.getWidgetTd(self.cod), 'display') == '': # bug: "block" in <td> not work's on firefox
+            DOM.setStyleAttribute(self.mainPanel.getWidgetTd(self.cod), "display", "none")
+            self.showHideRight.setStyleName('control_bar open_left') 
+        
+    def showPanelRight(self):
+        if DOM.getStyleAttribute(self.mainPanel.getWidgetTd(self.cod), 'display') == 'none':
+            DOM.setStyleAttribute(self.mainPanel.getWidgetTd(self.cod), "display", "")
+            self.showHideRight.setStyleName('control_bar close_right') 
+                
+    def showHidePanelLeft(self):
+        if DOM.getStyleAttribute(self.mainPanel.getWidgetTd(self.left), 'display') == '':
+            DOM.setStyleAttribute(self.mainPanel.getWidgetTd(self.left), "display", "none")
+            self.showHideLeft.setStyleName('control_bar open_right')
+        else:
+            DOM.setStyleAttribute(self.mainPanel.getWidgetTd(self.left), "display", "")
+            self.showHideLeft.setStyleName('control_bar close_left')
+        
+    def showHidePanelRight(self):
+        if DOM.getStyleAttribute(self.mainPanel.getWidgetTd(self.cod), 'display') == 'none':
+            DOM.setStyleAttribute(self.mainPanel.getWidgetTd(self.cod), "display", "")
+            self.showHideRight.setStyleName('control_bar close_right')
+        else:
+            DOM.setStyleAttribute(self.mainPanel.getWidgetTd(self.cod), "display", "none")
+            self.showHideRight.setStyleName('control_bar open_left') 
+     
+# Para ficar mais rapido: timeit()
+#http://stackoverflow.com/questions/725782/in-python-what-is-the-difference-between-append-and
+
+#from i18n import i18n, _, ngettext
+
+if __name__ == '__main__':
+    pyjd.setup("./public/DuinoBlocks.html")
+    manageRootPanel(RootPanelListener(StyleName='rootstyle'))  
+    RootPanel().add(ContainerUCA(getWorkspace())) 
+    pyjd.run()
+ 

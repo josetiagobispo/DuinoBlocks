@@ -1,0 +1,42 @@
+from edu.uca.renderable.Element import Element
+from pyjamas import DOM
+from pyjamas.ui.DropWidget import DropWidget
+from pyjamas.Window import alert
+
+class StatementHighlight(Element, DropWidget):
+   
+    def __init__(self):
+        Element.__init__(self, Element=DOM.createDiv(), StyleName='highlight')
+        DropWidget.__init__(self)
+        self.draw()
+        
+    def draw(self):
+        #self.addStyleName('highlight hidden')
+        self.addStyleName('highlight_active')
+        self.setStyleAttribute('display', 'block')#efeito colateral: é possível arrastar o bloco por aki
+            
+        '''
+        (1) Quando começa a arrastar alguem que pode se encaixar neste bloco
+               self.addStyleName('highlight_active')
+
+        (2) Quando alguem passa sobre este bloco
+                self.addStyleName('highlight_hover')
+        '''
+        
+    def onDragOver(self, event):
+        self.addStyleName('highlight_hover')
+        
+    def onDragEnter(self, event):
+        self.addStyleName('highlight_hover')
+        
+    def onDragLeave(self,event):
+        self.removeStyleName('highlight_hover')
+        
+    def onDrop(self,event):
+        self.removeStyleName('highlight_hover')
+        self.parent.addSubElement()
+        
+        
+        
+        
+        

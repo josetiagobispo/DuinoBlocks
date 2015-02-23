@@ -1,0 +1,44 @@
+from pyjamas import DOM
+from pyjamas.ui.Widget import Widget
+from edu.uca.renderable.Block import Block
+from edu.uca.renderable.Element import Element
+from pyjamas.Window import alert
+from edu.uca.renderable.SiblingElement import SiblingElement
+
+class StatementBlock(Block):
+    
+    def __init__(self, color='blue'): 
+        Block.__init__(self)
+        self.color = color
+        self.addStyleName('StatementBlock statement s-block ' + self.color)     
+        self.draw()   
+         
+    def addSubElement(self, widget):
+        self.parent.addSubElement(widget)
+                 
+    def draw(self):
+        t =  Widget(Element=DOM.createDiv(), StyleName='t ' +self.color)      
+        l =  Widget(Element=DOM.createDiv(), StyleName='l ' +self.color)   
+        r =  Widget(Element=DOM.createDiv(), StyleName='r ' +self.color)       
+        tl = Widget(Element=DOM.createDiv(), StyleName='tl '+self.color)       
+        tr = Widget(Element=DOM.createDiv(), StyleName='tr '+self.color)      
+        b =  Widget(Element=DOM.createDiv(), StyleName='b ' +self.color)      
+        br = Widget(Element=DOM.createDiv(), StyleName='br '+self.color)
+        self.bn = Widget(Element=DOM.createDiv(), StyleName='bn '+self.color)  
+        self.bl = Element(Element=DOM.createDiv(), StyleName='bl statementElementEnd '+self.color)
+        
+        self.sibling = SiblingElement()      
+        self.bl.append(self.sibling)
+        
+        self.append(t)
+        self.append(l)
+        self.append(r)
+        self.append(tl)
+        self.append(tr)
+        self.append(b)
+        self.append(br)
+        self.append(self.bn)
+        self.append(self.bl)
+    
+    def resize(self):
+        pass

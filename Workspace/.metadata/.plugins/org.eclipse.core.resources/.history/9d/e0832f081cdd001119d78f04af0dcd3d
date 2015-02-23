@@ -1,0 +1,9 @@
+from edu.uca.renderable.Element import Element
+from pyjamas import DOM
+
+class Argument(Element):
+   
+    def __init__(self):
+        Element.__init__(self, Element=DOM.createDiv())
+        self.addStyleName('argument')
+        

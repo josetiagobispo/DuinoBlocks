@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DuinoBlocks/src/public/upload&apos; to &apos;upload.js&apos;" description="Rename resource &apos;upload&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/public/upload" name="upload.js" stamp="1372657260134" updateReferences="true"/>
+</session>

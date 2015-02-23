@@ -1,0 +1,226 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341007750715
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1341007750923
+error,log,,,"Exception occurred while creating compilation participant",1341007750925
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1341007831747
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341007986224
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341007987106
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1341007987396
+error,log,,,"Exception occurred while creating compilation participant",1341007987398
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008001313
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008001314
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1341008003221
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008016739
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1341008017587
+error,log,,,"Exception occurred while creating compilation participant",1341008017588
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008017598
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008028269
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1341008028753
+error,log,,,"Exception occurred while creating compilation participant",1341008028754
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008028987
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008042421
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008042422
+activated,view,org.eclipse.ui.views,3.6.0.I20110412-0800,"org.eclipse.ui.views.ContentOutline",1341008084135
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008136831
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1341008209077
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008209580
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1341008210378
+error,log,,,"Exception occurred while creating compilation participant",1341008210379
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008210480
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1341008308649
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008311371
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1341008314079
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008326250
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1341008326793
+error,log,,,"Exception occurred while creating compilation participant",1341008326794
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008327117
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008342114
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008342115
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1341008343985
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008350279
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1341008350878
+error,log,,,"Exception occurred while creating compilation participant",1341008350880
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008351083
+activated,view,org.eclipse.ui.views,3.6.0.I20110412-0800,"org.eclipse.ui.views.ContentOutline",1341008368567
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008373524
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008376202
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008376202
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341008399060
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341008453458
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1341008456771
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008463405
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008463994
+closed,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008463995
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1341008464671
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008466615
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1341008467138
+error,log,,,"Exception occurred while creating compilation participant",1341008467139
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008467383
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1341008514215
+error,log,,,"Exception occurred while creating compilation participant",1341008514217
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.undo",1341008516445
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1341008517267
+error,log,,,"Exception occurred while creating compilation participant",1341008517269
+executed,command,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.project.buildAll",1341008521210
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1341008528951
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008561086
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1341008561571
+error,log,,,"Exception occurred while creating compilation participant",1341008561573
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008561898
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1341008643399
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008665957
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1341008666617
+error,log,,,"Exception occurred while creating compilation participant",1341008666619
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008666752
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1341008703498
+opened,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008705285
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.jdt.core"".",1341008705775
+error,log,,,"Exception occurred while creating compilation participant",1341008705777
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008706112
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1341008775362
+error,log,,,"Internal error logged from JDI Debug: ",1341008778648
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1341008779774
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341008787004
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341008788873
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341008789337
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341008792488
+executed,command,org.eclipse.jdt.debug.ui,3.6.1.v20110803_r371,"org.eclipse.jdt.debug.ui.localJavaShortcut.debug",1341008792528
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341008804179
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341008809443
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008823280
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1341008823962
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1341008826254
+activated,view,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.DebugView",1341008832711
+executed,command,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui.commands.Resume",1341008832765
+activated,editor,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1341008836513
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341008846177
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341011760509
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341011773241
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341011779764
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341011779813
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341012089256
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341012092013
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341025083656
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341025088624
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341025093403
+closed,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1341025110347
+stopped,bundle,org.eclipse.jst.ws.axis.creation.ui,1.0.700.v201104070312,"org.eclipse.jst.ws.axis.creation.ui",1341025124453
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.ui,1.0.505.v201004211805,"org.eclipse.jst.ws.axis.consumption.ui",1341025124453
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.core,1.0.407.v201104071820,"org.eclipse.jst.ws.axis.consumption.core",1341025124453
+stopped,bundle,org.eclipse.jst.ws.axis2.creation.ui,1.0.104.v201004211805,"org.eclipse.jst.ws.axis2.creation.ui",1341025124453
+stopped,bundle,org.eclipse.jst.ws.axis2.consumption.ui,1.0.103.v201004211805,"org.eclipse.jst.ws.axis2.consumption.ui",1341025124453
+stopped,bundle,org.eclipse.jst.ws.axis2.creation.core,1.0.106.v201004211805,"org.eclipse.jst.ws.axis2.creation.core",1341025124453
+stopped,bundle,org.eclipse.jst.ws.axis2.consumption.core,1.0.105.v201004211805,"org.eclipse.jst.ws.axis2.consumption.core",1341025124453
+stopped,bundle,org.eclipse.jst.ws.axis2.ui,1.0.303.v201003110431,"org.eclipse.jst.ws.axis2.ui",1341025124471
+stopped,bundle,org.eclipse.jst.ws.axis2.core,1.0.204.v201004211805,"org.eclipse.jst.ws.axis2.core",1341025124471
+stopped,bundle,org.eclipse.jst.ws.cxf.creation.ui,1.0.100.v201104022153,"org.eclipse.jst.ws.cxf.creation.ui",1341025124471
+stopped,bundle,org.eclipse.jst.ws.creation.ui,1.0.609.v201103082016,"org.eclipse.jst.ws.creation.ui",1341025124471
+stopped,bundle,org.eclipse.jst.ws.cxf.consumption.ui,1.0.0.v201003222311,"org.eclipse.jst.ws.cxf.consumption.ui",1341025124471
+stopped,bundle,org.eclipse.jst.ws.consumption.ui,1.1.401.v201108240414,"org.eclipse.jst.ws.consumption.ui",1341025124471
+stopped,bundle,org.eclipse.jst.ws.consumption,1.0.601.v201108230319,"org.eclipse.jst.ws.consumption",1341025124471
+stopped,bundle,org.eclipse.jst.ws.cxf.consumption.core,1.0.0.v201003222311,"org.eclipse.jst.ws.cxf.consumption.core",1341025124471
+stopped,bundle,org.eclipse.jst.ws.cxf.creation.core,1.0.100.v201104022153,"org.eclipse.jst.ws.cxf.creation.core",1341025124471
+stopped,bundle,org.eclipse.jst.ws.cxf.ui,1.0.0.v201004171919,"org.eclipse.jst.ws.cxf.ui",1341025124471
+stopped,bundle,org.eclipse.jst.ws.cxf.core,1.0.100.v201104022153,"org.eclipse.jst.ws.cxf.core",1341025124471
+stopped,bundle,org.eclipse.jst.ws.uddiregistry,1.0.500.v201004211805,"org.eclipse.jst.ws.uddiregistry",1341025124472
+stopped,bundle,org.eclipse.jst.ws.ui,1.0.403.v201004211805,"org.eclipse.jst.ws.ui",1341025124472
+stopped,bundle,org.eclipse.jst.ws,1.0.509.v201108250610,"org.eclipse.jst.ws",1341025124472
+stopped,bundle,org.eclipse.wst.ws.explorer,1.0.607.v201103082002,"org.eclipse.wst.ws.explorer",1341025124472
+stopped,bundle,org.eclipse.wst.wsdl.ui,1.2.403.v201108240515,"org.eclipse.wst.wsdl.ui",1341025124472
+stopped,bundle,org.eclipse.wst.ws.ui,1.1.200.v201004211805,"org.eclipse.wst.ws.ui",1341025124472
+stopped,bundle,org.eclipse.wst.wsi.ui,1.0.502.v201104071820,"org.eclipse.wst.wsi.ui",1341025124472
+stopped,bundle,org.eclipse.wst.wsi,1.0.401.v201104071820,"org.eclipse.wst.wsi",1341025124472
+stopped,bundle,org.eclipse.wst.ws,1.1.203.v201004211805,"org.eclipse.wst.ws",1341025124874
+stopped,bundle,org.eclipse.jst.j2ee.webservice.ui,1.1.500.v201105122000,"org.eclipse.jst.j2ee.webservice.ui",1341025124874
+stopped,bundle,org.eclipse.jst.j2ee.webservice,1.1.400.v201004110600,"org.eclipse.jst.j2ee.webservice",1341025124874
+stopped,bundle,org.eclipse.wst.ws.parser,1.0.403.v201004211805,"org.eclipse.wst.ws.parser",1341025124874
+stopped,bundle,org.eclipse.jpt.dbws.eclipselink.ui,1.0.0.v201104110000,"org.eclipse.jpt.dbws.eclipselink.ui",1341025124874
+stopped,bundle,org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples,2.5.0.200810071,"org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples",1341025124874
+stopped,bundle,org.eclipse.datatools.sqltools.schemaobjecteditor.ui.pages,1.1.0.200810071,"org.eclipse.datatools.sqltools.schemaobjecteditor.ui.pages",1341025124874
+stopped,bundle,org.eclipse.datatools.sqltools.schemaobjecteditor.ui,1.1.1.200810071,"org.eclipse.datatools.sqltools.schemaobjecteditor.ui",1341025124874
+stopped,bundle,org.eclipse.jst.j2ee.xdoclet.runtime,1.1.300.v201004280700,"org.eclipse.jst.j2ee.xdoclet.runtime",1341025124874
+stopped,bundle,org.eclipse.jst.j2ee.ejb.annotations.xdoclet,1.2.200.v201103302125,"org.eclipse.jst.j2ee.ejb.annotations.xdoclet",1341025124874
+stopped,bundle,com.google.gdt.eclipse.mobile.android,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.mobile.android",1341025124874
+stopped,bundle,overlay.com.android.ide.eclipse.adt.overlay,18.0.0.v201203301601-306762,"overlay.com.android.ide.eclipse.adt.overlay",1341025124874
+stopped,bundle,com.android.ide.eclipse.adt,18.0.0.v201203301601-306762,"com.android.ide.eclipse.adt",1341025124887
+stopped,bundle,org.eclipse.jst.jsf.apache.trinidad.tagsupport,1.1.200.v201104061711,"org.eclipse.jst.jsf.apache.trinidad.tagsupport",1341025124887
+stopped,bundle,org.eclipse.jst.jsf.facesconfig.ui,1.2.2.v201103292152,"org.eclipse.jst.jsf.facesconfig.ui",1341025124887
+stopped,bundle,org.eclipse.jst.jsf.facelet.ui,1.0.1.v201104032306,"org.eclipse.jst.jsf.facelet.ui",1341025124888
+stopped,bundle,org.eclipse.jst.jsf.ui,1.3.2.v201104251204,"org.eclipse.jst.jsf.ui",1341025124888
+stopped,bundle,org.eclipse.jst.pagedesigner.jsf.ui,1.2.100.v201104061711,"org.eclipse.jst.pagedesigner.jsf.ui",1341025124888
+stopped,bundle,org.eclipse.jst.pagedesigner,1.3.103.v201109010833,"org.eclipse.jst.pagedesigner",1341025124888
+stopped,bundle,org.eclipse.jst.jsf.common.ui,1.2.100.v201104061711,"org.eclipse.jst.jsf.common.ui",1341025124889
+stopped,bundle,org.eclipse.pde.ua.ui,1.0.100.v20110516,"org.eclipse.pde.ua.ui",1341025124890
+stopped,bundle,org.eclipse.pde.api.tools.ui,1.0.301.v20110803_r371,"org.eclipse.pde.api.tools.ui",1341025124892
+stopped,bundle,org.eclipse.pde.ds.ui,1.0.100.v20110516,"org.eclipse.pde.ds.ui",1341025124892
+stopped,bundle,org.eclipse.pde.runtime,3.4.201.v20110819-0851,"org.eclipse.pde.runtime",1341025124892
+stopped,bundle,org.eclipse.pde.ui.templates,3.4.400.v20110516,"org.eclipse.pde.ui.templates",1341025124892
+stopped,bundle,org.eclipse.datatools.connectivity.oda.template.ui,3.2.3.v201201121156,"org.eclipse.datatools.connectivity.oda.template.ui",1341025124892
+stopped,bundle,org.eclipse.pde.ui,3.6.100.v20110603,"org.eclipse.pde.ui",1341025124969
+stopped,bundle,org.eclipse.ui.cheatsheets,3.4.100.v20110425,"org.eclipse.ui.cheatsheets",1341025124969
+stopped,bundle,org.eclipse.help.ui,3.5.101.r37_20110819,"org.eclipse.help.ui",1341025124969
+stopped,bundle,org.eclipse.help.webapp,3.6.0.v20110518,"org.eclipse.help.webapp",1341025124969
+stopped,bundle,org.eclipse.epp.mpc.ui,1.1.1.I20110907-0947,"org.eclipse.epp.mpc.ui",1341025124969
+stopped,bundle,org.eclipse.epp.usagedata.ui,1.3.1.R201106061540,"org.eclipse.epp.usagedata.ui",1341025124970
+stopped,bundle,org.eclipse.ui.intro.universal,3.2.500.v20110510,"org.eclipse.ui.intro.universal",1341025124970
+stopped,bundle,org.eclipse.wtp.epp.package.jee.intro,1.3.0.v201006142040,"org.eclipse.wtp.epp.package.jee.intro",1341025124970
+stopped,bundle,org.eclipse.ui.intro,3.4.100.v20110425,"org.eclipse.ui.intro",1341025124970
+stopped,bundle,org.eclipse.datatools.enablement.hsqldb.ui,1.0.0.v201108120600,"org.eclipse.datatools.enablement.hsqldb.ui",1341025124970
+stopped,bundle,org.eclipse.datatools.enablement.ingres.ui,1.0.0.v201105270214,"org.eclipse.datatools.enablement.ingres.ui",1341025124970
+stopped,bundle,org.eclipse.jpt.jpa.eclipselink.ui,2.0.1.v201108080010,"org.eclipse.jpt.jpa.eclipselink.ui",1341025124970
+stopped,bundle,org.eclipse.jpt.jpa.ui,3.0.2.v201201243020,"org.eclipse.jpt.jpa.ui",1341025124970
+stopped,bundle,org.eclipse.datatools.enablement.postgresql.ui,1.0.0.v201107221506,"org.eclipse.datatools.enablement.postgresql.ui",1341025124971
+stopped,bundle,org.eclipse.datatools.enablement.sqlite.ui,1.0.0.v201107221507,"org.eclipse.datatools.enablement.sqlite.ui",1341025124971
+stopped,bundle,org.eclipse.datatools.connectivity.db.generic.ui,1.0.1.v201107221459,"org.eclipse.datatools.connectivity.db.generic.ui",1341025124971
+stopped,bundle,org.eclipse.datatools.enablement.sybase.ase.ui,1.0.1.v200906020900,"org.eclipse.datatools.enablement.sybase.ase.ui",1341025124971
+stopped,bundle,org.eclipse.datatools.sqltools.data.ui,1.2.1.v201010270945,"org.eclipse.datatools.sqltools.data.ui",1341025124971
+stopped,bundle,org.eclipse.datatools.sqltools.db.derby.ui,1.0.0.v200906020900,"org.eclipse.datatools.sqltools.db.derby.ui",1341025124971
+stopped,bundle,org.eclipse.datatools.sqltools.db.generic.ui,1.0.0.v200906020900,"org.eclipse.datatools.sqltools.db.generic.ui",1341025124972
+stopped,bundle,org.eclipse.datatools.sqltools.debugger.core.ui,1.0.0.v201003161000,"org.eclipse.datatools.sqltools.debugger.core.ui",1341025124972
+stopped,bundle,org.eclipse.datatools.sqltools.routineeditor.ui,1.0.2.v201111230714,"org.eclipse.datatools.sqltools.routineeditor.ui",1341025124972
+stopped,bundle,org.eclipse.datatools.sqltools.sqlbuilder,1.0.3.v201107221520,"org.eclipse.datatools.sqltools.sqlbuilder",1341025124972
+stopped,bundle,org.eclipse.datatools.enablement.sybase.asa.ui,1.0.1.v200906111204,"org.eclipse.datatools.enablement.sybase.asa.ui",1341025124972
+stopped,bundle,org.eclipse.datatools.sqltools.ddlgen.ui,1.0.2.v201201131129,"org.eclipse.datatools.sqltools.ddlgen.ui",1341025124972
+stopped,bundle,org.eclipse.datatools.sqltools.debugger.core,1.0.1.v201107221520,"org.eclipse.datatools.sqltools.debugger.core",1341025124972
+stopped,bundle,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201107221520,"org.eclipse.datatools.sqltools.sqlscrapbook",1341025124972
+stopped,bundle,org.eclipse.datatools.sqltools.sqleditor,1.0.2.v201107221520,"org.eclipse.datatools.sqltools.sqleditor",1341025124972
+stopped,bundle,org.eclipse.datatools.sqltools.editor.core.ui,1.0.0.v201001150815,"org.eclipse.datatools.sqltools.editor.core.ui",1341025124972
+stopped,bundle,org.eclipse.datatools.sqltools.tabledataeditor,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.tabledataeditor",1341025124972
+stopped,bundle,org.eclipse.datatools.connectivity.apache.derby.ui,1.0.3.v201107221459,"org.eclipse.datatools.connectivity.apache.derby.ui",1341025124973
+stopped,bundle,org.eclipse.datatools.enablement.sybase.ui,1.0.0.v200906090452,"org.eclipse.datatools.enablement.sybase.ui",1341025124973
+stopped,bundle,org.eclipse.datatools.connectivity.sqm.server.ui,1.1.100.v201107221459,"org.eclipse.datatools.connectivity.sqm.server.ui",1341025124973
+stopped,bundle,org.eclipse.datatools.connectivity.sqm.core.ui,1.2.1.v20110926045,"org.eclipse.datatools.connectivity.sqm.core.ui",1341025124973
+stopped,bundle,org.eclipse.jst.j2ee.ejb.annotations.ui,1.1.200.v201004290730,"org.eclipse.jst.j2ee.ejb.annotations.ui",1341025124973
+stopped,bundle,org.eclipse.datatools.connectivity.ui.dse,1.1.4.v201107221459,"org.eclipse.datatools.connectivity.ui.dse",1341025124973
+stopped,bundle,org.eclipse.help.base,3.6.1.v201109091335,"org.eclipse.help.base",1341025124973
+stopped,bundle,org.eclipse.equinox.http.jetty,2.0.100.v20110502,"org.eclipse.equinox.http.jetty",1341025124973
+stopped,bundle,org.eclipse.wst.server.preview,1.1.100.v20091208,"org.eclipse.wst.server.preview",1341025124973
+stopped,bundle,com.google.appengine.eclipse.sdkbundle,1.6.4.v201203300216r37,"com.google.appengine.eclipse.sdkbundle",1341025124973
+stopped,bundle,com.google.appengine.eclipse.datatools,2.6.1.v201205091048-rel-r37,"com.google.appengine.eclipse.datatools",1341025124973
+stopped,bundle,com.google.appengine.eclipse.webtools,2.6.1.v201205091048-rel-r37,"com.google.appengine.eclipse.webtools",1341025124976
+stopped,bundle,com.google.gdt.eclipse.appengine.rpc,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.appengine.rpc",1341025124976
+stopped,bundle,com.google.gdt.eclipse.gph.e36,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.gph.e36",1341025124976
+stopped,bundle,com.google.gdt.eclipse.gph.hge,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.gph.hge",1341025124976
+stopped,bundle,com.google.gdt.eclipse.gph.subclipse,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.gph.subclipse",1341025124976
+stopped,bundle,com.google.gdt.eclipse.gph.subversive,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.gph.subversive",1341025124976
+stopped,bundle,com.google.gdt.eclipse.suite.ext,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.suite.ext",1341025124977
+stopped,bundle,com.google.gdt.eclipse.gph,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.gph",1341025124977
+stopped,bundle,com.google.gdt.eclipse.maven.e37,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.maven.e37",1341025124977
+stopped,bundle,com.google.gdt.eclipse.maven,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.maven",1341025124977
+stopped,bundle,com.google.gdt.eclipse.suite,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.suite",1341025124977
+stopped,bundle,com.google.gdt.eclipse.appsmarketplace,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.appsmarketplace",1341025124977
+stopped,bundle,com.google.gdt.eclipse.managedapis,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.managedapis",1341025125019
+stopped,bundle,com.google.appengine.eclipse.core,2.6.1.v201205091048-rel-r37,"com.google.appengine.eclipse.core",1341025125161
+stopped,bundle,com.google.gdt.eclipse.login,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.login",1341025125219
+stopped,bundle,com.google.gwt.eclipse.oophm,2.6.1.v201205091048-rel-r37,"com.google.gwt.eclipse.oophm",1341025125220
+stopped,bundle,com.google.gwt.eclipse.sdkbundle,2.4.0.v201205091048-rel-r37,"com.google.gwt.eclipse.sdkbundle",1341025125220
+stopped,bundle,com.google.gwt.eclipse.core,2.6.1.v201205091048-rel-r37,"com.google.gwt.eclipse.core",1341025125914
+stopped,bundle,com.google.gdt.eclipse.core,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.core",1341025125914
+stopped,bundle,com.google.gdt.eclipse.platform,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.platform",1341025125914
+stopped,bundle,com.google.gdt.eclipse.platform.e37,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.platform.e37",1341025125914
+stopped,bundle,com.google.gdt.eclipse.platform.shared,2.6.1.v201205091048-rel-r37,"com.google.gdt.eclipse.platform.shared",1341025125914
+stopped,bundle,org.eclipse.m2e.discovery,1.0.100.20110804-1717,"org.eclipse.m2e.discovery",1341025126036
+stopped,bundle,org.eclipse.m2e.refactoring,1.0.100.20110804-1717,"org.eclipse.m2e.refactoring",1341025126037
+stopped,bundle,org.eclipse.m2e.editor,1.0.100.20110804-1717,"org.eclipse.m2e.editor",1341025126037
+stopped,bundle,org.eclipse.m2e.editor.xml,1.0.100.20110804-1717,"org.eclipse.m2e.editor.xml",1341025126038
+stopped,bundle,org.jboss.tools.maven.apt.ui,1.0.0.201206052025,"org.jboss.tools.maven.apt.ui",1341025126038

@@ -1,0 +1,70 @@
+from edu.uca.renderable.CreatorBlockFactory import createComponentBlock, createDropdownPin
+from edu.uca.util.Constants import INPUT, OUTPUT
+
+#INPUT-------------------------------------------------------------------------------------------
+        
+def component_button(off=False):
+    but = createComponentBlock(off, 'component_button', 'BOTÃO', INPUT, ['getButton'])
+    but.addArgument(createDropdownPin(off, but, INPUT))
+    return but
+
+def component_knob(off=False):
+    knob = createComponentBlock(off, 'component_knob', 'POTENCIÔMETRO', INPUT, ['getKnob'])
+    knob.addArgument(createDropdownPin(off, knob, INPUT))
+    return knob
+
+def component_ldr(off=False):
+    ldr = createComponentBlock(off, 'component_ldr', 'LDR', INPUT, ['getLdr'])
+    ldr.addArgument(createDropdownPin(off, ldr, INPUT))
+    return ldr
+
+def component_thermistor(off=False):
+    thermistor = createComponentBlock(off, 'component_thermistor', 'TERMISTOR', INPUT, ['getThermistor'])
+    thermistor.addArgument(createDropdownPin(off, thermistor, INPUT))
+    return thermistor
+
+#OUTPUT-------------------------------------------------------------------------------------------
+
+def component_led(off=False):
+    led = createComponentBlock(off, 'component_led', 'LED', OUTPUT, ['setLed'])
+    led.addArgument(createDropdownPin(off, led, OUTPUT))
+    return led
+
+def component_rgb_led(off=False):
+    rgb_led = createComponentBlock(off, 'component_rgb_led', 'LED_RGB', OUTPUT, ['setRGBLed'])
+    rgb_led.addArgument(createDropdownPin(off, rgb_led, OUTPUT, 'R'))
+    rgb_led.addArgument(createDropdownPin(off, rgb_led, OUTPUT, 'G'))
+    rgb_led.addArgument(createDropdownPin(off, rgb_led, OUTPUT, 'B'))
+    return rgb_led
+
+def component_servo(off=False):
+    servo = createComponentBlock(off, 'component_servo', 'SERVO', OUTPUT, ['setServo'])
+    servo.addArgument(createDropdownPin(off, servo, OUTPUT))
+    return servo
+
+def component_buzzer(off=False):
+    buzzer = createComponentBlock(off, 'component_buzzer', 'BUZINA', OUTPUT, ['setBuzzer'])
+    buzzer.addArgument(createDropdownPin(off, buzzer, OUTPUT))
+    return buzzer
+
+def component_motor(off=False):
+    motor = createComponentBlock(off, 'component_motor', 'MOTOR', OUTPUT, ['onMotor', 'offMotor', 'speedMotor'])
+    motor.addArgument(createDropdownPin(off, motor, OUTPUT, 'dir'))
+    motor.addArgument(createDropdownPin(off, motor, OUTPUT, 'veloc'))
+    return motor
+
+def component_lcd(off=False):
+    lcd = createComponentBlock(off, 'component_lcd', 'LCD', OUTPUT, ['posLcd', 'setLcd', 'clearLcd'])
+    lcd.addArgument(createDropdownPin(off, lcd, OUTPUT, 'RS'))
+    lcd.addArgument(createDropdownPin(off, lcd, OUTPUT, 'EN'))
+    lcd.addArgument(createDropdownPin(off, lcd, OUTPUT, 'D4'))
+    lcd.addArgument(createDropdownPin(off, lcd, OUTPUT, 'D5'))
+    lcd.addArgument(createDropdownPin(off, lcd, OUTPUT, 'D6'))
+    lcd.addArgument(createDropdownPin(off, lcd, OUTPUT, 'D7'))
+    return lcd
+
+def component_numericDisplay(off=False):
+    led = createComponentBlock(off, 'component_numericDisplay', 'DISPLAY 7SEG', OUTPUT, ['setLed'])
+    led.addArgument(createDropdownPin(off, led, OUTPUT))
+    return led
+

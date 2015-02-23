@@ -1,0 +1,44 @@
+from pyjamas import DOM
+from pyjamas.ui.Widget import Widget
+from edu.uca.renderable.Block import Block
+from edu.uca.renderable.Element import Element
+from pyjamas.Window import alert
+
+class StatementBlock(Block):
+    
+    def __init__(self):
+        Block.__init__(self)  
+        self.color = 'darkblue'
+        self.addStyleName('StatementBlock statement s-block ' + self.color)        
+        self.t = Widget(Element=DOM.createDiv())
+        self.t.addStyleName('t '+self.color)        
+        self.l = Widget(Element=DOM.createDiv())
+        self.l.addStyleName('l '+self.color)       
+        self.r = Widget(Element=DOM.createDiv())
+        self.r.addStyleName('r '+self.color)        
+        self.tl = Widget(Element=DOM.createDiv())
+        self.tl.addStyleName('tl '+self.color)        
+        self.tr = Widget(Element=DOM.createDiv())
+        self.tr.addStyleName('tr '+self.color)        
+        self.b = Widget(Element=DOM.createDiv())
+        self.b.addStyleName('b '+self.color)        
+        self.br = Widget(Element=DOM.createDiv())
+        self.br.addStyleName('br '+self.color)    
+        self.bn = Widget(Element=DOM.createDiv())
+        self.bn.addStyleName('bn '+self.color)    
+        self.bl = Element(Element=DOM.createDiv())
+        self.bl.addStyleName('bl statementElementEnd '+self.color)
+        self.draw()    
+             
+    def draw(self):
+        self.append(self.t)
+        self.append(self.l)
+        self.append(self.r)
+        self.append(self.tl)
+        self.append(self.tr)
+        self.append(self.b)
+        self.append(self.br)
+        self.append(self.bn)
+        self.append(self.bl)
+    
+    

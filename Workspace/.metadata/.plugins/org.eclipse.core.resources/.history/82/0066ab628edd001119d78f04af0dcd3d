@@ -1,0 +1,13 @@
+from edu.uca.renderable.Element import Element
+from pyjamas import DOM
+
+class CodeElement(Element):
+                     
+    def __init__(self, text=''):
+        Element.__init__(self, Element=DOM.createElement('code'))
+        self.text = text
+        self.draw()
+        
+    def draw(self):
+        #DOM.setInnerText(self.getElement(), self.text)
+        DOM.setInnerHTML(self.getElement(), self.text)

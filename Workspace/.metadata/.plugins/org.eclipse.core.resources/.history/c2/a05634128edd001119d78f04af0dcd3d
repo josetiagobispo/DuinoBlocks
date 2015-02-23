@@ -1,0 +1,78 @@
+from edu.uca.renderable.Argument import Argument
+from pyjamas.ui.Widget import Widget
+from pyjamas import DOM
+import math
+from pyjamas.ui.DropWidget import DropWidget
+from edu.uca.renderable.Element import Element
+
+class BooleanArgument(Argument, DropWidget):
+
+    def __init__(self):
+        Argument.__init__(self)
+        DropWidget.__init__(self)
+        self.height = 20
+        self.width = 7
+        self.draw()
+    
+    def onDragOver(self, event):
+        self.addStyleName('highlight_hover')
+        
+    def onDragEnter(self, event):
+        self.addStyleName('highlight_hover')
+        
+    def onDragLeave(self,event):
+        self.removeStyleName('highlight_hover')
+        
+    def onDrop(self,event):
+        self.removeStyleName('highlight_hover')
+        
+    def draw(self):
+        self.addStyleName('input_holder')        
+        self.addStyleName('highlight_active')
+        
+        self.input = Element(Element=DOM.createDiv(), StyleName='input bool') 
+        self.tl = Widget(Element=DOM.createDiv(), StyleName='tl')
+        self.t  = Widget(Element=DOM.createDiv(), StyleName='t')
+        self.tr = Widget(Element=DOM.createDiv(), StyleName='tr')
+        self.b  = Widget(Element=DOM.createDiv(), StyleName='b')
+        self.br = Widget(Element=DOM.createDiv(), StyleName='br')
+        self.bl = Widget(Element=DOM.createDiv(), StyleName='bl')
+        
+        self.input.append(self.tl)
+        self.input.append(self.t)
+        self.input.append(self.tr)
+        self.input.append(self.b)
+        self.input.append(self.br)
+        self.input.append(self.bl)
+        self.append(self.input)
+        
+        self.resize()
+        
+    def resize(self):
+        c = math.ceil(self.height / 2 + 1);
+        self.tl.setHeight(c)
+        self.tl.setWidth(c + 3)
+        self.tr.setHeight(c)
+        self.tr.setWidth(c + 3)
+        self.bl.setHeight(c)
+        self.bl.setWidth(c + 3)
+        self.br.setHeight(c)
+        self.br.setWidth(c + 3)
+        
+        self.tr.setStyleAttribute({'right': -c - 2, 'width': c + 3, 'height': c})
+        self.br.setStyleAttribute({'right': -c - 2, 'width': c + 3, 'height': c})
+        self.tl.setStyleAttribute({'left': -c - 2, 'width': c + 3, 'height': c})
+        self.bl.setStyleAttribute({'left': -c - 2, 'width': c + 3, 'height': c})
+        
+        self.input.setStyleAttribute({'marginLeft': c + 2, 'marginRight': c + 2})
+
+        self.input.setWidth(self.width)
+        self.t.setWidth(self.width)
+        self.b.setWidth(self.width)
+
+        #b.children("code, div.variable").each(function() {
+        #    b.css("margin-top", Math.floor(($(this).parent().innerHeight() - b.outerHeight() - 3) / 2))
+        #})
+        
+      
+        

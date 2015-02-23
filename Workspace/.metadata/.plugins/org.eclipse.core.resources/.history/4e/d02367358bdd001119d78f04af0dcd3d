@@ -1,0 +1,78 @@
+from edu.uca.renderable.Argument import Argument
+from pyjamas.ui.Widget import Widget
+from pyjamas import DOM
+import math
+from pyjamas.ui.DropWidget import DropWidget
+
+class NumberArgument(Argument, DropWidget):
+   
+    def __init__(self):
+        Argument.__init__(self)
+        DropWidget.__init__(self)
+        self.draw()
+        
+    def onDragOver(self, event):
+        self.addStyleName('highlight_hover')
+        
+    def onDragEnter(self, event):
+        self.addStyleName('highlight_hover')
+        
+    def onDragLeave(self,event):
+        self.removeStyleName('highlight_hover')
+        
+    def onDrop(self,event):
+        self.removeStyleName('highlight_hover')
+        
+    def draw(self):
+        self.addStyleName('input num')        
+        self.addStyleName('highlight_active')      
+        self.tl = Widget(Element=DOM.createDiv(), StyleName='tl')      
+        self.t  = Widget(Element=DOM.createDiv(), StyleName='t')      
+        self.tr = Widget(Element=DOM.createDiv(), StyleName='tr')       
+        self.l  = Widget(Element=DOM.createDiv(), StyleName='l')         
+        self.r  = Widget(Element=DOM.createDiv(), StyleName='r')       
+        self.b  = Widget(Element=DOM.createDiv(), StyleName='b')        
+        self.br = Widget(Element=DOM.createDiv(), StyleName='br')       
+        self.bl = Widget(Element=DOM.createDiv(), StyleName='bl')      
+        self.input = Widget(Element=DOM.createInputText())
+        self.input.setWidth(12)#add
+        
+        self.append(self.tl)
+        self.append(self.t)
+        self.append(self.tr)
+        self.append(self.l)
+        self.append(self.r)
+        self.append(self.b)
+        self.append(self.br)
+        self.append(self.bl)
+        self.append(self.input)
+        #self.resize()
+    
+    def resize(self):
+        #var b = $("#" + this.id);
+        #this.width = b.outerWidth(true);
+        #this.height = b.outerHeight(true);
+        c = math.ceil(DOM.getIntStyleAttribute(self.getElement(), 'height') / 2 + 1) #var c = Math.ceil(b.innerHeight() / 2 + 1);
+        self.tl.setHeight(c)
+        self.tl.setWidth(c + 3)
+        self.tr.setHeight(c)
+        self.tr.setWidth(c + 3)
+        self.bl.setHeight(c)
+        self.bl.setWidth(c + 3)
+        self.br.setHeight(c)
+        self.br.setWidth(c + 3)
+        
+        self.tr.setStyleAttribute('right', -c - 2)
+        self.br.setStyleAttribute('right', -c - 2)        
+        self.tl.setStyleAttribute('left', -c - 2)
+        self.bl.setStyleAttribute('left', -c - 2)
+        
+        self.setStyleAttribute({'marginLeft': c + 2, 'marginRight': c + 2})
+        #this.autoWidth(b.children(".t, .b"));
+        #b.children("code, div.variable").each(function() {
+        #    b.css("margin-top", Math.floor(($(this).parent().innerHeight() - 
+        #    b.outerHeight() - 3) / 2))
+        #})
+   
+
+    

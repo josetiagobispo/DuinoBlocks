@@ -1,0 +1,42 @@
+from edu.uca.renderable.Element import Element
+from pyjamas.ui.DragWidget import DragWidget
+from pyjamas.JSONParser import JSONParser
+from pyjamas import DOM, Window
+from pyjamas.Window import alert
+
+json = JSONParser()
+
+class Block(Element, DragWidget):
+   
+    def __init__(self):
+        Element.__init__(self, Element=DOM.createDiv(), StyleName='block')
+        DragWidget.__init__(self)
+        self.setStyleAttribute('position', 'absolute')
+        self.original = False
+        self.before = None
+        self.after = None
+    
+    def getBefore(self):
+        return self.before
+    
+    def sefBefore(self, before):
+        self.before = before
+    
+    def getAfter(self):
+        return self.after
+    
+    def setAfter(self, after):
+        if self.after == after:
+            return     
+        if self.after is not None:
+            self.sibling.remove(self.after)           
+        self.after = after        
+        if after is not None:
+            self.after.sefBefore(self)
+            self.sibling.append(self.after)
+        self.resize()
+    
+    def resize(self):
+        self.setStyleAttribute('margin-bottom',)       
+     
+        

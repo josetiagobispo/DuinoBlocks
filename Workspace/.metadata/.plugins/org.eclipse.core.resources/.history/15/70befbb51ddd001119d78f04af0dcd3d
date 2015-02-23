@@ -1,0 +1,146 @@
+from edu.uca.renderable.Element import Element
+from pyjamas.ui.Widget import Widget
+from pyjamas import DOM
+from pyjamas.Window import alert
+from edu.uca.renderable.Block import Block
+from edu.uca.renderable.SiblingElement import SiblingElement
+from edu.uca.renderable.BlockHolder import BlockHolder
+from edu.uca.renderable.StatementHighlight import StatementHighlight
+from __pyjamas__ import doc
+
+class CompoundStatementBlock(Block):
+    
+    def __init__(self, qty=1, color='orange'):
+        Block.__init__(self)
+        self.sockets = []
+        self.qty = qty
+        self.color = color
+        self.draw()
+        statement = self
+        for i in range(qty):
+            self.draw2(statement)
+            statement = statement.block
+        self.sibling = SiblingElement()      
+        statement.bl.append(self.sibling)   
+        
+    def resize(self):
+        count = 0
+        #for i in self.socket:
+        #    count = count + self.socket[i].getCount()
+        # 0: 20
+        # 1: 26 
+        # 2: 57 (+31)
+        # 3: 88 ?
+        
+        self.setStyleAttribute('margin-bottom', 0)
+                
+    def draw(self):
+        self.addStyleName('StatementBlock statement s-block ' + self.color)
+        t = Widget(Element=DOM.createDiv(), StyleName='t '+self.color)       
+        l = Widget(Element=DOM.createDiv(), StyleName='l '+self.color)       
+        r = Widget(Element=DOM.createDiv(), StyleName='r '+self.color)        
+        tl = Widget(Element=DOM.createDiv(), StyleName='tl '+self.color)        
+        tr = Widget(Element=DOM.createDiv(), StyleName='tr '+self.color)        
+        b = Widget(Element=DOM.createDiv(), StyleName='b '+self.color)        
+        br = Widget(Element=DOM.createDiv(), StyleName='br '+self.color)    
+        self.bn = Widget(Element=DOM.createDiv(), StyleName('bn '+self.color)   
+        self.bl = Element(Element=DOM.createDiv(), StyleName('bl statementElementEnd '+self.color)
+
+        self.append(t)
+        self.append(l)
+        self.append(r)
+        self.append(tl)
+        self.append(tr)
+        self.append(b)
+        self.append(br)
+        self.append(self.bn)
+        self.append(self.bl)
+                 
+    def draw2(self, statement):
+        statement.bn.addStyleName('i')
+        statement.bl.addStyleName('i')  
+        c = Element(Element=DOM.createDiv())      
+        c.addStyleName('c '+statement.color)
+        ti = Widget(Element=DOM.createDiv())
+        ti.addStyleName('ti '+statement.color)
+        statement.code = Element(Element=DOM.createDiv())
+        statement.code.addStyleName('codeBlockContents '+statement.color)
+        
+        #statement.holder = StatementHighlight()#
+        statement.holder = BlockHolder(4)
+        statement.code.append(statement.holder)
+        self.sockets.append(statement.holder)
+           
+        statement.block = StatementElement('orange')    
+        statement.block.addStyleName('codeBlockEnd statementElementEnd')
+        bi = Widget(Element=DOM.createDiv())
+        bi.setStyleName('bi '+ statement.color)
+        
+        statement.bl.append(c)
+        c.append(ti)
+        c.append(statement.code)
+        c.append(statement.block)
+        statement.block.append(bi)
+
+    def getSockets(self):
+        return self.sockets
+    
+    def getNumSockets(self):
+        return len(self.sockets)
+    
+    def getSocketAt(self, index):
+        assert index < len(self.sockets)
+        return self.sockets.get(index)
+    
+    def setSocketAt(self, index, socket):
+        #if self.sockets[index].children[0] == socket:
+        #    return      
+        #if self.sockets[index].children[0] is not None:
+        #    self.sockets[index].remove(self.sockets[index].children[0])         
+        #self.sockets[index].children[0] = socket      
+        #if socket is not None:
+        #    self.sockets[index].append(self.sockets[index].children[0]) 
+        self.sockets[index].append(socket);
+        #alert(doc().getElementById('teste'))
+        #voltar aki
+        
+class StatementElement(Element):
+    
+    def __init__(self, color='blue'):
+        Element.__init__(self, Element=DOM.createDiv())  
+        self.color = color
+        self.addStyleName('StatementBlock statement s-block ' + self.color)        
+        self.draw()    
+             
+    def draw(self):
+        t = Widget(Element=DOM.createDiv())
+        t.addStyleName('t '+self.color)        
+        l = Widget(Element=DOM.createDiv())
+        l.addStyleName('l '+self.color)       
+        r = Widget(Element=DOM.createDiv())
+        r.addStyleName('r '+self.color)        
+        tl = Widget(Element=DOM.createDiv())
+        tl.addStyleName('tl '+self.color)        
+        tr = Widget(Element=DOM.createDiv())
+        tr.addStyleName('tr '+self.color)        
+        b = Widget(Element=DOM.createDiv())
+        b.addStyleName('b '+self.color)        
+        br = Widget(Element=DOM.createDiv())
+        br.addStyleName('br '+self.color)    
+        self.bn = Widget(Element=DOM.createDiv())
+        self.bn.addStyleName('bn '+self.color)   
+        self.bl = Element(Element=DOM.createDiv())
+        self.bl.addStyleName('bl statementElementEnd '+self.color)
+        
+        self.append(t)
+        self.append(l)
+        self.append(r)
+        self.append(tl)
+        self.append(tr)
+        self.append(b)
+        self.append(br)
+        self.append(self.bn)
+        self.append(self.bl)
+    
+    
+        
