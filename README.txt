@@ -12,7 +12,7 @@ Home: www.nce.ufrj.br/ginape/duinoblocks or www.duinoblocks.com.br or https://dl
 Forum: https://groups.google.com/d/forum/duinoblocks
 Youtube: https://www.youtube.com/user/projetoucanacuca
 Slideshare: http://pt.slideshare.net/projetoucanacuca
-Facebook: https://pt-br.facebook.com/ProjetoUcaNaCuca
+Facebook: https://pt-br.facebook.com/ProjetoUcaNaCuca 
 
 INSTALATION
 
