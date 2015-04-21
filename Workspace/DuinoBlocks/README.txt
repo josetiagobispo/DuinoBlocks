@@ -6,13 +6,8 @@ The development of the software was partially granted by CNPq / Brazil . Project
 
 The software was developed as part of the Master dissertation of the first author supervised by the second author at Federal University of Rio de Janeiro (www.ppgi.ufrj.br)
 
-SITES
+Home: www.nce.ufrj.br/ginape/duinoblocks or www.duinoblocks.com.br
 
-Home: www.nce.ufrj.br/ginape/duinoblocks or www.duinoblocks.com.br or https://dl.dropbox.com/u/50293446/DuinoBlocks/output/DuinoBlocks.html
-Forum: https://groups.google.com/d/forum/duinoblocks
-Youtube: https://www.youtube.com/user/projetoucanacuca
-Slideshare: http://pt.slideshare.net/projetoucanacuca
-Facebook: https://pt-br.facebook.com/ProjetoUcaNaCuca
 
 INSTALATION
 
